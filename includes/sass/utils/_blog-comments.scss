@@ -1,0 +1,30 @@
+
+	.comments-area {
+
+		header {
+			margin-bottom: 30px;
+		}
+
+		.comment-list {
+			padding-left: 0;
+
+			li,
+			li > article,
+			.children {
+				margin-bottom: 50px;
+			}
+
+			.avatar {
+				display: inline-block;
+				margin-right: 30px;
+			}
+
+		}
+
+		.comment-form {
+			.alert-info {
+				margin-bottom: 10px;
+			}
+		}
+
+	}

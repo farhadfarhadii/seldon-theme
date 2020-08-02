@@ -1,0 +1,235 @@
+/* CSS Document */
+
+/* Nav */
+.nav-tab-wrapper > a:before {
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 29px/1 'dashicons';
+	vertical-align: middle;
+	margin-right: 0.3em;
+}
+.nav-tab-wrapper > a.options:before {
+	content: '\f111';
+}
+.nav-tab-wrapper > a.overview:before {
+	content: '\f348';
+}
+.nav-tab-wrapper > a.instructions:before {
+	content: "\f481";
+}
+
+/* Headings */
+h1 {
+}
+h2 {
+	font-size: 1.6em;
+	*line-height: 1.8em;
+}
+h3 {
+	font-size: 1.6em;
+	line-height: 1.8em;
+}
+h4 {
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+/* Dashicons */
+h2 > span.dashicons {
+	*font-size: 1.6em;
+	*line-height: 1.8em;
+	width: 26px;
+    height: 26px;
+}
+
+/* Colors */
+.color1 {
+	color:#09F;
+}
+.color2 {
+	color:#F00;
+}
+
+/* OG Image */
+.image-data-container {
+	position: relative;
+	width:100%;
+	min-height:180px;
+	
+}
+.image-data-container:hover {
+	cursor: pointer;
+}
+.image-data-container .image-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);	
+	white-space: nowrap; 
+	color: white;
+	font-size: 12px;	
+	background-color: #999;
+	overflow: hidden;
+	transition: .2s ease;
+}
+.image-data-container:hover .image-overlay {
+	min-height:180px;
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+}
+.image-data-container:hover .image-overlay span {
+	line-height:16px;
+}
+.image-data-container .image-overlay .overlay-text{
+	visibility:hidden;
+}
+.image-data-container:hover .image-overlay .overlay-text{
+	position: absolute;
+	overflow: hidden;
+	visibility:visible;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	
+}
+img.og-image {
+	max-width:100%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Content */
+DIV.title-format {
+	background-color: #ccc;
+	margin-bottom: 3px;
+	padding: 5px 2px;
+	line-height: 1.8em;
+}
+table.form-table tr:nth-child(1) {
+    background-color: #ccc;
+}
+table.form-table th, table.form-table td {
+	padding:15px;
+}
+
+/* Overview */
+DIV.seo-post-types > DIV {
+	padding:5px;
+	margin:5px 0px;
+	background-color: #ccc;
+}
+DIV.seo-post-types > .active {
+	border:thin solid green;
+}
+DIV.seo-post-types > .inactive {
+	border:thin solid red;
+}
+DIV.seo-post-types > .unassigned {
+	border:thin solid yellow;
+}
+
+/* Dashicon Colors */
+span.dashicons-yes{
+	color:green;
+}
+span.dashicons-no{
+	color:red;
+}
+span.dashicons-warning{
+	color:yellow;
+}
+
+/* Status Colors */
+#seo-status {
+	border-top:1px solid green;
+	border-bottom:1px solid green;
+}
+#seo-status.issue {
+	border-top:1px solid red;
+	border-bottom:1px solid red;
+}
+span.complete{
+	color:green;
+}
+span.incomplete{
+	color:yellow;
+}
+.seo-active, .seo-active > span.dashicons-yes {
+	background-color:green;
+	color:white;
+}
+.seo-inactive, .seo-inactive > span.dashicons-no {
+	background-color:red;
+	color:white;
+}
+strong.active {
+	color:green;
+}
+strong.inactive {
+	color:red;
+}
+
+/* Toggle */
+a.details-toggle{
+	text-decoration:none;
+	padding:10px;
+}
+a[aria-expanded] > span.dashicons{
+	vertical-align:text-top;
+}
+a[aria-expanded="false"] > span:before{
+	content: "\f132";
+}
+a[aria-expanded="true"] > span:before{
+	content: "\f460";
+}
+
+/* Tooltip container */
+.tooltip {
+	padding: 10px;
+    position: relative;
+    display: inline-block;
+    *border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */	
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    *visibility: visible;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 600px) {
+	.nav-tab {
+		font-size: 10px;
+	}
+	.nav-tab-wrapper > a:before {
+		font: normal 19px/1 'dashicons';
+		margin-right: 0.2em;
+	}
+}

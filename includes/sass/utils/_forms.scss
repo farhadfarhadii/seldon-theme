@@ -1,0 +1,135 @@
+	$border-color:				#b8b8b8;
+	$input-background-color: 	#f8f8f8;
+	$error-color:				#d02027;
+	$success-color:				#1a8340;	
+
+
+	.search-form {
+
+		label {
+			display: none;
+		}
+
+		.input-group-btn .btn {
+			height: 56px;
+			border: solid 1px #b8b8b8;
+			border-left: 0;
+		}
+
+	}
+
+
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	textarea,
+	.form-control { // default wordpress form field class
+		color: #535353;
+		width: 100%;
+		padding: 15px;	
+		color: #afafaf;
+		@include font-size(16);
+		font-weight: 400;
+		background-color: $input-background-color;
+		border-radius: 0;
+		border: solid 1px $border-color;
+		@include transition( border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s );	
+		&:focus {
+			outline: none;
+			border-color: $brand-primary;
+		    box-shadow: inset 0 1px 1px rgba($brand-primary, 0.075), 0 0 8px rgba($brand-primary, 0.6);    			
+		}	
+	}
+
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	.form-control {
+		height: 56px;
+		display: block;
+	}
+
+	span.select { // wrap your select element in a span.select, and styling will look like input boxes
+		width: 100%;
+	  	display: inline-block;
+	  	position: relative;
+		background-color: $input-background-color;
+		border: solid 1px $border-color;
+
+		@media screen and ( min-width: 657px ) and ( max-width: 767px ) {
+			margin: 0 2px;
+		}
+
+		&:before,
+		&:after {
+		    content: " ";
+		    position: absolute;
+		    pointer-events: none;  		
+		}
+
+		&:before {
+		    width: 2.25em;
+		    height: 100%;
+		    top: 0;
+		    right: 0;
+			background-color: $input-background-color;
+		    border-left: 1px solid #ddd;
+		}
+
+		&:after {
+		    border-left: 6px solid transparent;
+		    border-right: 6px solid transparent;
+		    border-top: 6px solid #bbb;
+		    right: .75em;
+		    top: 50%;
+		    margin-top: -3px;
+		}
+		  
+		select {
+			width: 100%; 
+			height: 56px;
+			color: #afafaf;		
+		    -webkit-appearance: none;    
+		    -moz-appearance: none;
+		    text-indent: 0.01px;
+		    text-overflow: '';
+		    box-shadow: none;
+		    border: none;
+		    outline: none;
+		    padding-left: 10px;	  
+			background-color: $input-background-color; 
+			@include transition( border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s );			
+    		&:focus {
+    			outline: none;
+    			border-color: $brand-primary;
+			    box-shadow: inset 0 1px 1px rgba($brand-primary, 0.075), 0 0 8px rgba($brand-primary, 0.6);    			
+    		}
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		select::-ms-expand { display: none; } /* bonus: target IE10 */	
+
+	}
+
+span.wpcf7-not-valid-tip {
+	color: $error;
+}
+
+div.wpcf7-validation-errors {
+    border: none;
+    background-color: $error;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+div.wpcf7-mail-sent-ok {
+	color: #FFF;	
+	border: none;
+  	background-color: $success;
+}
+
+div.wpcf7-response-output {
+    margin: 0;
+}

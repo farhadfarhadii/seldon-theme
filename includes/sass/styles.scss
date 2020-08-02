@@ -1,0 +1,30 @@
+// Import Bootstrap including custom Bootstrap variables configured for project
+@import "bootstrap/bootstrap";
+
+// Import custom utilities
+@import "utils/mixins";
+@import "utils/extends";
+@import "utils/variables";
+@import "utils/fonts/font-awesome";
+@import "utils/fonts/font-monosten";
+@import "utils/forms";
+//@import "utils/gravity-forms";
+@import "utils/blog-comments";
+@import "utils/utils";
+
+// Import default _tk styles, resets and base CSS
+@import "base/default";
+
+// Import project specific partials
+@import "pages/header";
+@import "pages/footer";
+@import "pages/home";
+@import "pages/page";
+@import "pages/blog";
+
+// Import project specific elements
+@import "elements/slider";
+@import "elements/blog-posts";
+
+// import custom styles and base theme style overrides
+@import "custom";

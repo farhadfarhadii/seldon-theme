@@ -1,0 +1,21 @@
+// Slideshow
+.slick-prev,
+.slick-next {
+	
+	&:before {
+		color: $brand-primary;
+	}
+
+}
+
+.slick-prev {
+	left: -75px;
+}
+
+.slick-next {
+	right: -75px;
+}
+
+.slick-slide:focus {
+	outline: 0;
+}

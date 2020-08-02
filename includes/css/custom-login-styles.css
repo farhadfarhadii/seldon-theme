@@ -1,0 +1,8 @@
+body.login div#login h1 a {
+	background-image: url('../../images/tg-logo.svg');
+	background-size: 320px 68px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 320px;
+	height: 68px;
+}

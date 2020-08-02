@@ -1,0 +1,91 @@
+
+// padding and margin class generator
+$values: 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 150 200;
+@each $value in $values {
+	.p-#{$value} {
+		padding: #{$value}px !important;
+	}
+	.pv-#{$value} {
+		padding-top: #{$value}px !important;
+		padding-bottom: #{$value}px !important;
+	}
+	.pt-#{$value} {
+		padding-top: #{$value}px !important;
+	}
+	.pb-#{$value} {
+		padding-bottom: #{$value}px !important;
+	}
+	.ph-#{$value} {
+		padding-left: #{$value}px !important;
+		padding-right: #{$value}px !important;
+	}
+	.pl-#{$value} {
+		padding-left: #{$value}px !important;
+	}
+	.pr-#{$value} {
+		padding-right: #{$value}px !important;
+	}
+
+	.m-#{$value} {
+		margin: #{$value}px !important;
+	}
+	.mv-#{$value} {
+		margin-top: #{$value}px !important;
+		margin-bottom: #{$value}px !important;
+	}
+	.mt-#{$value} {
+		margin-top: #{$value}px !important;
+	}
+	.mb-#{$value} {
+		margin-bottom: #{$value}px !important;
+	}
+	.mh-#{$value} {
+		margin-left: #{$value}px !important;
+		margin-right: #{$value}px !important;
+	}
+	.ml-#{$value} {
+		margin-left: #{$value}px !important;
+	}
+	.mr-#{$value} {
+		margin-right: #{$value}px !important;
+	}
+}
+// negative margin class generator
+$values: -5 -10 -15 -20 -25 -30 -35 -40 -45 -50 -55 -60 -65 -70 -75 -80 -85 -90 -95 -100;
+@each $value in $values {
+	.m-#{$value} {
+		margin: #{$value}px !important;
+	}
+	.mv-#{$value} {
+		margin-top: #{$value}px !important;
+		margin-bottom: #{$value}px !important;
+	}
+	.mt-#{$value} {
+		margin-top: #{$value}px !important;
+	}
+	.mb-#{$value} {
+		margin-bottom: #{$value}px !important;
+	}
+	.mh-#{$value} {
+		margin-left: #{$value}px !important;
+		margin-right: #{$value}px !important;
+	}
+	.ml-#{$value} {
+		margin-left: #{$value}px !important;
+	}
+	.mr-#{$value} {
+		margin-right: #{$value}px !important;
+	}
+}
+
+// font size class generator
+$i: 10;
+$max: 30;
+$step: 1;
+@while $i <= $max {
+	$rem: $i / 10;
+	.font-size-#{$i} {
+		font-size: #{$rem}rem;
+	}
+	$i: $i + $step;
+}
