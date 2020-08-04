@@ -25,7 +25,7 @@ function tgs_wp_styles() {
 	wp_enqueue_style( 'tgs_wp-slick-theme-style', get_template_directory_uri() . '/includes/slick/slick-theme.css' );
 
 	// load theme styles, compiled from SASS, with file modification time as the version
-	wp_enqueue_style( 'tgs_wp-theme-style', get_template_directory_uri() . '/includes/css/styles.mins.css', false, filemtime( get_stylesheet_directory() . '/includes/css/styles.min.css' ) );
+	wp_enqueue_style( 'tgs_wp-theme-style', get_template_directory_uri() . '/includes/css/styles.min.css', false, filemtime( get_stylesheet_directory() . '/includes/css/styles.min.css' ) );
 
 	// load Fancybox css
 	//wp_enqueue_style( 'tgs_wp-fancybox-css', get_template_directory_uri() . '/includes/fancybox/jquery.fancybox.css' );
