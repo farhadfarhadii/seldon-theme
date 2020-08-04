@@ -51,4 +51,4 @@ require get_template_directory() . '/system/cpts/pages.php'; // Page Modificatio
 /**
  * Theme Seo
  */
-require get_template_directory() . '/system/classes/seo/theme-seo.php';
+// require get_template_directory() . '/system/classes/seo/theme-seo.php';
