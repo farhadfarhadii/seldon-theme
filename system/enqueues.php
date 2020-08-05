@@ -33,6 +33,8 @@ function tgs_wp_styles() {
 	// load animate css
 	//wp_enqueue_style( 'tgs_wp-animate-style', get_template_directory_uri() . '/includes/css/animate.css');
 
+	wp_enqueue_style( 'tgs_google-fonts', 'https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap', false );
+
 }
 add_action( 'wp_enqueue_scripts', 'tgs_wp_styles' );
 
