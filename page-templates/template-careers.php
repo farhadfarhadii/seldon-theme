@@ -10,7 +10,7 @@ get_header(); ?>
 
 <?php
 	// Get a list of job vaccanies from greenhouse.
-    $url = 'https://boards-api.greenhouse.io/v1/boards/seldon/jobs';
+    $url = 'https://boards-api.greenhouse.io/v1/boards/seldon/jobs?content=true';
 
     try {
 		$contents = json_decode(file_get_contents($url));
@@ -31,27 +31,28 @@ get_header(); ?>
 	
 		<div id="CareersListing" class="row mt--30 bg_lightgrey pb-80">
 			<div class="col-sm-12 maxout">
-			<div class="row">
-				<div class="col-sm-11 col-sm-offset-1">
-					<?php if($contents && $contents->meta->total !== 0 ):?>
-						<h2 class="mb-50 section-headline">Current vacancies</h2>
-					<?php endif; ?>
-					<div class="row career-block bg_yellow mv-20"
+				<div class="row">
+					<div class="col-sm-11 col-sm-offset-1">
+						<?php if($contents && $contents->meta->total !== 0 ):?>
+							<h2 class="mb-50 section-headline">Current vacancies</h2>
+						<?php endif; ?>
 						<?php if ($contents && $contents->meta->total !== 0 ):?>
 							<?php foreach ($contents->jobs as $job):?>
-								<div class="job-title col-sm-5 col-md-4 pos-relative match-height-career-block">
-									<h3>							
-									<a href="<?php echo $job->absolute_url ?>" target="_blank"><?php echo $job->title ?></a>
-									</h3>
+								<div class="row career-block bg_yellow mv-20">
+									<div class="job-title col-sm-5 col-md-4 pos-relative match-height-career-block">
+										<h3>							
+										<a href="<?php echo $job->absolute_url ?>" target="_blank"><?php echo $job->title ?></a>
+										</h3>
+									</div>
+									<div class="job-description col-sm-7 col-md-8 col-sm-pad-left-1 col-sm-pad-right-1 bg_black pv-60 match-height-career-block">
+										<?php echo html_entity_decode($job->content, ENT_QUOTES, 'utf-8'); ?>
+										<div>
+											<a href="<?php echo $job->absolute_url ?>" target="_blank" class="btn margin-top-20">Read More</a>
+										</div>
+									</div>
 								</div>
-								<div class="job-description col-sm-7 col-md-8 col-sm-pad-left-1 col-sm-pad-right-1 bg_black pv-60 match-height-career-block">
-								<?php echo html_entity_decode($job->content, ENT_QUOTES, 'utf8'); ?>
-								<div>
-									<a href="<?php echo $job->absolute_url ?>" target="_blank" class="btn margin-top-20">Read More</a>
-								</div>
-							</div>
-						<?php endforeach; endif; ?>
-					</div>						
+						<?php endforeach; endif; ?>					
+					</div>
 				</div>
 			</div>
 		</div>
