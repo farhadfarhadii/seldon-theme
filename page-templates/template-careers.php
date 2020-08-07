@@ -47,7 +47,7 @@ get_header(); ?>
 									<div class="job-description col-sm-7 col-md-8 col-sm-pad-left-1 col-sm-pad-right-1 bg_black pv-60 match-height-career-block">
 										<?php echo html_entity_decode($job->content, ENT_QUOTES, 'utf-8'); ?>
 										<div>
-											<a href="<?php echo $job->absolute_url ?>" target="_blank" class="btn margin-top-20">Read More</a>
+											<a href="<?php echo $job->absolute_url ?>" target="_blank" class="btn margin-top-20">Apply</a>
 										</div>
 									</div>
 								</div>
