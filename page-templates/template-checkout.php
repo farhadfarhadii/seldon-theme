@@ -74,6 +74,7 @@
             <form class="checkout-form" id="form" action="/payment" method="post">
                 <fieldset>
                 <legend><h6>Billing Details</h6></legend>
+                <p class="h4">All fields marked with (*) are required.</p>
                 <input class="mb-4" readonly name="product_code" type="hidden" value="<?php echo $_POST['product_code'] ?>">
                 <input readonly name="price_code" type="hidden" value="<?php echo $_POST['price_code'] ?>">
                 <input readonly name="customer_id" type="hidden" value="<?php echo $_SESSION['customer_id'] ?>">
@@ -91,7 +92,7 @@
                 </select>
                 <select id="state-checkout" class="dropdown-checkout hide-field" name="address.state">
                 </select> 
-                <input name="address.postal_code" type="text" placeholder="Zip/Postal Code">
+                <input name="address.postal_code" type="text" placeholder="Zip/Postal Code*">
                 <div id="card"></div>
                 </fieldset>
                 <fieldset>
