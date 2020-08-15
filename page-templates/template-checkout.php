@@ -102,7 +102,12 @@
                             <img class="checkout--product-image" src="data:image/png;base64,<?php echo $productImg ?>" alt="Product picture"/>
                             <div>
                                 <p class="checkout--grand-total">Grand Total</p>
-                                <p class="checkout--item-amount"><?php echo currencySymbol($response->currency) ?><?php echo number_format($response->amount / 100, 2 ) ?></p>
+                                <div class="checkout--price-container">
+                                    <p class="checkout--item-amount">
+                                    <?php echo currencySymbol($response->currency) ?><?php echo number_format($response->amount / 100, 2 ) ?>
+                                    </p>
+                                    <?php if ($response->interval): ?><p class="checkout--interval">/<?php echo $response->interval . ($response->interval_count === 1 ? '' : 's'); endif; ?>
+                                </div>
                                 <p class="checkout--vat">Excluding VAT</p>
                             </div>
                         </div>
@@ -215,26 +220,7 @@ let componentState = {
 
         document.getElementById('form').addEventListener('submit', _submit )
 
-        function serialize( data ){
-
-            return `first_name=` + 
-            `${data.first_name.value.replace(/\s/g,'+')}` + 
-            `&last_name=${data.last_name.value.replace(/\s/g,'+')}` + 
-            `&email="${data.email.value.replace('@','%40')}"` + 
-            `&address.line1="${data['address.line1'].value.replace(/\s/g, '+')}"` + 
-            `&address.line2="${data['address.line2'].value.replace(/\s/g, '+')}"` + 
-            `&address.city=${data['address.city'].value}` + 
-            `&address.postal_code=${data['address.postal_code'].value.replace(/\s/g, '+')}` +
-            `&address.country=${data['address.country'].value}` + 
-            `&product_code=${data.product_code.value}` +
-            `&price_code=${data.price_code.value}`
-
-        }
-
         async function _submit(event){
-            
-
-            // event.preventDefault()
             
             // Get the data
 
@@ -257,29 +243,6 @@ let componentState = {
 
                 return console.error(err)
             }
-
-            // const body = `${serialize( form.elements )}&payment_id=${paymentInfo.paymentMethod.id}` ,
-
-            // options = {
-            //     method: 'POST',
-            //     headers: {
-            //         'Content-Type': 'application/x-www-form-url-encoded',
-            //         'location': './checkout/review'
-            //     },
-            //     body,
-            //     redirect: 'follow'
-            // }
-            
-            // let response
-
-            // try {
-
-            //     response = await fetch( './checkout/review', options )
-
-            // } catch(err){
-
-            //     return console.error(err)
-            // }
 
             const po = document.createElement('input')
             po.setAttribute('hidden', true)

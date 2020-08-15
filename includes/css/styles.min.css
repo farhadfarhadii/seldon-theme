@@ -1681,6 +1681,8 @@ div.checkbox div{margin-left:1em}
 .checkout--grand-total{font-size:14px;margin:0}
 #card{line-height:1.5rem;background-color:#f8f8f8;border-radius:0;border:solid 1px #b8b8b8}
 .checkout-section{height:80vh}
+.checkout--interval{color:#c1c1c1;font-size:14px;margin:0}
+.checkout--price-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
 body{font-family:Roboto,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#000;font-size:2rem;background-size:cover;background-color:#f8f8f8}
 body.tech button,body.tech .btn,body.tech .button,body.tech button,body.tech .page-numbers,body.tech .pager a,.pager body.tech a,body.tech .button,body.tech .nav-pills>li.active>a{background-color:#00ded0;-webkit-transition:all .15s linear;transition:all .15s linear}
 body.tech button:hover,body.tech .btn:hover,body.tech .button:hover,body.tech button:hover,body.tech .page-numbers:hover,body.tech .pager a:hover,.pager body.tech a:hover,body.tech .button:hover{background-color:#000}
