@@ -8,6 +8,15 @@
         return strcmp($a->name, $b->name);
     }
 
+    function currencySymbol($currency){
+
+        switch($currency){
+            default: return '$';
+            case 'gbp': return '£';
+            case 'eur': return '€';
+        }
+    }
+
     get_header();
 
     /**
@@ -20,7 +29,7 @@
      * If not, something went wrong and we should let the user know.(
     */ 
 
-    if ((!$_POST['product_code'] && $_POST['product_code'] != 0) || (!$_POST['price_code'] && $_POST['price_code'] != 0)){
+    if ($_POST['product_code'] == null || $_POST['price_code']  == null ){
 
         // TODO: Log this issue.
 
@@ -36,7 +45,7 @@
 
     try {
 
-        $countries = json_decode(file_get_contents($url, false, $context))->result;
+        $countries = json_decode(file_get_contents($url))->result;
 
     } catch (Exception $err) {
         // TODO: Maybe we might want to log unsuccessful attempts.
@@ -49,66 +58,86 @@
 
     // Get product information from the back-end
 
-    $serverEndpoint = 'localhost'
+    $serverEndpoint = 'http://localhost:8080/products' . '/' . $_POST['product_code'] . '?' . 'price_code' . '=' . $_POST['price_code'];
+
+    try {
+        $response = json_decode(file_get_contents($serverEndpoint));
+
+    } catch (Exception $err) {
+
+        // TODO: Log this issue.
+
+        header('Location:' . get_home_url() . '/' . '500');
+        return die();
+    }
+
+    /** Pre-fetch the product image. This will be converted
+     * to base64 and preloaded in the website request.
+    */ 
+
+    $productImg = base64_encode(file_get_contents($response->image));
 
 ?>
 
-<style>
-    #card {
-        line-height: 1.5rem;
-        background-color: #f8f8f8;
-        border-radius: 0;
-        border: solid 1px #b8b8b8;
-    }
-</style>
-
 <main>
 	<div class="container-fluid checkout-container justify-content-between">
-        <?php  get_template_part( 'sections/page-hero' ); ?>
-        <div class="row maxout mb-80 pt-50 col-sm-6">
-            <fieldset>
-            <legend><h6>Itinary</h6></legend>
-            </fieldset>
+        <div class="col-md-11 col-md-offset-1 pt-50">
+            <h3><?php echo get_the_title(); ?></h3>
         </div>
-        <div class="row maxout mb-80 pt-50 col-sm-6">
-            <form class="checkout-form" id="form" action="/payment" method="post">
-                <fieldset>
-                <legend><h6>Billing Details</h6></legend>
-                <p class="h4">All fields marked with (*) are required.</p>
-                <input class="mb-4" readonly name="product_code" type="hidden" value="<?php echo $_POST['product_code'] ?>">
-                <input readonly name="price_code" type="hidden" value="<?php echo $_POST['price_code'] ?>">
-                <input readonly name="customer_id" type="hidden" value="<?php echo $_SESSION['customer_id'] ?>">
-                <input required name="first_name" type="text" placeholder="First Name*">
-                <input required name="last_name" type="text" placeholder="Last Name*">
-                <input required name="email" type="email" placeholder="Email*">
-                <input required name="address.line1" type="text" placeholder="Address Line 1*">
-                <input name="address.line2" type="text" placeholder="Address Line 2">
-                <input required name="address.city" type="text" placeholder="Town/City/Region*">
-                <select required id="country-checkout" class="dropdown-checkout" name="address.country">
-                    <option value="">Country*</option>
-                    <?php foreach($countries as $country): ?>     
-                        <option value="<?php echo $country->code; ?>"><?php echo $country->name; ?></option>    
-                    <?php endforeach ?>
-                </select>
-                <select id="state-checkout" class="dropdown-checkout hide-field" name="address.state">
-                </select> 
-                <input name="address.postal_code" type="text" placeholder="Zip/Postal Code*">
-                <div id="card"></div>
-                </fieldset>
-                <fieldset>
-                    <div class="checkbox">
-                        <input required type="checkbox" /><div>I have read the <a href="">terms and conditions.</a></div>
-                    </div>
-                    <div class="checkbox">
-                        <input required checked type="checkbox" /><div>I would like to sign to sign up for the newsletter.</div>
-                    </div>
-                    
-                </fieldset>
-                <div class="checkout-submit">
-                    <button>Submit Order</button>
+        <div class="col-md-11 col-md-offset-1 pb-80">
+            <div class="container-fluid visible-sm visible-md visible-lg">
+                <div class="col-sm-6">
+                <legend><h6>Itinary</h6></legend>
                 </div>
-            </form>
-        </div>    
+                <div class="col-sm-6">
+                <legend><h6>Billing Details</h6></legend>
+                </div>
+            </div>
+            <div class="checkout--layout">
+                <div class="mb-sm-80 pt-sm-50 col-sm-6 animated animatedFadeIn fadeInUp checkout-section">
+                    <legend class="visible-xs pt-50"><h6>Itinary</h6></legend>
+                    <div>
+                        <div class="checkout--product">
+                            <p class="checkout--item-name"><?php echo $response->name; ?> - <?php echo $response->nickname ?></p>
+                            <img class="checkout--product-image" src="data:image/png;base64,<?php echo $productImg ?>" alt="Product picture"/>
+                            <div>
+                                <p class="checkout--grand-total">Grand Total</p>
+                                <p class="checkout--item-amount"><?php echo currencySymbol($response->currency) ?><?php echo number_format($response->amount / 100, 2 ) ?></p>
+                                <p class="checkout--vat">Excluding VAT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-sm-80 pt-sm-80 col-sm-6 animated animatedFadeIn fadeInDown">
+                    <form class="checkout-form" id="form" action="./checkout/review" method="post">
+                        <legend class="visible-xs pt-50 w-sm-50"><h6>Billing Details</h6></legend>
+                        <p class="h4">All fields marked with (*) are required.</p>
+                        <input class="mb-4" readonly name="product_code" type="hidden" value="<?php echo $_POST['product_code'] ?>">
+                        <input readonly name="price_code" type="hidden" value="<?php echo $_POST['price_code'] ?>">
+                        <input readonly name="customer_id" type="hidden" value="<?php echo $_SESSION['customer_id'] ?>">
+                        <input required name="first_name" type="text" placeholder="First Name*">
+                        <input required name="last_name" type="text" placeholder="Last Name*">
+                        <input required name="email" type="email" placeholder="Email*">
+                        <input required name="address.line1" type="text" placeholder="Address Line 1*">
+                        <input name="address.line2" type="text" placeholder="Address Line 2">
+                        <input required name="address.city" type="text" placeholder="Town/City/Region*">
+                        <select required id="country-checkout" class="dropdown-checkout" name="address.country">
+                            <option value="">Country*</option>
+                            <?php foreach($countries as $country): ?>     
+                                <option value="<?php echo $country->code; ?>"><?php echo $country->name; ?></option>    
+                            <?php endforeach ?>
+                        </select>
+                        <select id="state-checkout" class="dropdown-checkout hide-field" name="address.state">
+                        </select> 
+                        <input name="address.postal_code" type="text" placeholder="Zip/Postal Code*">
+                        <div id="card"></div>
+                    </form>
+                    <div class="checkout-submit mt-80">
+                        <button type="submit" form="form">Review Order</button>
+                    </div>
+                </div> 
+            </div> 
+        </div>  
 	</div>
 </main>
 <script defer>
@@ -144,7 +173,7 @@ let componentState = {
                 if (componentState.country !== country.code){
                     while(stateInput.firstChild) stateInput.removeChild(stateInput.firstChild)
                 }
-                stateInput.setAttribute('required', true)
+                stateInput.setAttribute('required')
                 if (stateInput.classList.contains('hide-field')) stateInput.classList.remove('hide-field')
                 country.states.sort(( a, b) => a.name > b.name)
 
@@ -157,7 +186,7 @@ let componentState = {
                     let option = document.createElement('option')
                     option.setAttribute('value', state.code)
                     if (state.code === componentState.state ){ 
-                        option.setAttribute('selected', true)
+                        option.setAttribute('selected')
                     }
                     option.innerText = state.name
                     stateInput.appendChild(option)
@@ -165,7 +194,7 @@ let componentState = {
 
             } else {
                 while(stateInput.firstChild) stateInput.removeChild(stateInput.firstChild)
-                stateInput.setAttribute('required', false)
+                stateInput.removeAttribute('required')
                 stateInput.classList.add('hide-field')
             }
 
@@ -205,7 +234,7 @@ let componentState = {
         async function _submit(event){
             
 
-            event.preventDefault()
+            // event.preventDefault()
             
             // Get the data
 
@@ -217,6 +246,8 @@ let componentState = {
                 type: 'card',
                 card
             }
+
+            let paymentInfo
                 
             try {
 
@@ -227,30 +258,37 @@ let componentState = {
                 return console.error(err)
             }
 
-            const body = `${serialize( form.elements )}&payment_id=${paymentInfo.paymentMethod.id}` ,
+            // const body = `${serialize( form.elements )}&payment_id=${paymentInfo.paymentMethod.id}` ,
 
-            options = {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-url-encoded'
-                },
-                body
-            }
+            // options = {
+            //     method: 'POST',
+            //     headers: {
+            //         'Content-Type': 'application/x-www-form-url-encoded',
+            //         'location': './checkout/review'
+            //     },
+            //     body,
+            //     redirect: 'follow'
+            // }
             
-            let response
-            try {
+            // let response
 
-                response = await fetch( '/payment', options )
+            // try {
 
-            } catch(err){
+            //     response = await fetch( './checkout/review', options )
 
-                return console.error(err)
-            }
+            // } catch(err){
 
-            if (response.status === 200) console.log(await response.json())
+            //     return console.error(err)
+            // }
 
+            const po = document.createElement('input')
+            po.setAttribute('hidden', true)
+            po.setAttribute('required', true)
+            po.setAttribute('name', 'payment_id')
+            po.setAttribute('value', paymentInfo.paymentMethod.id)
+            form.appendChild(po)
 
-
+            form.submit()
         }
 </script>
 <?php get_footer(); ?>
