@@ -9,6 +9,22 @@
 get_header(); ?>
 
 <?php
+
+
+	function makeAbstract($data){
+
+		$parsed = html_entity_decode($data, ENT_QUOTES, 'utf-8');
+
+		preg_match('/<div>(?!&nbsp;|<\/div>).*<\/div>/', $parsed, $matches);
+
+		// preg_match('/<div>(.+(About the role|responsibilities).+)*(Your role at Seldon would be:)*<\/div>\n(<div>&nbsp;<\/div>\n<div>Your role at Seldon will primarily involve:<\/div>\n)*<ul>\n*(<li>.+<\/li>\n)+<\/ul>/i', $parsed, $jobSummary );
+
+		// return $matches[0] . '<br />' . $jobSummary[0];
+
+		return $matches[0];
+		
+	}
+
 	// Get a list of job vaccanies from greenhouse.
     $url = 'https://boards-api.greenhouse.io/v1/boards/seldon/jobs?content=true';
 
@@ -45,9 +61,9 @@ get_header(); ?>
 										</h3>
 									</div>
 									<div class="job-description col-sm-7 col-md-8 col-sm-pad-left-1 col-sm-pad-right-1 bg_black pv-60 match-height-career-block">
-										<?php echo html_entity_decode($job->content, ENT_QUOTES, 'utf-8'); ?>
+										<?php echo makeAbstract($job->content); ?>
 										<div>
-											<a href="<?php echo $job->absolute_url ?>" target="_blank" class="btn margin-top-20">Apply</a>
+											<a href="<?php echo $job->absolute_url ?>" target="_blank" class="btn margin-top-20">Read More</a>
 										</div>
 									</div>
 								</div>
