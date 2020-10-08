@@ -29,9 +29,17 @@ get_header(); ?>
 					<?php endwhile; ?>
 
 				</div>
-				<div class="col-md-1"></div>
-				<?php get_sidebar(); ?>
 			</div>
+
+			<div class="row sidebar-wrap">
+				<div class="col-xs-12 maxout">
+					<div class="row">
+						<?php get_sidebar(); ?>						
+					</div>
+				</div>
+			</div>	
+
+
 		</div>
 
 	</div>

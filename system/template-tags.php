@@ -38,8 +38,8 @@ function tgs_wp_content_nav( $nav_id ) {
 
 		<?php if ( is_single() ) { // navigation links for single posts ?>
 
-			<li><?php previous_post_link('%link', '&lsaquo; Previous Article'); ?></li>
-			<li><?php next_post_link('%link', 'Next Article &rsaquo;'); ?></li>
+			<li class="nav-previous"><?php previous_post_link('%link', '&lt; Prev'); ?></li>
+			<li class="nav-next"><?php next_post_link('%link', 'Next &gt;'); ?></li>
 
 		<?php } elseif ( $wp_query->max_num_pages > 1 && ( is_home() || is_archive() || is_search() ) ) { // navigation links for home, archive, and search pages ?>
 
@@ -214,7 +214,7 @@ function tgs_wp_posted_on() {
 	// 	$time_string .= __(', updated on ', 'tg-wp-starter') . $time_string_update;
 	// }
 
-	printf( __( '<span class="byline">%2$s</span><br /><span class="posted-on">on %1$s</span>', 'tg-wp-starter' ),
+	printf( __( '<span class="byline">%2$s</span><br /><span class="posted-on">%1$s</span>', 'tg-wp-starter' ),
 		$time_string,
 		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),

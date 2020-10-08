@@ -251,15 +251,15 @@ input[type="radio"][disabled],input[type="radio"].disabled,fieldset[disabled] in
 .radio-inline.disabled,fieldset[disabled] .radio-inline,.checkbox-inline.disabled,fieldset[disabled] .checkbox-inline{cursor:not-allowed}
 .radio.disabled label,fieldset[disabled] .radio label,.checkbox.disabled label,fieldset[disabled] .checkbox label{cursor:not-allowed}
 .form-control-static{padding-top:7px;padding-bottom:7px;margin-bottom:0;min-height:24px}
-.form-control-static.input-lg,.input-group-lg>.form-control-static.form-control,.input-group-lg>.form-control-static.input-group-addon,.input-group-lg>.input-group-btn>.form-control-static.btn,.input-group-lg>.input-group-btn>.form-control-static.button,.input-group-lg>.input-group-btn>button.form-control-static,.input-group-lg>.input-group-btn>.form-control-static.page-numbers,.pager .input-group-lg>.input-group-btn>a.form-control-static,.form-control-static.input-sm,.input-group-sm>.form-control-static.form-control,.input-group-sm>.form-control-static.input-group-addon,.input-group-sm>.input-group-btn>.form-control-static.btn,.input-group-sm>.input-group-btn>.form-control-static.button,.input-group-sm>.input-group-btn>button.form-control-static,.input-group-sm>.input-group-btn>.form-control-static.page-numbers,.pager .input-group-sm>.input-group-btn>a.form-control-static{padding-left:0;padding-right:0}
-.input-sm,.input-group-sm>.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.btn,.input-group-sm>.input-group-btn>.button,.input-group-sm>.input-group-btn>button,.input-group-sm>.input-group-btn>.page-numbers,.pager .input-group-sm>.input-group-btn>a{height:25px;padding:5px 10px;font-size:9px;line-height:1.5;border-radius:3px}
+.form-control-static.input-lg,.input-group-lg>.form-control-static.form-control,.input-group-lg>.form-control-static.input-group-addon,.input-group-lg>.input-group-btn>.form-control-static.btn,.input-group-lg>.input-group-btn>.form-control-static.button,.input-group-lg>.input-group-btn>button.form-control-static,.input-group-lg>.input-group-btn>.form-control-static.page-numbers,.nav-previous .input-group-lg>.input-group-btn>a.form-control-static,.nav-next .input-group-lg>.input-group-btn>a.form-control-static,.form-control-static.input-sm,.input-group-sm>.form-control-static.form-control,.input-group-sm>.form-control-static.input-group-addon,.input-group-sm>.input-group-btn>.form-control-static.btn,.input-group-sm>.input-group-btn>.form-control-static.button,.input-group-sm>.input-group-btn>button.form-control-static,.input-group-sm>.input-group-btn>.form-control-static.page-numbers,.nav-previous .input-group-sm>.input-group-btn>a.form-control-static,.nav-next .input-group-sm>.input-group-btn>a.form-control-static{padding-left:0;padding-right:0}
+.input-sm,.input-group-sm>.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.btn,.input-group-sm>.input-group-btn>.button,.input-group-sm>.input-group-btn>button,.input-group-sm>.input-group-btn>.page-numbers,.nav-previous .input-group-sm>.input-group-btn>a,.nav-next .input-group-sm>.input-group-btn>a{height:25px;padding:5px 10px;font-size:9px;line-height:1.5;border-radius:3px}
 select.input-sm,.input-group-sm>select.form-control,.input-group-sm>select.input-group-addon,.input-group-sm>.input-group-btn>select.btn,.input-group-sm>.input-group-btn>select.button,.input-group-sm>.input-group-btn>select.page-numbers{height:25px;line-height:25px}
 textarea.input-sm,.input-group-sm>textarea.form-control,.input-group-sm>textarea.input-group-addon,.input-group-sm>.input-group-btn>textarea.btn,.input-group-sm>.input-group-btn>textarea.button,.input-group-sm>.input-group-btn>textarea.page-numbers,select[multiple].input-sm,.input-group-sm>select.form-control[multiple],.input-group-sm>select.input-group-addon[multiple],.input-group-sm>.input-group-btn>select.btn[multiple],.input-group-sm>.input-group-btn>select.button[multiple],.input-group-sm>.input-group-btn>select.page-numbers[multiple]{height:auto}
 .form-group-sm .form-control{height:25px;padding:5px 10px;font-size:9px;line-height:1.5;border-radius:3px}
 .form-group-sm select.form-control{height:25px;line-height:25px}
 .form-group-sm textarea.form-control,.form-group-sm select[multiple].form-control{height:auto}
 .form-group-sm .form-control-static{height:25px;padding:5px 10px;font-size:9px;line-height:1.5;min-height:23px}
-.input-lg,.input-group-lg>.form-control,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.btn,.input-group-lg>.input-group-btn>.button,.input-group-lg>.input-group-btn>button,.input-group-lg>.input-group-btn>.page-numbers,.pager .input-group-lg>.input-group-btn>a{height:40px;padding:10px 16px;font-size:13px;line-height:1.3333333;border-radius:6px}
+.input-lg,.input-group-lg>.form-control,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.btn,.input-group-lg>.input-group-btn>.button,.input-group-lg>.input-group-btn>button,.input-group-lg>.input-group-btn>.page-numbers,.nav-previous .input-group-lg>.input-group-btn>a,.nav-next .input-group-lg>.input-group-btn>a{height:40px;padding:10px 16px;font-size:13px;line-height:1.3333333;border-radius:6px}
 select.input-lg,.input-group-lg>select.form-control,.input-group-lg>select.input-group-addon,.input-group-lg>.input-group-btn>select.btn,.input-group-lg>.input-group-btn>select.button,.input-group-lg>.input-group-btn>select.page-numbers{height:40px;line-height:40px}
 textarea.input-lg,.input-group-lg>textarea.form-control,.input-group-lg>textarea.input-group-addon,.input-group-lg>.input-group-btn>textarea.btn,.input-group-lg>.input-group-btn>textarea.button,.input-group-lg>.input-group-btn>textarea.page-numbers,select[multiple].input-lg,.input-group-lg>select.form-control[multiple],.input-group-lg>select.input-group-addon[multiple],.input-group-lg>.input-group-btn>select.btn[multiple],.input-group-lg>.input-group-btn>select.button[multiple],.input-group-lg>.input-group-btn>select.page-numbers[multiple]{height:auto}
 .form-group-lg .form-control{height:40px;padding:10px 16px;font-size:13px;line-height:1.3333333;border-radius:6px}
@@ -269,8 +269,8 @@ textarea.input-lg,.input-group-lg>textarea.form-control,.input-group-lg>textarea
 .has-feedback{position:relative}
 .has-feedback .form-control{padding-right:35px}
 .form-control-feedback{position:absolute;top:0;right:0;z-index:2;display:block;width:28px;height:28px;line-height:28px;text-align:center;pointer-events:none}
-.input-lg+.form-control-feedback,.input-group-lg>.form-control+.form-control-feedback,.input-group-lg>.input-group-addon+.form-control-feedback,.input-group-lg>.input-group-btn>.btn+.form-control-feedback,.input-group-lg>.input-group-btn>.button+.form-control-feedback,.input-group-lg>.input-group-btn>button+.form-control-feedback,.input-group-lg>.input-group-btn>.page-numbers+.form-control-feedback,.pager .input-group-lg>.input-group-btn>a+.form-control-feedback{width:40px;height:40px;line-height:40px}
-.input-sm+.form-control-feedback,.input-group-sm>.form-control+.form-control-feedback,.input-group-sm>.input-group-addon+.form-control-feedback,.input-group-sm>.input-group-btn>.btn+.form-control-feedback,.input-group-sm>.input-group-btn>.button+.form-control-feedback,.input-group-sm>.input-group-btn>button+.form-control-feedback,.input-group-sm>.input-group-btn>.page-numbers+.form-control-feedback,.pager .input-group-sm>.input-group-btn>a+.form-control-feedback{width:25px;height:25px;line-height:25px}
+.input-lg+.form-control-feedback,.input-group-lg>.form-control+.form-control-feedback,.input-group-lg>.input-group-addon+.form-control-feedback,.input-group-lg>.input-group-btn>.btn+.form-control-feedback,.input-group-lg>.input-group-btn>.button+.form-control-feedback,.input-group-lg>.input-group-btn>button+.form-control-feedback,.input-group-lg>.input-group-btn>.page-numbers+.form-control-feedback,.nav-previous .input-group-lg>.input-group-btn>a+.form-control-feedback,.nav-next .input-group-lg>.input-group-btn>a+.form-control-feedback{width:40px;height:40px;line-height:40px}
+.input-sm+.form-control-feedback,.input-group-sm>.form-control+.form-control-feedback,.input-group-sm>.input-group-addon+.form-control-feedback,.input-group-sm>.input-group-btn>.btn+.form-control-feedback,.input-group-sm>.input-group-btn>.button+.form-control-feedback,.input-group-sm>.input-group-btn>button+.form-control-feedback,.input-group-sm>.input-group-btn>.page-numbers+.form-control-feedback,.nav-previous .input-group-sm>.input-group-btn>a+.form-control-feedback,.nav-next .input-group-sm>.input-group-btn>a+.form-control-feedback{width:25px;height:25px;line-height:25px}
 .has-success .help-block,.has-success .control-label,.has-success .radio,.has-success .checkbox,.has-success .radio-inline,.has-success .checkbox-inline,.has-success.radio label,.has-success.checkbox label,.has-success.radio-inline label,.has-success.checkbox-inline label{color:#3c763d}
 .has-success .form-control{border-color:#3c763d;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}
 .has-success .form-control:focus{border-color:#2b542c;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #67b168;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #67b168}
@@ -295,10 +295,10 @@ textarea.input-lg,.input-group-lg>textarea.form-control,.input-group-lg>textarea
 .form-horizontal .form-group:before,.form-horizontal .form-group:after{content:" ";display:table}
 .form-horizontal .form-group:after{clear:both}
 .form-horizontal .has-feedback .form-control-feedback{right:15px}
-.btn,.button,button,.page-numbers,.pager a{display:inline-block;margin-bottom:0;font-weight:normal;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:10px;line-height:1.428571429;border-radius:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-.btn:hover,.button:hover,button:hover,.page-numbers:hover,.pager a:hover,.btn:focus,.button:focus,button:focus,.page-numbers:focus,.pager a:focus,.btn.focus,.focus.button,button.focus,.focus.page-numbers,.pager a.focus{color:#333;text-decoration:none}
-.btn:active,.button:active,button:active,.page-numbers:active,.pager a:active,.btn.active,.active.button,button.active,.active.page-numbers,.pager a.active{outline:0;background-image:none}
-.btn.disabled,.disabled.button,button.disabled,.disabled.page-numbers,.pager a.disabled,.btn[disabled],.button[disabled],button[disabled],.page-numbers[disabled],.pager a[disabled],fieldset[disabled] .btn,fieldset[disabled] .button,fieldset[disabled] button,fieldset[disabled] .page-numbers,fieldset[disabled] .pager a,.pager fieldset[disabled] a{cursor:not-allowed;pointer-events:none;opacity:.65;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none}
+.btn,.button,button,.page-numbers,.nav-previous a,.nav-next a{display:inline-block;margin-bottom:0;font-weight:normal;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:10px;line-height:1.428571429;border-radius:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.btn:hover,.button:hover,button:hover,.page-numbers:hover,.nav-previous a:hover,.nav-next a:hover,.btn:focus,.button:focus,button:focus,.page-numbers:focus,.nav-previous a:focus,.nav-next a:focus,.btn.focus,.focus.button,button.focus,.focus.page-numbers,.nav-previous a.focus,.nav-next a.focus{color:#333;text-decoration:none}
+.btn:active,.button:active,button:active,.page-numbers:active,.nav-previous a:active,.nav-next a:active,.btn.active,.active.button,button.active,.active.page-numbers,.nav-previous a.active,.nav-next a.active{outline:0;background-image:none}
+.btn.disabled,.disabled.button,button.disabled,.disabled.page-numbers,.nav-previous a.disabled,.nav-next a.disabled,.btn[disabled],.button[disabled],button[disabled],.page-numbers[disabled],.nav-previous a[disabled],.nav-next a[disabled],fieldset[disabled] .btn,fieldset[disabled] .button,fieldset[disabled] button,fieldset[disabled] .page-numbers,fieldset[disabled] .nav-previous a,.nav-previous fieldset[disabled] a,fieldset[disabled] .nav-next a,.nav-next fieldset[disabled] a{cursor:not-allowed;pointer-events:none;opacity:.65;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none}
 .btn-default{color:#333;background-color:#fff;border-color:#ccc}
 .btn-default:hover,.btn-default:focus,.btn-default.focus,.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{color:#333;background-color:#e6e5e5;border-color:#adadad}
 .btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{background-image:none}
@@ -334,9 +334,9 @@ textarea.input-lg,.input-group-lg>textarea.form-control,.input-group-lg>textarea
 .btn-link,.btn-link:hover,.btn-link:focus,.btn-link:active{border-color:transparent}
 .btn-link:hover,.btn-link:focus{color:#1cabd2;text-decoration:none;background-color:transparent}
 .btn-link[disabled]:hover,.btn-link[disabled]:focus,fieldset[disabled] .btn-link:hover,fieldset[disabled] .btn-link:focus{color:#777;text-decoration:none}
-.btn-lg,.btn-group-lg>.btn,.btn-group-lg>.button,.btn-group-lg>button,.btn-group-lg>.page-numbers,.pager .btn-group-lg>a{padding:10px 16px;font-size:13px;line-height:1.3333333;border-radius:6px}
-.btn-sm,.btn-group-sm>.btn,.btn-group-sm>.button,.btn-group-sm>button,.btn-group-sm>.page-numbers,.pager .btn-group-sm>a{padding:5px 10px;font-size:9px;line-height:1.5;border-radius:3px}
-.btn-xs,.btn-group-xs>.btn,.btn-group-xs>.button,.btn-group-xs>button,.btn-group-xs>.page-numbers,.pager .btn-group-xs>a{padding:1px 5px;font-size:9px;line-height:1.5;border-radius:3px}
+.btn-lg,.btn-group-lg>.btn,.btn-group-lg>.button,.btn-group-lg>button,.btn-group-lg>.page-numbers,.nav-previous .btn-group-lg>a,.nav-next .btn-group-lg>a{padding:10px 16px;font-size:13px;line-height:1.3333333;border-radius:6px}
+.btn-sm,.btn-group-sm>.btn,.btn-group-sm>.button,.btn-group-sm>button,.btn-group-sm>.page-numbers,.nav-previous .btn-group-sm>a,.nav-next .btn-group-sm>a{padding:5px 10px;font-size:9px;line-height:1.5;border-radius:3px}
+.btn-xs,.btn-group-xs>.btn,.btn-group-xs>.button,.btn-group-xs>button,.btn-group-xs>.page-numbers,.nav-previous .btn-group-xs>a,.nav-next .btn-group-xs>a{padding:1px 5px;font-size:9px;line-height:1.5;border-radius:3px}
 .btn-block{display:block;width:100%}
 .btn-block+.btn-block{margin-top:5px}
 input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"].btn-block{width:100%}
@@ -368,46 +368,46 @@ tbody.collapse.in{display:table-row-group}
 .dropup .caret,.navbar-fixed-bottom .dropdown .caret{border-top:0;border-bottom:4px solid;content:""}
 .dropup .dropdown-menu,.navbar-fixed-bottom .dropdown .dropdown-menu{top:auto;bottom:100%;margin-bottom:2px}
 .btn-group,.btn-group-vertical{position:relative;display:inline-block;vertical-align:middle}
-.btn-group>.btn,.btn-group>.button,.btn-group>button,.btn-group>.page-numbers,.pager .btn-group>a,.btn-group-vertical>.btn,.btn-group-vertical>.button,.btn-group-vertical>button,.btn-group-vertical>.page-numbers,.pager .btn-group-vertical>a{position:relative;float:left}
-.btn-group>.btn:hover,.btn-group>.button:hover,.btn-group>button:hover,.btn-group>.page-numbers:hover,.pager .btn-group>a:hover,.btn-group>.btn:focus,.btn-group>.button:focus,.btn-group>button:focus,.btn-group>.page-numbers:focus,.pager .btn-group>a:focus,.btn-group>.btn:active,.btn-group>.button:active,.btn-group>button:active,.btn-group>.page-numbers:active,.pager .btn-group>a:active,.btn-group>.btn.active,.btn-group>.active.button,.btn-group>button.active,.btn-group>.active.page-numbers,.pager .btn-group>a.active,.btn-group-vertical>.btn:hover,.btn-group-vertical>.button:hover,.btn-group-vertical>button:hover,.btn-group-vertical>.page-numbers:hover,.pager .btn-group-vertical>a:hover,.btn-group-vertical>.btn:focus,.btn-group-vertical>.button:focus,.btn-group-vertical>button:focus,.btn-group-vertical>.page-numbers:focus,.pager .btn-group-vertical>a:focus,.btn-group-vertical>.btn:active,.btn-group-vertical>.button:active,.btn-group-vertical>button:active,.btn-group-vertical>.page-numbers:active,.pager .btn-group-vertical>a:active,.btn-group-vertical>.btn.active,.btn-group-vertical>.active.button,.btn-group-vertical>button.active,.btn-group-vertical>.active.page-numbers,.pager .btn-group-vertical>a.active{z-index:2}
-.btn-group .btn+.btn,.btn-group .button+.btn,.btn-group button+.btn,.btn-group .page-numbers+.btn,.btn-group .pager a+.btn,.pager .btn-group a+.btn,.btn-group .btn+.button,.btn-group .button+.button,.btn-group button+.button,.btn-group .page-numbers+.button,.btn-group .pager a+.button,.pager .btn-group a+.button,.btn-group .btn+button,.btn-group .button+button,.btn-group button+button,.btn-group .page-numbers+button,.btn-group .pager a+button,.pager .btn-group a+button,.btn-group .btn+.page-numbers,.btn-group .button+.page-numbers,.btn-group button+.page-numbers,.btn-group .page-numbers+.page-numbers,.btn-group .pager a+.page-numbers,.pager .btn-group a+.page-numbers,.btn-group .pager .btn+a,.pager .btn-group .btn+a,.btn-group .pager .button+a,.pager .btn-group .button+a,.btn-group .pager button+a,.pager .btn-group button+a,.btn-group .pager .page-numbers+a,.pager .btn-group .page-numbers+a,.btn-group .pager a+a,.pager .btn-group a+a,.btn-group .btn+.btn-group,.btn-group .button+.btn-group,.btn-group button+.btn-group,.btn-group .page-numbers+.btn-group,.btn-group .pager a+.btn-group,.pager .btn-group a+.btn-group,.btn-group .btn-group+.btn,.btn-group .btn-group+.button,.btn-group .btn-group+button,.btn-group .btn-group+.page-numbers,.btn-group .pager .btn-group+a,.pager .btn-group .btn-group+a,.btn-group .btn-group+.btn-group{margin-left:-1px}
+.btn-group>.btn,.btn-group>.button,.btn-group>button,.btn-group>.page-numbers,.nav-previous .btn-group>a,.nav-next .btn-group>a,.btn-group-vertical>.btn,.btn-group-vertical>.button,.btn-group-vertical>button,.btn-group-vertical>.page-numbers,.nav-previous .btn-group-vertical>a,.nav-next .btn-group-vertical>a{position:relative;float:left}
+.btn-group>.btn:hover,.btn-group>.button:hover,.btn-group>button:hover,.btn-group>.page-numbers:hover,.nav-previous .btn-group>a:hover,.nav-next .btn-group>a:hover,.btn-group>.btn:focus,.btn-group>.button:focus,.btn-group>button:focus,.btn-group>.page-numbers:focus,.nav-previous .btn-group>a:focus,.nav-next .btn-group>a:focus,.btn-group>.btn:active,.btn-group>.button:active,.btn-group>button:active,.btn-group>.page-numbers:active,.nav-previous .btn-group>a:active,.nav-next .btn-group>a:active,.btn-group>.btn.active,.btn-group>.active.button,.btn-group>button.active,.btn-group>.active.page-numbers,.nav-previous .btn-group>a.active,.nav-next .btn-group>a.active,.btn-group-vertical>.btn:hover,.btn-group-vertical>.button:hover,.btn-group-vertical>button:hover,.btn-group-vertical>.page-numbers:hover,.nav-previous .btn-group-vertical>a:hover,.nav-next .btn-group-vertical>a:hover,.btn-group-vertical>.btn:focus,.btn-group-vertical>.button:focus,.btn-group-vertical>button:focus,.btn-group-vertical>.page-numbers:focus,.nav-previous .btn-group-vertical>a:focus,.nav-next .btn-group-vertical>a:focus,.btn-group-vertical>.btn:active,.btn-group-vertical>.button:active,.btn-group-vertical>button:active,.btn-group-vertical>.page-numbers:active,.nav-previous .btn-group-vertical>a:active,.nav-next .btn-group-vertical>a:active,.btn-group-vertical>.btn.active,.btn-group-vertical>.active.button,.btn-group-vertical>button.active,.btn-group-vertical>.active.page-numbers,.nav-previous .btn-group-vertical>a.active,.nav-next .btn-group-vertical>a.active{z-index:2}
+.btn-group .btn+.btn,.btn-group .button+.btn,.btn-group button+.btn,.btn-group .page-numbers+.btn,.btn-group .nav-previous a+.btn,.nav-previous .btn-group a+.btn,.btn-group .nav-next a+.btn,.nav-next .btn-group a+.btn,.btn-group .btn+.button,.btn-group .button+.button,.btn-group button+.button,.btn-group .page-numbers+.button,.btn-group .nav-previous a+.button,.nav-previous .btn-group a+.button,.btn-group .nav-next a+.button,.nav-next .btn-group a+.button,.btn-group .btn+button,.btn-group .button+button,.btn-group button+button,.btn-group .page-numbers+button,.btn-group .nav-previous a+button,.nav-previous .btn-group a+button,.btn-group .nav-next a+button,.nav-next .btn-group a+button,.btn-group .btn+.page-numbers,.btn-group .button+.page-numbers,.btn-group button+.page-numbers,.btn-group .page-numbers+.page-numbers,.btn-group .nav-previous a+.page-numbers,.nav-previous .btn-group a+.page-numbers,.btn-group .nav-next a+.page-numbers,.nav-next .btn-group a+.page-numbers,.btn-group .nav-previous .btn+a,.nav-previous .btn-group .btn+a,.btn-group .nav-previous .button+a,.nav-previous .btn-group .button+a,.btn-group .nav-previous button+a,.nav-previous .btn-group button+a,.btn-group .nav-previous .page-numbers+a,.nav-previous .btn-group .page-numbers+a,.btn-group .nav-previous a+a,.nav-previous .btn-group a+a,.btn-group .nav-next .nav-previous a+a,.nav-previous .nav-next .btn-group a+a,.btn-group .nav-next .btn+a,.nav-next .btn-group .btn+a,.btn-group .nav-next .button+a,.nav-next .btn-group .button+a,.btn-group .nav-next button+a,.nav-next .btn-group button+a,.btn-group .nav-next .page-numbers+a,.nav-next .btn-group .page-numbers+a,.btn-group .nav-previous .nav-next a+a,.nav-next .btn-group .nav-previous a+a,.nav-previous .btn-group .nav-next a+a,.nav-next .nav-previous .btn-group a+a,.btn-group .nav-next a+a,.nav-next .btn-group a+a,.btn-group .btn+.btn-group,.btn-group .button+.btn-group,.btn-group button+.btn-group,.btn-group .page-numbers+.btn-group,.btn-group .nav-previous a+.btn-group,.nav-previous .btn-group a+.btn-group,.btn-group .nav-next a+.btn-group,.nav-next .btn-group a+.btn-group,.btn-group .btn-group+.btn,.btn-group .btn-group+.button,.btn-group .btn-group+button,.btn-group .btn-group+.page-numbers,.btn-group .nav-previous .btn-group+a,.nav-previous .btn-group .btn-group+a,.btn-group .nav-next .btn-group+a,.nav-next .btn-group .btn-group+a,.btn-group .btn-group+.btn-group{margin-left:-1px}
 .btn-toolbar{margin-left:-5px}
 .btn-toolbar:before,.btn-toolbar:after{content:" ";display:table}
 .btn-toolbar:after{clear:both}
 .btn-toolbar .btn-group,.btn-toolbar .input-group{float:left}
-.btn-toolbar>.btn,.btn-toolbar>.button,.btn-toolbar>button,.btn-toolbar>.page-numbers,.pager .btn-toolbar>a,.btn-toolbar>.btn-group,.btn-toolbar>.input-group{margin-left:5px}
-.btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle),.btn-group>.button:not(:first-child):not(:last-child):not(.dropdown-toggle),.btn-group>button:not(:first-child):not(:last-child):not(.dropdown-toggle),.btn-group>.page-numbers:not(:first-child):not(:last-child):not(.dropdown-toggle),.pager .btn-group>a:not(:first-child):not(:last-child):not(.dropdown-toggle){border-radius:0}
-.btn-group>.btn:first-child,.btn-group>.button:first-child,.btn-group>button:first-child,.btn-group>.page-numbers:first-child,.pager .btn-group>a:first-child{margin-left:0}
-.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle),.btn-group>.button:first-child:not(:last-child):not(.dropdown-toggle),.btn-group>button:first-child:not(:last-child):not(.dropdown-toggle),.btn-group>.page-numbers:first-child:not(:last-child):not(.dropdown-toggle),.pager .btn-group>a:first-child:not(:last-child):not(.dropdown-toggle){border-bottom-right-radius:0;border-top-right-radius:0}
-.btn-group>.btn:last-child:not(:first-child),.btn-group>.button:last-child:not(:first-child),.btn-group>button:last-child:not(:first-child),.btn-group>.page-numbers:last-child:not(:first-child),.pager .btn-group>a:last-child:not(:first-child),.btn-group>.dropdown-toggle:not(:first-child){border-bottom-left-radius:0;border-top-left-radius:0}
+.btn-toolbar>.btn,.btn-toolbar>.button,.btn-toolbar>button,.btn-toolbar>.page-numbers,.nav-previous .btn-toolbar>a,.nav-next .btn-toolbar>a,.btn-toolbar>.btn-group,.btn-toolbar>.input-group{margin-left:5px}
+.btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle),.btn-group>.button:not(:first-child):not(:last-child):not(.dropdown-toggle),.btn-group>button:not(:first-child):not(:last-child):not(.dropdown-toggle),.btn-group>.page-numbers:not(:first-child):not(:last-child):not(.dropdown-toggle),.nav-previous .btn-group>a:not(:first-child):not(:last-child):not(.dropdown-toggle),.nav-next .btn-group>a:not(:first-child):not(:last-child):not(.dropdown-toggle){border-radius:0}
+.btn-group>.btn:first-child,.btn-group>.button:first-child,.btn-group>button:first-child,.btn-group>.page-numbers:first-child,.nav-previous .btn-group>a:first-child,.nav-next .btn-group>a:first-child{margin-left:0}
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle),.btn-group>.button:first-child:not(:last-child):not(.dropdown-toggle),.btn-group>button:first-child:not(:last-child):not(.dropdown-toggle),.btn-group>.page-numbers:first-child:not(:last-child):not(.dropdown-toggle),.nav-previous .btn-group>a:first-child:not(:last-child):not(.dropdown-toggle),.nav-next .btn-group>a:first-child:not(:last-child):not(.dropdown-toggle){border-bottom-right-radius:0;border-top-right-radius:0}
+.btn-group>.btn:last-child:not(:first-child),.btn-group>.button:last-child:not(:first-child),.btn-group>button:last-child:not(:first-child),.btn-group>.page-numbers:last-child:not(:first-child),.nav-previous .btn-group>a:last-child:not(:first-child),.nav-next .btn-group>a:last-child:not(:first-child),.btn-group>.dropdown-toggle:not(:first-child){border-bottom-left-radius:0;border-top-left-radius:0}
 .btn-group>.btn-group{float:left}
-.btn-group>.btn-group:not(:first-child):not(:last-child)>.btn,.btn-group>.btn-group:not(:first-child):not(:last-child)>.button,.btn-group>.btn-group:not(:first-child):not(:last-child)>button,.btn-group>.btn-group:not(:first-child):not(:last-child)>.page-numbers,.pager .btn-group>.btn-group:not(:first-child):not(:last-child)>a{border-radius:0}
-.btn-group>.btn-group:first-child:not(:last-child)>.btn:last-child,.btn-group>.btn-group:first-child:not(:last-child)>.button:last-child,.btn-group>.btn-group:first-child:not(:last-child)>button:last-child,.btn-group>.btn-group:first-child:not(:last-child)>.page-numbers:last-child,.pager .btn-group>.btn-group:first-child:not(:last-child)>a:last-child,.btn-group>.btn-group:first-child:not(:last-child)>.dropdown-toggle{border-bottom-right-radius:0;border-top-right-radius:0}
-.btn-group>.btn-group:last-child:not(:first-child)>.btn:first-child,.btn-group>.btn-group:last-child:not(:first-child)>.button:first-child,.btn-group>.btn-group:last-child:not(:first-child)>button:first-child,.btn-group>.btn-group:last-child:not(:first-child)>.page-numbers:first-child,.pager .btn-group>.btn-group:last-child:not(:first-child)>a:first-child{border-bottom-left-radius:0;border-top-left-radius:0}
+.btn-group>.btn-group:not(:first-child):not(:last-child)>.btn,.btn-group>.btn-group:not(:first-child):not(:last-child)>.button,.btn-group>.btn-group:not(:first-child):not(:last-child)>button,.btn-group>.btn-group:not(:first-child):not(:last-child)>.page-numbers,.nav-previous .btn-group>.btn-group:not(:first-child):not(:last-child)>a,.nav-next .btn-group>.btn-group:not(:first-child):not(:last-child)>a{border-radius:0}
+.btn-group>.btn-group:first-child:not(:last-child)>.btn:last-child,.btn-group>.btn-group:first-child:not(:last-child)>.button:last-child,.btn-group>.btn-group:first-child:not(:last-child)>button:last-child,.btn-group>.btn-group:first-child:not(:last-child)>.page-numbers:last-child,.nav-previous .btn-group>.btn-group:first-child:not(:last-child)>a:last-child,.nav-next .btn-group>.btn-group:first-child:not(:last-child)>a:last-child,.btn-group>.btn-group:first-child:not(:last-child)>.dropdown-toggle{border-bottom-right-radius:0;border-top-right-radius:0}
+.btn-group>.btn-group:last-child:not(:first-child)>.btn:first-child,.btn-group>.btn-group:last-child:not(:first-child)>.button:first-child,.btn-group>.btn-group:last-child:not(:first-child)>button:first-child,.btn-group>.btn-group:last-child:not(:first-child)>.page-numbers:first-child,.nav-previous .btn-group>.btn-group:last-child:not(:first-child)>a:first-child,.nav-next .btn-group>.btn-group:last-child:not(:first-child)>a:first-child{border-bottom-left-radius:0;border-top-left-radius:0}
 .btn-group .dropdown-toggle:active,.btn-group.open .dropdown-toggle{outline:0}
-.btn-group>.btn+.dropdown-toggle,.btn-group>.button+.dropdown-toggle,.btn-group>button+.dropdown-toggle,.btn-group>.page-numbers+.dropdown-toggle,.pager .btn-group>a+.dropdown-toggle{padding-left:8px;padding-right:8px}
-.btn-group>.btn-lg+.dropdown-toggle,.btn-group-lg.btn-group>.btn+.dropdown-toggle,.btn-group-lg.btn-group>.button+.dropdown-toggle,.btn-group-lg.btn-group>button+.dropdown-toggle,.btn-group-lg.btn-group>.page-numbers+.dropdown-toggle,.pager .btn-group-lg.btn-group>a+.dropdown-toggle{padding-left:12px;padding-right:12px}
+.btn-group>.btn+.dropdown-toggle,.btn-group>.button+.dropdown-toggle,.btn-group>button+.dropdown-toggle,.btn-group>.page-numbers+.dropdown-toggle,.nav-previous .btn-group>a+.dropdown-toggle,.nav-next .btn-group>a+.dropdown-toggle{padding-left:8px;padding-right:8px}
+.btn-group>.btn-lg+.dropdown-toggle,.btn-group-lg.btn-group>.btn+.dropdown-toggle,.btn-group-lg.btn-group>.button+.dropdown-toggle,.btn-group-lg.btn-group>button+.dropdown-toggle,.btn-group-lg.btn-group>.page-numbers+.dropdown-toggle,.nav-previous .btn-group-lg.btn-group>a+.dropdown-toggle,.nav-next .btn-group-lg.btn-group>a+.dropdown-toggle{padding-left:12px;padding-right:12px}
 .btn-group.open .dropdown-toggle{-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);box-shadow:inset 0 3px 5px rgba(0,0,0,0.125)}
 .btn-group.open .dropdown-toggle.btn-link{-webkit-box-shadow:none;box-shadow:none}
-.btn .caret,.button .caret,button .caret,.page-numbers .caret,.pager a .caret{margin-left:0}
-.btn-lg .caret,.btn-group-lg>.btn .caret,.btn-group-lg>.button .caret,.btn-group-lg>button .caret,.btn-group-lg>.page-numbers .caret,.pager .btn-group-lg>a .caret{border-width:5px 5px 0;border-bottom-width:0}
-.dropup .btn-lg .caret,.dropup .btn-group-lg>.btn .caret,.dropup .btn-group-lg>.button .caret,.dropup .btn-group-lg>button .caret,.dropup .btn-group-lg>.page-numbers .caret,.dropup .pager .btn-group-lg>a .caret,.pager .dropup .btn-group-lg>a .caret{border-width:0 5px 5px}
-.btn-group-vertical>.btn,.btn-group-vertical>.button,.btn-group-vertical>button,.btn-group-vertical>.page-numbers,.pager .btn-group-vertical>a,.btn-group-vertical>.btn-group,.btn-group-vertical>.btn-group>.btn,.btn-group-vertical>.btn-group>.button,.btn-group-vertical>.btn-group>button,.btn-group-vertical>.btn-group>.page-numbers,.pager .btn-group-vertical>.btn-group>a{display:block;float:none;width:100%;max-width:100%}
+.btn .caret,.button .caret,button .caret,.page-numbers .caret,.nav-previous a .caret,.nav-next a .caret{margin-left:0}
+.btn-lg .caret,.btn-group-lg>.btn .caret,.btn-group-lg>.button .caret,.btn-group-lg>button .caret,.btn-group-lg>.page-numbers .caret,.nav-previous .btn-group-lg>a .caret,.nav-next .btn-group-lg>a .caret{border-width:5px 5px 0;border-bottom-width:0}
+.dropup .btn-lg .caret,.dropup .btn-group-lg>.btn .caret,.dropup .btn-group-lg>.button .caret,.dropup .btn-group-lg>button .caret,.dropup .btn-group-lg>.page-numbers .caret,.dropup .nav-previous .btn-group-lg>a .caret,.nav-previous .dropup .btn-group-lg>a .caret,.dropup .nav-next .btn-group-lg>a .caret,.nav-next .dropup .btn-group-lg>a .caret{border-width:0 5px 5px}
+.btn-group-vertical>.btn,.btn-group-vertical>.button,.btn-group-vertical>button,.btn-group-vertical>.page-numbers,.nav-previous .btn-group-vertical>a,.nav-next .btn-group-vertical>a,.btn-group-vertical>.btn-group,.btn-group-vertical>.btn-group>.btn,.btn-group-vertical>.btn-group>.button,.btn-group-vertical>.btn-group>button,.btn-group-vertical>.btn-group>.page-numbers,.nav-previous .btn-group-vertical>.btn-group>a,.nav-next .btn-group-vertical>.btn-group>a{display:block;float:none;width:100%;max-width:100%}
 .btn-group-vertical>.btn-group:before,.btn-group-vertical>.btn-group:after{content:" ";display:table}
 .btn-group-vertical>.btn-group:after{clear:both}
-.btn-group-vertical>.btn-group>.btn,.btn-group-vertical>.btn-group>.button,.btn-group-vertical>.btn-group>button,.btn-group-vertical>.btn-group>.page-numbers,.pager .btn-group-vertical>.btn-group>a{float:none}
-.btn-group-vertical>.btn+.btn,.btn-group-vertical>.button+.btn,.btn-group-vertical>button+.btn,.btn-group-vertical>.page-numbers+.btn,.pager .btn-group-vertical>a+.btn,.btn-group-vertical>.btn+.button,.btn-group-vertical>.button+.button,.btn-group-vertical>button+.button,.btn-group-vertical>.page-numbers+.button,.pager .btn-group-vertical>a+.button,.btn-group-vertical>.btn+button,.btn-group-vertical>.button+button,.btn-group-vertical>button+button,.btn-group-vertical>.page-numbers+button,.pager .btn-group-vertical>a+button,.btn-group-vertical>.btn+.page-numbers,.btn-group-vertical>.button+.page-numbers,.btn-group-vertical>button+.page-numbers,.btn-group-vertical>.page-numbers+.page-numbers,.pager .btn-group-vertical>a+.page-numbers,.pager .btn-group-vertical>.btn+a,.pager .btn-group-vertical>.button+a,.pager .btn-group-vertical>button+a,.pager .btn-group-vertical>.page-numbers+a,.pager .btn-group-vertical>a+a,.btn-group-vertical>.btn+.btn-group,.btn-group-vertical>.button+.btn-group,.btn-group-vertical>button+.btn-group,.btn-group-vertical>.page-numbers+.btn-group,.pager .btn-group-vertical>a+.btn-group,.btn-group-vertical>.btn-group+.btn,.btn-group-vertical>.btn-group+.button,.btn-group-vertical>.btn-group+button,.btn-group-vertical>.btn-group+.page-numbers,.pager .btn-group-vertical>.btn-group+a,.btn-group-vertical>.btn-group+.btn-group{margin-top:-1px;margin-left:0}
-.btn-group-vertical>.btn:not(:first-child):not(:last-child),.btn-group-vertical>.button:not(:first-child):not(:last-child),.btn-group-vertical>button:not(:first-child):not(:last-child),.btn-group-vertical>.page-numbers:not(:first-child):not(:last-child),.pager .btn-group-vertical>a:not(:first-child):not(:last-child){border-radius:0}
-.btn-group-vertical>.btn:first-child:not(:last-child),.btn-group-vertical>.button:first-child:not(:last-child),.btn-group-vertical>button:first-child:not(:last-child),.btn-group-vertical>.page-numbers:first-child:not(:last-child),.pager .btn-group-vertical>a:first-child:not(:last-child){border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
-.btn-group-vertical>.btn:last-child:not(:first-child),.btn-group-vertical>.button:last-child:not(:first-child),.btn-group-vertical>button:last-child:not(:first-child),.btn-group-vertical>.page-numbers:last-child:not(:first-child),.pager .btn-group-vertical>a:last-child:not(:first-child){border-bottom-left-radius:0;border-top-right-radius:0;border-top-left-radius:0}
-.btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.btn,.btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.button,.btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>button,.btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.page-numbers,.pager .btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>a{border-radius:0}
-.btn-group-vertical>.btn-group:first-child:not(:last-child)>.btn:last-child,.btn-group-vertical>.btn-group:first-child:not(:last-child)>.button:last-child,.btn-group-vertical>.btn-group:first-child:not(:last-child)>button:last-child,.btn-group-vertical>.btn-group:first-child:not(:last-child)>.page-numbers:last-child,.pager .btn-group-vertical>.btn-group:first-child:not(:last-child)>a:last-child,.btn-group-vertical>.btn-group:first-child:not(:last-child)>.dropdown-toggle{border-bottom-right-radius:0;border-bottom-left-radius:0}
-.btn-group-vertical>.btn-group:last-child:not(:first-child)>.btn:first-child,.btn-group-vertical>.btn-group:last-child:not(:first-child)>.button:first-child,.btn-group-vertical>.btn-group:last-child:not(:first-child)>button:first-child,.btn-group-vertical>.btn-group:last-child:not(:first-child)>.page-numbers:first-child,.pager .btn-group-vertical>.btn-group:last-child:not(:first-child)>a:first-child{border-top-right-radius:0;border-top-left-radius:0}
+.btn-group-vertical>.btn-group>.btn,.btn-group-vertical>.btn-group>.button,.btn-group-vertical>.btn-group>button,.btn-group-vertical>.btn-group>.page-numbers,.nav-previous .btn-group-vertical>.btn-group>a,.nav-next .btn-group-vertical>.btn-group>a{float:none}
+.btn-group-vertical>.btn+.btn,.btn-group-vertical>.button+.btn,.btn-group-vertical>button+.btn,.btn-group-vertical>.page-numbers+.btn,.nav-previous .btn-group-vertical>a+.btn,.nav-next .btn-group-vertical>a+.btn,.btn-group-vertical>.btn+.button,.btn-group-vertical>.button+.button,.btn-group-vertical>button+.button,.btn-group-vertical>.page-numbers+.button,.nav-previous .btn-group-vertical>a+.button,.nav-next .btn-group-vertical>a+.button,.btn-group-vertical>.btn+button,.btn-group-vertical>.button+button,.btn-group-vertical>button+button,.btn-group-vertical>.page-numbers+button,.nav-previous .btn-group-vertical>a+button,.nav-next .btn-group-vertical>a+button,.btn-group-vertical>.btn+.page-numbers,.btn-group-vertical>.button+.page-numbers,.btn-group-vertical>button+.page-numbers,.btn-group-vertical>.page-numbers+.page-numbers,.nav-previous .btn-group-vertical>a+.page-numbers,.nav-next .btn-group-vertical>a+.page-numbers,.nav-previous .btn-group-vertical>.btn+a,.nav-previous .btn-group-vertical>.button+a,.nav-previous .btn-group-vertical>button+a,.nav-previous .btn-group-vertical>.page-numbers+a,.nav-previous .btn-group-vertical>a+a,.nav-next .btn-group-vertical>.btn+a,.nav-next .btn-group-vertical>.button+a,.nav-next .btn-group-vertical>button+a,.nav-next .btn-group-vertical>.page-numbers+a,.nav-previous .nav-next .btn-group-vertical>a+a,.nav-next .nav-previous .btn-group-vertical>a+a,.nav-next .btn-group-vertical>a+a,.btn-group-vertical>.btn+.btn-group,.btn-group-vertical>.button+.btn-group,.btn-group-vertical>button+.btn-group,.btn-group-vertical>.page-numbers+.btn-group,.nav-previous .btn-group-vertical>a+.btn-group,.nav-next .btn-group-vertical>a+.btn-group,.btn-group-vertical>.btn-group+.btn,.btn-group-vertical>.btn-group+.button,.btn-group-vertical>.btn-group+button,.btn-group-vertical>.btn-group+.page-numbers,.nav-previous .btn-group-vertical>.btn-group+a,.nav-next .btn-group-vertical>.btn-group+a,.btn-group-vertical>.btn-group+.btn-group{margin-top:-1px;margin-left:0}
+.btn-group-vertical>.btn:not(:first-child):not(:last-child),.btn-group-vertical>.button:not(:first-child):not(:last-child),.btn-group-vertical>button:not(:first-child):not(:last-child),.btn-group-vertical>.page-numbers:not(:first-child):not(:last-child),.nav-previous .btn-group-vertical>a:not(:first-child):not(:last-child),.nav-next .btn-group-vertical>a:not(:first-child):not(:last-child){border-radius:0}
+.btn-group-vertical>.btn:first-child:not(:last-child),.btn-group-vertical>.button:first-child:not(:last-child),.btn-group-vertical>button:first-child:not(:last-child),.btn-group-vertical>.page-numbers:first-child:not(:last-child),.nav-previous .btn-group-vertical>a:first-child:not(:last-child),.nav-next .btn-group-vertical>a:first-child:not(:last-child){border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
+.btn-group-vertical>.btn:last-child:not(:first-child),.btn-group-vertical>.button:last-child:not(:first-child),.btn-group-vertical>button:last-child:not(:first-child),.btn-group-vertical>.page-numbers:last-child:not(:first-child),.nav-previous .btn-group-vertical>a:last-child:not(:first-child),.nav-next .btn-group-vertical>a:last-child:not(:first-child){border-bottom-left-radius:0;border-top-right-radius:0;border-top-left-radius:0}
+.btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.btn,.btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.button,.btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>button,.btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.page-numbers,.nav-previous .btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>a,.nav-next .btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>a{border-radius:0}
+.btn-group-vertical>.btn-group:first-child:not(:last-child)>.btn:last-child,.btn-group-vertical>.btn-group:first-child:not(:last-child)>.button:last-child,.btn-group-vertical>.btn-group:first-child:not(:last-child)>button:last-child,.btn-group-vertical>.btn-group:first-child:not(:last-child)>.page-numbers:last-child,.nav-previous .btn-group-vertical>.btn-group:first-child:not(:last-child)>a:last-child,.nav-next .btn-group-vertical>.btn-group:first-child:not(:last-child)>a:last-child,.btn-group-vertical>.btn-group:first-child:not(:last-child)>.dropdown-toggle{border-bottom-right-radius:0;border-bottom-left-radius:0}
+.btn-group-vertical>.btn-group:last-child:not(:first-child)>.btn:first-child,.btn-group-vertical>.btn-group:last-child:not(:first-child)>.button:first-child,.btn-group-vertical>.btn-group:last-child:not(:first-child)>button:first-child,.btn-group-vertical>.btn-group:last-child:not(:first-child)>.page-numbers:first-child,.nav-previous .btn-group-vertical>.btn-group:last-child:not(:first-child)>a:first-child,.nav-next .btn-group-vertical>.btn-group:last-child:not(:first-child)>a:first-child{border-top-right-radius:0;border-top-left-radius:0}
 .btn-group-justified{display:table;width:100%;table-layout:fixed;border-collapse:separate}
-.btn-group-justified>.btn,.btn-group-justified>.button,.btn-group-justified>button,.btn-group-justified>.page-numbers,.pager .btn-group-justified>a,.btn-group-justified>.btn-group{float:none;display:table-cell;width:1%}
-.btn-group-justified>.btn-group .btn,.btn-group-justified>.btn-group .button,.btn-group-justified>.btn-group button,.btn-group-justified>.btn-group .page-numbers,.btn-group-justified>.btn-group .pager a,.pager .btn-group-justified>.btn-group a{width:100%}
+.btn-group-justified>.btn,.btn-group-justified>.button,.btn-group-justified>button,.btn-group-justified>.page-numbers,.nav-previous .btn-group-justified>a,.nav-next .btn-group-justified>a,.btn-group-justified>.btn-group{float:none;display:table-cell;width:1%}
+.btn-group-justified>.btn-group .btn,.btn-group-justified>.btn-group .button,.btn-group-justified>.btn-group button,.btn-group-justified>.btn-group .page-numbers,.btn-group-justified>.btn-group .nav-previous a,.nav-previous .btn-group-justified>.btn-group a,.btn-group-justified>.btn-group .nav-next a,.nav-next .btn-group-justified>.btn-group a{width:100%}
 .btn-group-justified>.btn-group .dropdown-menu{left:auto}
-[data-toggle="buttons"]>.btn input[type="radio"],[data-toggle="buttons"]>.button input[type="radio"],[data-toggle="buttons"]>button input[type="radio"],[data-toggle="buttons"]>.page-numbers input[type="radio"],.pager [data-toggle="buttons"]>a input[type="radio"],[data-toggle="buttons"]>.btn input[type="checkbox"],[data-toggle="buttons"]>.button input[type="checkbox"],[data-toggle="buttons"]>button input[type="checkbox"],[data-toggle="buttons"]>.page-numbers input[type="checkbox"],.pager [data-toggle="buttons"]>a input[type="checkbox"],[data-toggle="buttons"]>.btn-group>.btn input[type="radio"],[data-toggle="buttons"]>.btn-group>.button input[type="radio"],[data-toggle="buttons"]>.btn-group>button input[type="radio"],[data-toggle="buttons"]>.btn-group>.page-numbers input[type="radio"],.pager [data-toggle="buttons"]>.btn-group>a input[type="radio"],[data-toggle="buttons"]>.btn-group>.btn input[type="checkbox"],[data-toggle="buttons"]>.btn-group>.button input[type="checkbox"],[data-toggle="buttons"]>.btn-group>button input[type="checkbox"],[data-toggle="buttons"]>.btn-group>.page-numbers input[type="checkbox"],.pager [data-toggle="buttons"]>.btn-group>a input[type="checkbox"]{position:absolute;clip:rect(0,0,0,0);pointer-events:none}
+[data-toggle="buttons"]>.btn input[type="radio"],[data-toggle="buttons"]>.button input[type="radio"],[data-toggle="buttons"]>button input[type="radio"],[data-toggle="buttons"]>.page-numbers input[type="radio"],.nav-previous [data-toggle="buttons"]>a input[type="radio"],.nav-next [data-toggle="buttons"]>a input[type="radio"],[data-toggle="buttons"]>.btn input[type="checkbox"],[data-toggle="buttons"]>.button input[type="checkbox"],[data-toggle="buttons"]>button input[type="checkbox"],[data-toggle="buttons"]>.page-numbers input[type="checkbox"],.nav-previous [data-toggle="buttons"]>a input[type="checkbox"],.nav-next [data-toggle="buttons"]>a input[type="checkbox"],[data-toggle="buttons"]>.btn-group>.btn input[type="radio"],[data-toggle="buttons"]>.btn-group>.button input[type="radio"],[data-toggle="buttons"]>.btn-group>button input[type="radio"],[data-toggle="buttons"]>.btn-group>.page-numbers input[type="radio"],.nav-previous [data-toggle="buttons"]>.btn-group>a input[type="radio"],.nav-next [data-toggle="buttons"]>.btn-group>a input[type="radio"],[data-toggle="buttons"]>.btn-group>.btn input[type="checkbox"],[data-toggle="buttons"]>.btn-group>.button input[type="checkbox"],[data-toggle="buttons"]>.btn-group>button input[type="checkbox"],[data-toggle="buttons"]>.btn-group>.page-numbers input[type="checkbox"],.nav-previous [data-toggle="buttons"]>.btn-group>a input[type="checkbox"],.nav-next [data-toggle="buttons"]>.btn-group>a input[type="checkbox"]{position:absolute;clip:rect(0,0,0,0);pointer-events:none}
 .input-group{position:relative;display:table;border-collapse:separate}
 .input-group[class*="col-"]{float:none;padding-left:0;padding-right:0}
 .input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}
@@ -415,19 +415,19 @@ tbody.collapse.in{display:table-row-group}
 .input-group-addon:not(:first-child):not(:last-child),.input-group-btn:not(:first-child):not(:last-child),.input-group .form-control:not(:first-child):not(:last-child){border-radius:0}
 .input-group-addon,.input-group-btn{width:1%;white-space:nowrap;vertical-align:middle}
 .input-group-addon{padding:6px 12px;font-size:10px;font-weight:normal;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #ccc;border-radius:0}
-.input-group-addon.input-sm,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.btn,.input-group-sm>.input-group-btn>.input-group-addon.button,.input-group-sm>.input-group-btn>button.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.page-numbers,.pager .input-group-sm>.input-group-btn>a.input-group-addon{padding:5px 10px;font-size:9px;border-radius:3px}
-.input-group-addon.input-lg,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.btn,.input-group-lg>.input-group-btn>.input-group-addon.button,.input-group-lg>.input-group-btn>button.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.page-numbers,.pager .input-group-lg>.input-group-btn>a.input-group-addon{padding:10px 16px;font-size:13px;border-radius:6px}
+.input-group-addon.input-sm,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.btn,.input-group-sm>.input-group-btn>.input-group-addon.button,.input-group-sm>.input-group-btn>button.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.page-numbers,.nav-previous .input-group-sm>.input-group-btn>a.input-group-addon,.nav-next .input-group-sm>.input-group-btn>a.input-group-addon{padding:5px 10px;font-size:9px;border-radius:3px}
+.input-group-addon.input-lg,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.btn,.input-group-lg>.input-group-btn>.input-group-addon.button,.input-group-lg>.input-group-btn>button.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.page-numbers,.nav-previous .input-group-lg>.input-group-btn>a.input-group-addon,.nav-next .input-group-lg>.input-group-btn>a.input-group-addon{padding:10px 16px;font-size:13px;border-radius:6px}
 .input-group-addon input[type="radio"],.input-group-addon input[type="checkbox"]{margin-top:0}
-.input-group .form-control:first-child,.input-group-addon:first-child,.input-group-btn:first-child>.btn,.input-group-btn:first-child>.button,.input-group-btn:first-child>button,.input-group-btn:first-child>.page-numbers,.pager .input-group-btn:first-child>a,.input-group-btn:first-child>.btn-group>.btn,.input-group-btn:first-child>.btn-group>.button,.input-group-btn:first-child>.btn-group>button,.input-group-btn:first-child>.btn-group>.page-numbers,.pager .input-group-btn:first-child>.btn-group>a,.input-group-btn:first-child>.dropdown-toggle,.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.button:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>button:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.page-numbers:not(:last-child):not(.dropdown-toggle),.pager .input-group-btn:last-child>a:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.btn-group:not(:last-child)>.btn,.input-group-btn:last-child>.btn-group:not(:last-child)>.button,.input-group-btn:last-child>.btn-group:not(:last-child)>button,.input-group-btn:last-child>.btn-group:not(:last-child)>.page-numbers,.pager .input-group-btn:last-child>.btn-group:not(:last-child)>a{border-bottom-right-radius:0;border-top-right-radius:0}
+.input-group .form-control:first-child,.input-group-addon:first-child,.input-group-btn:first-child>.btn,.input-group-btn:first-child>.button,.input-group-btn:first-child>button,.input-group-btn:first-child>.page-numbers,.nav-previous .input-group-btn:first-child>a,.nav-next .input-group-btn:first-child>a,.input-group-btn:first-child>.btn-group>.btn,.input-group-btn:first-child>.btn-group>.button,.input-group-btn:first-child>.btn-group>button,.input-group-btn:first-child>.btn-group>.page-numbers,.nav-previous .input-group-btn:first-child>.btn-group>a,.nav-next .input-group-btn:first-child>.btn-group>a,.input-group-btn:first-child>.dropdown-toggle,.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.button:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>button:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.page-numbers:not(:last-child):not(.dropdown-toggle),.nav-previous .input-group-btn:last-child>a:not(:last-child):not(.dropdown-toggle),.nav-next .input-group-btn:last-child>a:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.btn-group:not(:last-child)>.btn,.input-group-btn:last-child>.btn-group:not(:last-child)>.button,.input-group-btn:last-child>.btn-group:not(:last-child)>button,.input-group-btn:last-child>.btn-group:not(:last-child)>.page-numbers,.nav-previous .input-group-btn:last-child>.btn-group:not(:last-child)>a,.nav-next .input-group-btn:last-child>.btn-group:not(:last-child)>a{border-bottom-right-radius:0;border-top-right-radius:0}
 .input-group-addon:first-child{border-right:0}
-.input-group .form-control:last-child,.input-group-addon:last-child,.input-group-btn:last-child>.btn,.input-group-btn:last-child>.button,.input-group-btn:last-child>button,.input-group-btn:last-child>.page-numbers,.pager .input-group-btn:last-child>a,.input-group-btn:last-child>.btn-group>.btn,.input-group-btn:last-child>.btn-group>.button,.input-group-btn:last-child>.btn-group>button,.input-group-btn:last-child>.btn-group>.page-numbers,.pager .input-group-btn:last-child>.btn-group>a,.input-group-btn:last-child>.dropdown-toggle,.input-group-btn:first-child>.btn:not(:first-child),.input-group-btn:first-child>.button:not(:first-child),.input-group-btn:first-child>button:not(:first-child),.input-group-btn:first-child>.page-numbers:not(:first-child),.pager .input-group-btn:first-child>a:not(:first-child),.input-group-btn:first-child>.btn-group:not(:first-child)>.btn,.input-group-btn:first-child>.btn-group:not(:first-child)>.button,.input-group-btn:first-child>.btn-group:not(:first-child)>button,.input-group-btn:first-child>.btn-group:not(:first-child)>.page-numbers,.pager .input-group-btn:first-child>.btn-group:not(:first-child)>a{border-bottom-left-radius:0;border-top-left-radius:0}
+.input-group .form-control:last-child,.input-group-addon:last-child,.input-group-btn:last-child>.btn,.input-group-btn:last-child>.button,.input-group-btn:last-child>button,.input-group-btn:last-child>.page-numbers,.nav-previous .input-group-btn:last-child>a,.nav-next .input-group-btn:last-child>a,.input-group-btn:last-child>.btn-group>.btn,.input-group-btn:last-child>.btn-group>.button,.input-group-btn:last-child>.btn-group>button,.input-group-btn:last-child>.btn-group>.page-numbers,.nav-previous .input-group-btn:last-child>.btn-group>a,.nav-next .input-group-btn:last-child>.btn-group>a,.input-group-btn:last-child>.dropdown-toggle,.input-group-btn:first-child>.btn:not(:first-child),.input-group-btn:first-child>.button:not(:first-child),.input-group-btn:first-child>button:not(:first-child),.input-group-btn:first-child>.page-numbers:not(:first-child),.nav-previous .input-group-btn:first-child>a:not(:first-child),.nav-next .input-group-btn:first-child>a:not(:first-child),.input-group-btn:first-child>.btn-group:not(:first-child)>.btn,.input-group-btn:first-child>.btn-group:not(:first-child)>.button,.input-group-btn:first-child>.btn-group:not(:first-child)>button,.input-group-btn:first-child>.btn-group:not(:first-child)>.page-numbers,.nav-previous .input-group-btn:first-child>.btn-group:not(:first-child)>a,.nav-next .input-group-btn:first-child>.btn-group:not(:first-child)>a{border-bottom-left-radius:0;border-top-left-radius:0}
 .input-group-addon:last-child{border-left:0}
 .input-group-btn{position:relative;font-size:0;white-space:nowrap}
-.input-group-btn>.btn,.input-group-btn>.button,.input-group-btn>button,.input-group-btn>.page-numbers,.pager .input-group-btn>a{position:relative}
-.input-group-btn>.btn+.btn,.input-group-btn>.button+.btn,.input-group-btn>button+.btn,.input-group-btn>.page-numbers+.btn,.pager .input-group-btn>a+.btn,.input-group-btn>.btn+.button,.input-group-btn>.button+.button,.input-group-btn>button+.button,.input-group-btn>.page-numbers+.button,.pager .input-group-btn>a+.button,.input-group-btn>.btn+button,.input-group-btn>.button+button,.input-group-btn>button+button,.input-group-btn>.page-numbers+button,.pager .input-group-btn>a+button,.input-group-btn>.btn+.page-numbers,.input-group-btn>.button+.page-numbers,.input-group-btn>button+.page-numbers,.input-group-btn>.page-numbers+.page-numbers,.pager .input-group-btn>a+.page-numbers,.pager .input-group-btn>.btn+a,.pager .input-group-btn>.button+a,.pager .input-group-btn>button+a,.pager .input-group-btn>.page-numbers+a,.pager .input-group-btn>a+a{margin-left:-1px}
-.input-group-btn>.btn:hover,.input-group-btn>.button:hover,.input-group-btn>button:hover,.input-group-btn>.page-numbers:hover,.pager .input-group-btn>a:hover,.input-group-btn>.btn:focus,.input-group-btn>.button:focus,.input-group-btn>button:focus,.input-group-btn>.page-numbers:focus,.pager .input-group-btn>a:focus,.input-group-btn>.btn:active,.input-group-btn>.button:active,.input-group-btn>button:active,.input-group-btn>.page-numbers:active,.pager .input-group-btn>a:active{z-index:2}
-.input-group-btn:first-child>.btn,.input-group-btn:first-child>.button,.input-group-btn:first-child>button,.input-group-btn:first-child>.page-numbers,.pager .input-group-btn:first-child>a,.input-group-btn:first-child>.btn-group{margin-right:-1px}
-.input-group-btn:last-child>.btn,.input-group-btn:last-child>.button,.input-group-btn:last-child>button,.input-group-btn:last-child>.page-numbers,.pager .input-group-btn:last-child>a,.input-group-btn:last-child>.btn-group{margin-left:-1px}
+.input-group-btn>.btn,.input-group-btn>.button,.input-group-btn>button,.input-group-btn>.page-numbers,.nav-previous .input-group-btn>a,.nav-next .input-group-btn>a{position:relative}
+.input-group-btn>.btn+.btn,.input-group-btn>.button+.btn,.input-group-btn>button+.btn,.input-group-btn>.page-numbers+.btn,.nav-previous .input-group-btn>a+.btn,.nav-next .input-group-btn>a+.btn,.input-group-btn>.btn+.button,.input-group-btn>.button+.button,.input-group-btn>button+.button,.input-group-btn>.page-numbers+.button,.nav-previous .input-group-btn>a+.button,.nav-next .input-group-btn>a+.button,.input-group-btn>.btn+button,.input-group-btn>.button+button,.input-group-btn>button+button,.input-group-btn>.page-numbers+button,.nav-previous .input-group-btn>a+button,.nav-next .input-group-btn>a+button,.input-group-btn>.btn+.page-numbers,.input-group-btn>.button+.page-numbers,.input-group-btn>button+.page-numbers,.input-group-btn>.page-numbers+.page-numbers,.nav-previous .input-group-btn>a+.page-numbers,.nav-next .input-group-btn>a+.page-numbers,.nav-previous .input-group-btn>.btn+a,.nav-previous .input-group-btn>.button+a,.nav-previous .input-group-btn>button+a,.nav-previous .input-group-btn>.page-numbers+a,.nav-previous .input-group-btn>a+a,.nav-next .input-group-btn>.btn+a,.nav-next .input-group-btn>.button+a,.nav-next .input-group-btn>button+a,.nav-next .input-group-btn>.page-numbers+a,.nav-previous .nav-next .input-group-btn>a+a,.nav-next .nav-previous .input-group-btn>a+a,.nav-next .input-group-btn>a+a{margin-left:-1px}
+.input-group-btn>.btn:hover,.input-group-btn>.button:hover,.input-group-btn>button:hover,.input-group-btn>.page-numbers:hover,.nav-previous .input-group-btn>a:hover,.nav-next .input-group-btn>a:hover,.input-group-btn>.btn:focus,.input-group-btn>.button:focus,.input-group-btn>button:focus,.input-group-btn>.page-numbers:focus,.nav-previous .input-group-btn>a:focus,.nav-next .input-group-btn>a:focus,.input-group-btn>.btn:active,.input-group-btn>.button:active,.input-group-btn>button:active,.input-group-btn>.page-numbers:active,.nav-previous .input-group-btn>a:active,.nav-next .input-group-btn>a:active{z-index:2}
+.input-group-btn:first-child>.btn,.input-group-btn:first-child>.button,.input-group-btn:first-child>button,.input-group-btn:first-child>.page-numbers,.nav-previous .input-group-btn:first-child>a,.nav-next .input-group-btn:first-child>a,.input-group-btn:first-child>.btn-group{margin-right:-1px}
+.input-group-btn:last-child>.btn,.input-group-btn:last-child>.button,.input-group-btn:last-child>button,.input-group-btn:last-child>.page-numbers,.nav-previous .input-group-btn:last-child>a,.nav-next .input-group-btn:last-child>a,.input-group-btn:last-child>.btn-group{margin-left:-1px}
 .nav{margin-bottom:0;padding-left:0;list-style:none}
 .nav:before,.nav:after{content:" ";display:table}
 .nav:after{clear:both}
@@ -488,8 +488,8 @@ tbody.collapse.in{display:table-row-group}
 .navbar-nav>li>.dropdown-menu{margin-top:0;border-top-right-radius:0;border-top-left-radius:0}
 .navbar-fixed-bottom .navbar-nav>li>.dropdown-menu{margin-bottom:0;border-top-right-radius:0;border-top-left-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
 .navbar-btn{margin-top:23.5px;margin-bottom:23.5px}
-.navbar-btn.btn-sm,.btn-group-sm>.navbar-btn.btn,.btn-group-sm>.navbar-btn.button,.btn-group-sm>button.navbar-btn,.btn-group-sm>.navbar-btn.page-numbers,.pager .btn-group-sm>a.navbar-btn{margin-top:25px;margin-bottom:25px}
-.navbar-btn.btn-xs,.btn-group-xs>.navbar-btn.btn,.btn-group-xs>.navbar-btn.button,.btn-group-xs>button.navbar-btn,.btn-group-xs>.navbar-btn.page-numbers,.pager .btn-group-xs>a.navbar-btn{margin-top:26.5px;margin-bottom:26.5px}
+.navbar-btn.btn-sm,.btn-group-sm>.navbar-btn.btn,.btn-group-sm>.navbar-btn.button,.btn-group-sm>button.navbar-btn,.btn-group-sm>.navbar-btn.page-numbers,.nav-previous .btn-group-sm>a.navbar-btn,.nav-next .btn-group-sm>a.navbar-btn{margin-top:25px;margin-bottom:25px}
+.navbar-btn.btn-xs,.btn-group-xs>.navbar-btn.btn,.btn-group-xs>.navbar-btn.button,.btn-group-xs>button.navbar-btn,.btn-group-xs>.navbar-btn.page-numbers,.nav-previous .btn-group-xs>a.navbar-btn,.nav-next .btn-group-xs>a.navbar-btn{margin-top:26.5px;margin-bottom:26.5px}
 .navbar-text{margin-top:30.5px;margin-bottom:30.5px}
 .navbar-default .navbar-brand{color:#777}
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus{color:#5e5d5d;background-color:transparent}
@@ -547,8 +547,8 @@ tbody.collapse.in{display:table-row-group}
 .modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}
 .modal-footer:before,.modal-footer:after{content:" ";display:table}
 .modal-footer:after{clear:both}
-.modal-footer .btn+.btn,.modal-footer .button+.btn,.modal-footer button+.btn,.modal-footer .page-numbers+.btn,.modal-footer .pager a+.btn,.pager .modal-footer a+.btn,.modal-footer .btn+.button,.modal-footer .button+.button,.modal-footer button+.button,.modal-footer .page-numbers+.button,.modal-footer .pager a+.button,.pager .modal-footer a+.button,.modal-footer .btn+button,.modal-footer .button+button,.modal-footer button+button,.modal-footer .page-numbers+button,.modal-footer .pager a+button,.pager .modal-footer a+button,.modal-footer .btn+.page-numbers,.modal-footer .button+.page-numbers,.modal-footer button+.page-numbers,.modal-footer .page-numbers+.page-numbers,.modal-footer .pager a+.page-numbers,.pager .modal-footer a+.page-numbers,.modal-footer .pager .btn+a,.pager .modal-footer .btn+a,.modal-footer .pager .button+a,.pager .modal-footer .button+a,.modal-footer .pager button+a,.pager .modal-footer button+a,.modal-footer .pager .page-numbers+a,.pager .modal-footer .page-numbers+a,.modal-footer .pager a+a,.pager .modal-footer a+a{margin-left:5px;margin-bottom:0}
-.modal-footer .btn-group .btn+.btn,.modal-footer .btn-group .button+.btn,.modal-footer .btn-group button+.btn,.modal-footer .btn-group .page-numbers+.btn,.modal-footer .btn-group .pager a+.btn,.pager .modal-footer .btn-group a+.btn,.modal-footer .btn-group .btn+.button,.modal-footer .btn-group .button+.button,.modal-footer .btn-group button+.button,.modal-footer .btn-group .page-numbers+.button,.modal-footer .btn-group .pager a+.button,.pager .modal-footer .btn-group a+.button,.modal-footer .btn-group .btn+button,.modal-footer .btn-group .button+button,.modal-footer .btn-group button+button,.modal-footer .btn-group .page-numbers+button,.modal-footer .btn-group .pager a+button,.pager .modal-footer .btn-group a+button,.modal-footer .btn-group .btn+.page-numbers,.modal-footer .btn-group .button+.page-numbers,.modal-footer .btn-group button+.page-numbers,.modal-footer .btn-group .page-numbers+.page-numbers,.modal-footer .btn-group .pager a+.page-numbers,.pager .modal-footer .btn-group a+.page-numbers,.modal-footer .btn-group .pager .btn+a,.pager .modal-footer .btn-group .btn+a,.modal-footer .btn-group .pager .button+a,.pager .modal-footer .btn-group .button+a,.modal-footer .btn-group .pager button+a,.pager .modal-footer .btn-group button+a,.modal-footer .btn-group .pager .page-numbers+a,.pager .modal-footer .btn-group .page-numbers+a,.modal-footer .btn-group .pager a+a,.pager .modal-footer .btn-group a+a{margin-left:-1px}
+.modal-footer .btn+.btn,.modal-footer .button+.btn,.modal-footer button+.btn,.modal-footer .page-numbers+.btn,.modal-footer .nav-previous a+.btn,.nav-previous .modal-footer a+.btn,.modal-footer .nav-next a+.btn,.nav-next .modal-footer a+.btn,.modal-footer .btn+.button,.modal-footer .button+.button,.modal-footer button+.button,.modal-footer .page-numbers+.button,.modal-footer .nav-previous a+.button,.nav-previous .modal-footer a+.button,.modal-footer .nav-next a+.button,.nav-next .modal-footer a+.button,.modal-footer .btn+button,.modal-footer .button+button,.modal-footer button+button,.modal-footer .page-numbers+button,.modal-footer .nav-previous a+button,.nav-previous .modal-footer a+button,.modal-footer .nav-next a+button,.nav-next .modal-footer a+button,.modal-footer .btn+.page-numbers,.modal-footer .button+.page-numbers,.modal-footer button+.page-numbers,.modal-footer .page-numbers+.page-numbers,.modal-footer .nav-previous a+.page-numbers,.nav-previous .modal-footer a+.page-numbers,.modal-footer .nav-next a+.page-numbers,.nav-next .modal-footer a+.page-numbers,.modal-footer .nav-previous .btn+a,.nav-previous .modal-footer .btn+a,.modal-footer .nav-previous .button+a,.nav-previous .modal-footer .button+a,.modal-footer .nav-previous button+a,.nav-previous .modal-footer button+a,.modal-footer .nav-previous .page-numbers+a,.nav-previous .modal-footer .page-numbers+a,.modal-footer .nav-previous a+a,.nav-previous .modal-footer a+a,.modal-footer .nav-next .nav-previous a+a,.nav-previous .nav-next .modal-footer a+a,.modal-footer .nav-next .btn+a,.nav-next .modal-footer .btn+a,.modal-footer .nav-next .button+a,.nav-next .modal-footer .button+a,.modal-footer .nav-next button+a,.nav-next .modal-footer button+a,.modal-footer .nav-next .page-numbers+a,.nav-next .modal-footer .page-numbers+a,.modal-footer .nav-previous .nav-next a+a,.nav-next .modal-footer .nav-previous a+a,.nav-previous .modal-footer .nav-next a+a,.nav-next .nav-previous .modal-footer a+a,.modal-footer .nav-next a+a,.nav-next .modal-footer a+a{margin-left:5px;margin-bottom:0}
+.modal-footer .btn-group .btn+.btn,.modal-footer .btn-group .button+.btn,.modal-footer .btn-group button+.btn,.modal-footer .btn-group .page-numbers+.btn,.modal-footer .btn-group .nav-previous a+.btn,.nav-previous .modal-footer .btn-group a+.btn,.modal-footer .btn-group .nav-next a+.btn,.nav-next .modal-footer .btn-group a+.btn,.modal-footer .btn-group .btn+.button,.modal-footer .btn-group .button+.button,.modal-footer .btn-group button+.button,.modal-footer .btn-group .page-numbers+.button,.modal-footer .btn-group .nav-previous a+.button,.nav-previous .modal-footer .btn-group a+.button,.modal-footer .btn-group .nav-next a+.button,.nav-next .modal-footer .btn-group a+.button,.modal-footer .btn-group .btn+button,.modal-footer .btn-group .button+button,.modal-footer .btn-group button+button,.modal-footer .btn-group .page-numbers+button,.modal-footer .btn-group .nav-previous a+button,.nav-previous .modal-footer .btn-group a+button,.modal-footer .btn-group .nav-next a+button,.nav-next .modal-footer .btn-group a+button,.modal-footer .btn-group .btn+.page-numbers,.modal-footer .btn-group .button+.page-numbers,.modal-footer .btn-group button+.page-numbers,.modal-footer .btn-group .page-numbers+.page-numbers,.modal-footer .btn-group .nav-previous a+.page-numbers,.nav-previous .modal-footer .btn-group a+.page-numbers,.modal-footer .btn-group .nav-next a+.page-numbers,.nav-next .modal-footer .btn-group a+.page-numbers,.modal-footer .btn-group .nav-previous .btn+a,.nav-previous .modal-footer .btn-group .btn+a,.modal-footer .btn-group .nav-previous .button+a,.nav-previous .modal-footer .btn-group .button+a,.modal-footer .btn-group .nav-previous button+a,.nav-previous .modal-footer .btn-group button+a,.modal-footer .btn-group .nav-previous .page-numbers+a,.nav-previous .modal-footer .btn-group .page-numbers+a,.modal-footer .btn-group .nav-previous a+a,.nav-previous .modal-footer .btn-group a+a,.modal-footer .btn-group .nav-next .nav-previous a+a,.nav-previous .nav-next .modal-footer .btn-group a+a,.modal-footer .btn-group .nav-next .btn+a,.nav-next .modal-footer .btn-group .btn+a,.modal-footer .btn-group .nav-next .button+a,.nav-next .modal-footer .btn-group .button+a,.modal-footer .btn-group .nav-next button+a,.nav-next .modal-footer .btn-group button+a,.modal-footer .btn-group .nav-next .page-numbers+a,.nav-next .modal-footer .btn-group .page-numbers+a,.modal-footer .btn-group .nav-previous .nav-next a+a,.nav-next .modal-footer .btn-group .nav-previous a+a,.nav-previous .modal-footer .btn-group .nav-next a+a,.nav-next .nav-previous .modal-footer .btn-group a+a,.modal-footer .btn-group .nav-next a+a,.nav-next .modal-footer .btn-group a+a{margin-left:-1px}
 .modal-footer .btn-block+.btn-block{margin-left:0}
 .modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}
 .clearfix:before,.navbar-nav:before,.post-meta:before,.clearfix:after,.navbar-nav:after,.post-meta:after{content:" ";display:table}
@@ -1084,7 +1084,7 @@ tbody.collapse.in{display:table-row-group}
 @font-face{font-family:'Monosten-Bold';src:url("../fonts/Monosten-Bold.eot?#iefix") format("embedded-opentype"),url("../fonts/Monosten-Bold.otf") format("opentype"),url("../fonts/Monosten-Bold.woff") format("woff"),url("../fonts/Monosten-Bold.ttf") format("truetype"),url("../fonts/Monosten-Bold.svg#Monosten-Bold") format("svg");font-weight:normal;font-style:normal}
 @font-face{font-family:'Monosten-Light';src:url("../fonts/Monosten-Light.eot?#iefix") format("embedded-opentype"),url("../fonts/Monosten-Light.otf") format("opentype"),url("../fonts/Monosten-Light.woff") format("woff"),url("../fonts/Monosten-Light.ttf") format("truetype"),url("../fonts/Monosten-Light.svg#Monosten-Light") format("svg");font-weight:normal;font-style:normal}
 .search-form label{display:none}
-.search-form .input-group-btn .btn,.search-form .input-group-btn .button,.search-form .input-group-btn button,.search-form .input-group-btn .page-numbers,.search-form .input-group-btn .pager a,.pager .search-form .input-group-btn a{height:56px;border:solid 1px #b8b8b8;border-left:0}
+.search-form .input-group-btn .btn,.search-form .input-group-btn .button,.search-form .input-group-btn button,.search-form .input-group-btn .page-numbers,.search-form .input-group-btn .nav-previous a,.nav-previous .search-form .input-group-btn a,.search-form .input-group-btn .nav-next a,.nav-next .search-form .input-group-btn a{height:56px;border:solid 1px #b8b8b8;border-left:0}
 input[type=text],input[type=email],input[type=tel],textarea,.form-control{color:#535353;width:100%;padding:15px;color:#afafaf;font-size:16px;font-size:1rem;line-height:24px;line-height:1.5rem;font-weight:400;background-color:#f8f8f8;border-radius:0;border:solid 1px #b8b8b8;-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s}
 input[type=text]:focus,input[type=email]:focus,input[type=tel]:focus,textarea:focus,.form-control:focus{outline:0;border-color:#52c8e8;-webkit-box-shadow:inset 0 1px 1px rgba(82,200,232,0.075),0 0 8px rgba(82,200,232,0.6);box-shadow:inset 0 1px 1px rgba(82,200,232,0.075),0 0 8px rgba(82,200,232,0.6)}
 input[type=text],input[type=email],input[type=tel],.form-control{height:56px;display:block}
@@ -1658,48 +1658,15 @@ embed,iframe,object{max-width:100%}
 .page-numbers:hover,.pager li a:hover{text-decoration:underline}
 div.slider{background:#fafafa;padding:40px 0}
 div.blog-posts{background:#59e6cd;padding:40px 0}
-.animated{animation-duration:1s;animation-fill-mode:both;-webkit-animation-duration:1s;-webkit-animation-fill-mode:both}
-.animatedFadeIn{opacity:0}
-.fadeInUp{opacity:0;-webkit-animation-name:fadeInUp;animation-name:fadeInUp}
-.fadeInDown{opacity:0;-webkit-animation-name:fadeInDown;animation-name:fadeInDown}
-.checkout-form input[type=text],.checkout-form input[type=email]{margin:1em 0 1em 0;font-size:.8em !important;height:initial !important;padding:.5em}
-.checkout-form div.checkbox{margin:1em 0 0 1.6em;font-size:.8em;padding:.2em 0 0 0}
-div.checkbox div{margin-left:1em}
-.checkout-form div.checkbox input[type=checkbox]{-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);margin-right:1em}
-.checkout-form input[type=email]{font-size:.8em}
-.dropdown-checkout{margin:initial;width:100%;background:0;font-size:.8em;color:#000;border:solid 1px #b8b8b8;margin:0;padding:.44em .2em .44em .2em !important}
-.dropdown-checkout[required]:invalid{background-color:#f8f8f8;color:#757575}
-.dropdown-checkout,#card{padding:10px 20px}
-.checkout-container{background-color:white}
-#state-checkout{margin-top:1em}
-.hide-field{display:none}
-.checkout--product-image{width:256px}
-.checkout--product{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
-.checkout--item-name{color:rgba(26,25,25,0.6);font-size:16px;font-weight:600}
-.checkout--item-amount{font-size:36px;font-weight:600;margin:0}
-.checkout--vat{font-size:14px;text-align:right;margin:0;color:rgba(26,25,25,0.6)}
-.checkout--sub-total{font-size:14px;margin:0}
-#card{line-height:1.5rem;background-color:#f8f8f8;border-radius:0;border:solid 1px #b8b8b8}
-.checkout-section{height:80vh}
-.checkout--interval{color:#c1c1c1;font-size:14px;margin:0}
-.checkout--price-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
-.checkout--icons{width:24px}
-.checkout--cancel{background:none !important;margin:0 !important;padding:0 !important}
-.checkout--list{padding:0 !important}
-.checkout--list li::before{content:none !important}
-.order-submit{padding-top:1em}
-.review-form p,.review-form div div input p,.order--checkbox{font-size:.8em;margin:0;padding:0}
-div.order--checkbox div{margin-left:1em}
-div.order--checkbox input[type=checkbox]{-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);margin-right:1em}
 body{font-family:Roboto,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#000;font-size:2rem;background-size:cover;background-color:#f8f8f8}
-body.tech button,body.tech .btn,body.tech .button,body.tech button,body.tech .page-numbers,body.tech .pager a,.pager body.tech a,body.tech .button,body.tech .nav-pills>li.active>a{background-color:#00ded0;-webkit-transition:all .15s linear;transition:all .15s linear}
-body.tech button:hover,body.tech .btn:hover,body.tech .button:hover,body.tech button:hover,body.tech .page-numbers:hover,body.tech .pager a:hover,.pager body.tech a:hover,body.tech .button:hover{background-color:#000}
+body.tech button,body.tech .btn,body.tech .button,body.tech button,body.tech .page-numbers,body.tech .nav-previous a,.nav-previous body.tech a,body.tech .nav-next a,.nav-next body.tech a,body.tech .button,body.tech .nav-pills>li.active>a{background-color:#00ded0;-webkit-transition:all .15s linear;transition:all .15s linear}
+body.tech button:hover,body.tech .btn:hover,body.tech .button:hover,body.tech button:hover,body.tech .page-numbers:hover,body.tech .nav-previous a:hover,.nav-previous body.tech a:hover,body.tech .nav-next a:hover,.nav-next body.tech a:hover,body.tech .button:hover{background-color:#000}
 body.tech a{color:#00ded0}
-body.tech a.btn,body.tech a.button,body.tech a.page-numbers,body.tech .pager a,.pager body.tech a,body.tech a.button{color:white}
-body.exec button,body.exec .btn,body.exec .button,body.exec button,body.exec .page-numbers,body.exec .pager a,.pager body.exec a,body.exec .button,body.exec .nav-pills>li.active>a{background-color:#ff4072;-webkit-transition:all .15s linear;transition:all .15s linear}
-body.exec button:hover,body.exec .btn:hover,body.exec .button:hover,body.exec button:hover,body.exec .page-numbers:hover,body.exec .pager a:hover,.pager body.exec a:hover,body.exec .button:hover{background-color:#000}
+body.tech a.btn,body.tech a.button,body.tech a.page-numbers,body.tech .nav-previous a,.nav-previous body.tech a,body.tech .nav-next a,.nav-next body.tech a,body.tech a.button{color:white}
+body.exec button,body.exec .btn,body.exec .button,body.exec button,body.exec .page-numbers,body.exec .nav-previous a,.nav-previous body.exec a,body.exec .nav-next a,.nav-next body.exec a,body.exec .button,body.exec .nav-pills>li.active>a{background-color:#ff4072;-webkit-transition:all .15s linear;transition:all .15s linear}
+body.exec button:hover,body.exec .btn:hover,body.exec .button:hover,body.exec button:hover,body.exec .page-numbers:hover,body.exec .nav-previous a:hover,.nav-previous body.exec a:hover,body.exec .nav-next a:hover,.nav-next body.exec a:hover,body.exec .button:hover{background-color:#000}
 body.exec a{color:#ff4072}
-body.exec a.btn,body.exec a.button,body.exec a.page-numbers,body.exec .pager a,.pager body.exec a,body.exec a.button{color:white}
+body.exec a.btn,body.exec a.button,body.exec a.page-numbers,body.exec .nav-previous a,.nav-previous body.exec a,body.exec .nav-next a,.nav-next body.exec a,body.exec a.button{color:white}
 body.tech .branded-text-colors,body.tech .navbar-default .navbar-nav>li>a:hover,.navbar-default body.tech .navbar-nav>li>a:hover,body.tech .navbar-default .navbar-nav>li.active>a,.navbar-default body.tech .navbar-nav>li.active>a,body.tech .bg_black h1,.bg_black body.tech h1,body.tech .bg_black h2,.bg_black body.tech h2,body.tech .bg_black h3,.bg_black body.tech h3,body.tech .bg_black h4,.bg_black body.tech h4,body.tech .bg_black h5,.bg_black body.tech h5,body.tech .bg_black h6,.bg_black body.tech h6,body.tech .bg_darkgrey h1,.bg_darkgrey body.tech h1,body.tech .bg_darkgrey h2,.bg_darkgrey body.tech h2,body.tech .bg_darkgrey h3,.bg_darkgrey body.tech h3,body.tech .bg_darkgrey h4,.bg_darkgrey body.tech h4,body.tech .bg_darkgrey h5,.bg_darkgrey body.tech h5,body.tech .bg_darkgrey h6,.bg_darkgrey body.tech h6,body.tech #PageIntro h2,#PageIntro body.tech h2{color:#00ded0 !important}
 body.exec .branded-text-colors,body.exec .navbar-default .navbar-nav>li>a:hover,.navbar-default body.exec .navbar-nav>li>a:hover,body.exec .navbar-default .navbar-nav>li.active>a,.navbar-default body.exec .navbar-nav>li.active>a,body.exec .bg_black h1,.bg_black body.exec h1,body.exec .bg_black h2,.bg_black body.exec h2,body.exec .bg_black h3,.bg_black body.exec h3,body.exec .bg_black h4,.bg_black body.exec h4,body.exec .bg_black h5,.bg_black body.exec h5,body.exec .bg_black h6,.bg_black body.exec h6,body.exec .bg_darkgrey h1,.bg_darkgrey body.exec h1,body.exec .bg_darkgrey h2,.bg_darkgrey body.exec h2,body.exec .bg_darkgrey h3,.bg_darkgrey body.exec h3,body.exec .bg_darkgrey h4,.bg_darkgrey body.exec h4,body.exec .bg_darkgrey h5,.bg_darkgrey body.exec h5,body.exec .bg_darkgrey h6,.bg_darkgrey body.exec h6,body.exec #PageIntro h2,#PageIntro body.exec h2{color:#ff4072 !important}
 body.tech .branded-bg-colors,body.tech .navbar-default .navbar-toggle .icon-bar,.navbar-default .navbar-toggle body.tech .icon-bar,body.tech .btn-group button:active,.btn-group body.tech button:active,body.tech .btn-group button:focus,.btn-group body.tech button:focus,body.tech .btn-group button.active,.btn-group body.tech button.active,body.tech .cta_bar,body.tech #SolutionsRoles a[role=button]:hover,#SolutionsRoles body.tech a[role=button]:hover,body.tech .clickable a[role=button]:hover,.clickable body.tech a[role=button]:hover{background-color:#00ded0 !important}
@@ -1710,12 +1677,12 @@ strong{font-weight:900}
 .show_desktop{display:none}
 .show_tablet{display:none}
 .show_mobile{display:none}
-ul:not(.nav):not(.dropdown-menu):not(.pager){list-style:none}
-ul:not(.nav):not(.dropdown-menu):not(.pager) li{position:relative;padding-bottom:.8rem;padding-top:.8rem}
-ul:not(.nav):not(.dropdown-menu):not(.pager) li:before{position:absolute;content:"—";left:-25px;font-family:Roboto,sans-serif;font-weight:400}
-body.tech ul:not(.nav):not(.dropdown-menu):not(.pager) li:before{color:#00ded0}
-body.exec ul:not(.nav):not(.dropdown-menu):not(.pager) li:before{color:#ff4072}
-.bg_teal ul:not(.nav):not(.dropdown-menu):not(.pager) li:before,.bg_red ul:not(.nav):not(.dropdown-menu):not(.pager) li:before{color:#fff !important}
+ul:not(.nav):not(.dropdown-menu):not(.pager):not(.gfield){list-style:none}
+ul:not(.nav):not(.dropdown-menu):not(.pager):not(.gfield) li{position:relative;padding-bottom:.8rem;padding-top:.8rem}
+ul:not(.nav):not(.dropdown-menu):not(.pager):not(.gfield) li:before{position:absolute;content:"—";left:-25px;font-family:Roboto,sans-serif;font-weight:400}
+body.tech ul:not(.nav):not(.dropdown-menu):not(.pager):not(.gfield) li:before{color:#00ded0}
+body.exec ul:not(.nav):not(.dropdown-menu):not(.pager):not(.gfield) li:before{color:#ff4072}
+.bg_teal ul:not(.nav):not(.dropdown-menu):not(.pager):not(.gfield) li:before,.bg_red ul:not(.nav):not(.dropdown-menu):not(.pager):not(.gfield) li:before{color:#fff !important}
 .maxout,.bleed_left,.bleed_none{max-width:1400px}
 .pad-page-left{padding-left:15px}
 h1,h2,h3,h4,h5,h6{font-family:Monosten-Light,sans-serif;font-weight:300;line-height:1.5em}
@@ -1753,16 +1720,27 @@ body.exec .navbar-default .navbar-nav .dropdown-menu .menu-item>a:hover,body.exe
 body.tech .navbar-default .navbar-nav .dropdown-menu>.active>a{color:#00ded0 !important}
 body.exec .navbar-default .navbar-nav .dropdown-menu>.active>a{color:#ff4072 !important}
 .navbar-default .navbar-toggle{background-color:transparent;top:15px}
-button,.btn,.button,button,.page-numbers,.pager a,.button{font-size:2rem;line-height:1.5;min-height:5rem;white-space:normal;border-radius:2.5rem !important;padding:1rem 2.5rem .5rem;text-transform:uppercase;font-family:Monosten-Light,sans-serif}
-button:active,button:hover,button:focus,.btn:active,.button:active,button:active,.page-numbers:active,.pager a:active,.btn:hover,.button:hover,button:hover,.page-numbers:hover,.pager a:hover,.btn:focus,.button:focus,button:focus,.page-numbers:focus,.pager a:focus,.button:active,.button:hover,.button:focus{background-color:black;color:white}
-.bg_black button,.bg_black .btn,.bg_black .button,.bg_black button,.bg_black .page-numbers,.bg_black .pager a,.pager .bg_black a,.bg_black .button{background-color:#000 !important;border:1px solid #fff;color:#fff !important}
-.bg_black button:active,.bg_black button:hover,.bg_black button:focus,.bg_black .btn:active,.bg_black .button:active,.bg_black button:active,.bg_black .page-numbers:active,.bg_black .pager a:active,.pager .bg_black a:active,.bg_black .btn:hover,.bg_black .button:hover,.bg_black button:hover,.bg_black .page-numbers:hover,.bg_black .pager a:hover,.pager .bg_black a:hover,.bg_black .btn:focus,.bg_black .button:focus,.bg_black button:focus,.bg_black .page-numbers:focus,.bg_black .pager a:focus,.pager .bg_black a:focus,.bg_black .button:active,.bg_black .button:hover,.bg_black .button:focus{background-color:#fff !important;color:#000 !important}
-.content-block__content button,.content-block__content .btn,.content-block__content .button,.content-block__content button,.content-block__content .page-numbers,.content-block__content .pager a,.pager .content-block__content a,.content-block__content .button{margin-top:15px;margin-bottom:30px}
-button.square_corners,#modalDemoRequest button,.btn.square_corners,.square_corners.button,#modalDemoRequest input.button[type=submit],button.square_corners,#modalDemoRequest button,.square_corners.page-numbers,#modalDemoRequest input.page-numbers[type=submit],.pager a.square_corners,#modalDemoRequest input.btn[type=submit],.button.square_corners,#modalDemoRequest input.button[type=submit],#modalDemoRequest button.button{border-radius:0 !important}
-button.btn_black,.btn.btn_black,.btn_black.button,button.btn_black,.btn_black.page-numbers,.pager a.btn_black,.button.btn_black{background-color:#000 !important;color:#fff !important}
-button.btn_black:hover,.btn.btn_black:hover,.btn_black.button:hover,button.btn_black:hover,.btn_black.page-numbers:hover,.pager a.btn_black:hover,.button.btn_black:hover{background-color:#fff !important;color:#000 !important}
-.page-numbers,.pager a{margin:4px 2px}
-.page-numbers.current,.pager a.current{background-color:#000 !important;text-decoration:none}
+button,.btn,.button,button,.page-numbers,.nav-previous a,.nav-next a,.button{font-size:2rem;line-height:1.5;min-height:5rem;white-space:normal;border-radius:2.5rem !important;padding:1rem 2.5rem .5rem;text-transform:uppercase;font-family:Monosten-Light,sans-serif}
+button:active,button:hover,button:focus,.btn:active,.button:active,button:active,.page-numbers:active,.nav-previous a:active,.nav-next a:active,.btn:hover,.button:hover,button:hover,.page-numbers:hover,.nav-previous a:hover,.nav-next a:hover,.btn:focus,.button:focus,button:focus,.page-numbers:focus,.nav-previous a:focus,.nav-next a:focus,.button:active,.button:hover,.button:focus{background-color:black;color:white}
+.bg_black button,.bg_black .btn,.bg_black .button,.bg_black button,.bg_black .page-numbers,.bg_black .nav-previous a,.nav-previous .bg_black a,.bg_black .nav-next a,.nav-next .bg_black a,.bg_black .button{background-color:#000 !important;border:1px solid #fff;color:#fff !important}
+.bg_black button:active,.bg_black button:hover,.bg_black button:focus,.bg_black .btn:active,.bg_black .button:active,.bg_black button:active,.bg_black .page-numbers:active,.bg_black .nav-previous a:active,.nav-previous .bg_black a:active,.bg_black .nav-next a:active,.nav-next .bg_black a:active,.bg_black .btn:hover,.bg_black .button:hover,.bg_black button:hover,.bg_black .page-numbers:hover,.bg_black .nav-previous a:hover,.nav-previous .bg_black a:hover,.bg_black .nav-next a:hover,.nav-next .bg_black a:hover,.bg_black .btn:focus,.bg_black .button:focus,.bg_black button:focus,.bg_black .page-numbers:focus,.bg_black .nav-previous a:focus,.nav-previous .bg_black a:focus,.bg_black .nav-next a:focus,.nav-next .bg_black a:focus,.bg_black .button:active,.bg_black .button:hover,.bg_black .button:focus{background-color:#000 !important;color:#fff !important}
+.content-block__content button,.content-block__content .btn,.content-block__content .button,.content-block__content button,.content-block__content .page-numbers,.content-block__content .nav-previous a,.nav-previous .content-block__content a,.content-block__content .nav-next a,.nav-next .content-block__content a,.content-block__content .button{margin-top:15px;margin-bottom:30px}
+button.square_corners,#modalDemoRequest button,.btn.square_corners,.square_corners.button,#modalDemoRequest input.button[type=submit],button.square_corners,#modalDemoRequest button,.square_corners.page-numbers,#modalDemoRequest input.page-numbers[type=submit],#modalDemoRequest input.btn[type=submit],.nav-previous a.square_corners,.nav-next a.square_corners,.button.square_corners,#modalDemoRequest input.button[type=submit],#modalDemoRequest button.button{border-radius:0 !important}
+button.btn_teal,button.btn_blue,button.btn_red,button.btn_black,button.btn_darkgrey,button.btn_yellow,.btn.btn_teal,.btn_teal.button,button.btn_teal,.btn_teal.page-numbers,.nav-previous a.btn_teal,.nav-next a.btn_teal,.btn.btn_blue,.btn_blue.button,button.btn_blue,.btn_blue.page-numbers,.nav-previous a.btn_blue,.nav-next a.btn_blue,.btn.btn_red,.btn_red.button,button.btn_red,.btn_red.page-numbers,.nav-previous a.btn_red,.nav-next a.btn_red,.btn.btn_black,.btn_black.button,button.btn_black,.btn_black.page-numbers,.nav-previous a.btn_black,.nav-next a.btn_black,.btn.btn_darkgrey,.btn_darkgrey.button,button.btn_darkgrey,.btn_darkgrey.page-numbers,.nav-previous a.btn_darkgrey,.nav-next a.btn_darkgrey,.btn.btn_yellow,.btn_yellow.button,button.btn_yellow,.btn_yellow.page-numbers,.nav-previous a.btn_yellow,.nav-next a.btn_yellow,.button.btn_teal,.button.btn_blue,.button.btn_red,.button.btn_black,.button.btn_darkgrey,.button.btn_yellow{color:#fff !important}
+button.btn_teal:hover,button.btn_blue:hover,button.btn_red:hover,button.btn_black:hover,button.btn_darkgrey:hover,button.btn_yellow:hover,.btn.btn_teal:hover,.btn_teal.button:hover,button.btn_teal:hover,.btn_teal.page-numbers:hover,.nav-previous a.btn_teal:hover,.nav-next a.btn_teal:hover,.btn.btn_blue:hover,.btn_blue.button:hover,button.btn_blue:hover,.btn_blue.page-numbers:hover,.nav-previous a.btn_blue:hover,.nav-next a.btn_blue:hover,.btn.btn_red:hover,.btn_red.button:hover,button.btn_red:hover,.btn_red.page-numbers:hover,.nav-previous a.btn_red:hover,.nav-next a.btn_red:hover,.btn.btn_black:hover,.btn_black.button:hover,button.btn_black:hover,.btn_black.page-numbers:hover,.nav-previous a.btn_black:hover,.nav-next a.btn_black:hover,.btn.btn_darkgrey:hover,.btn_darkgrey.button:hover,button.btn_darkgrey:hover,.btn_darkgrey.page-numbers:hover,.nav-previous a.btn_darkgrey:hover,.nav-next a.btn_darkgrey:hover,.btn.btn_yellow:hover,.btn_yellow.button:hover,button.btn_yellow:hover,.btn_yellow.page-numbers:hover,.nav-previous a.btn_yellow:hover,.nav-next a.btn_yellow:hover,.button.btn_teal:hover,.button.btn_blue:hover,.button.btn_red:hover,.button.btn_black:hover,.button.btn_darkgrey:hover,.button.btn_yellow:hover{background-color:#000 !important;color:#fff !important}
+button.btn_teal,.btn.btn_teal,.btn_teal.button,button.btn_teal,.btn_teal.page-numbers,.nav-previous a.btn_teal,.nav-next a.btn_teal,.button.btn_teal{background-color:#00ded0 !important}
+button.btn_blue,.btn.btn_blue,.btn_blue.button,button.btn_blue,.btn_blue.page-numbers,.nav-previous a.btn_blue,.nav-next a.btn_blue,.button.btn_blue{background-color:#5159ff !important}
+button.btn_red,.btn.btn_red,.btn_red.button,button.btn_red,.btn_red.page-numbers,.nav-previous a.btn_red,.nav-next a.btn_red,.button.btn_red{background-color:#ff4072 !important}
+button.btn_black:hover,button.btn_darkgrey:hover,.btn.btn_black:hover,.btn_black.button:hover,button.btn_black:hover,.btn_black.page-numbers:hover,.nav-previous a.btn_black:hover,.nav-next a.btn_black:hover,.btn.btn_darkgrey:hover,.btn_darkgrey.button:hover,button.btn_darkgrey:hover,.btn_darkgrey.page-numbers:hover,.nav-previous a.btn_darkgrey:hover,.nav-next a.btn_darkgrey:hover,.button.btn_black:hover,.button.btn_darkgrey:hover{background-color:#fff !important;color:#000 !important;border-color:#000}
+button.btn_darkgrey,.btn.btn_darkgrey,.btn_darkgrey.button,button.btn_darkgrey,.btn_darkgrey.page-numbers,.nav-previous a.btn_darkgrey,.nav-next a.btn_darkgrey,.button.btn_darkgrey{background-color:#333 !important}
+button.btn_black,.btn.btn_black,.btn_black.button,button.btn_black,.btn_black.page-numbers,.nav-previous a.btn_black,.nav-next a.btn_black,.button.btn_black{background-color:#000 !important}
+button.btn_yellow,.btn.btn_yellow,.btn_yellow.button,button.btn_yellow,.btn_yellow.page-numbers,.nav-previous a.btn_yellow,.nav-next a.btn_yellow,.button.btn_yellow{background-color:#ffc800 !important;color:#000 !important}
+button.icon,.btn.icon,.icon.button,button.icon,.icon.page-numbers,.nav-previous a.icon,.nav-next a.icon,.button.icon{position:relative}
+button.icon:after,.btn.icon:after,.icon.button:after,button.icon:after,.icon.page-numbers:after,.nav-previous a.icon:after,.nav-next a.icon:after,.button.icon:after{content:"";width:16px;height:16px;display:inline-block;margin-left:1rem;background-repeat:no-repeat;position:absolute}
+button.icon.icon-arrow-up-right:after,.btn.icon.icon-arrow-up-right:after,.icon.icon-arrow-up-right.button:after,button.icon.icon-arrow-up-right:after,.icon.icon-arrow-up-right.page-numbers:after,.nav-previous a.icon.icon-arrow-up-right:after,.nav-next a.icon.icon-arrow-up-right:after,.button.icon.icon-arrow-up-right:after{background-image:url("../images/icon-arrow-up-right.svg")}
+button.icon.icon-download:after,.btn.icon.icon-download:after,.icon.icon-download.button:after,button.icon.icon-download:after,.icon.icon-download.page-numbers:after,.nav-previous a.icon.icon-download:after,.nav-next a.icon.icon-download:after,.button.icon.icon-download:after{background-image:url("../images/icon-download.svg")}
+.page-numbers{margin:4px 2px}
+.page-numbers.current{background-color:#000 !important;text-decoration:none}
 .btn-group button{border-radius:0;background-color:#ccc !important;padding-left:15px;padding-right:15px}
 .btn-group button.active{z-index:0 !important}
 .btn-group button:first-of-type{border-top-left-radius:2.5rem !important;border-bottom-left-radius:2.5rem !important;border-top-right-radius:0 !important;border-bottom-right-radius:0 !important;margin-right:1px;padding-left:25px}
@@ -1792,6 +1770,8 @@ footer div.mce_inline_error{background-color:#ff4072 !important}
 footer p{line-height:2rem}
 footer .links-and-copyright a{display:inline-block;margin-bottom:1rem}
 footer .copyright_text{white-space:nowrap}
+footer.entry-meta{text-transform:none;background-color:white;padding-left:0;border-top:1px solid #ccc;margin-top:35px !important}
+footer.entry-meta a{text-decoration:underline}
 #CookiesNotice{position:fixed;padding:30px;z-index:100;bottom:0;left:0;right:0;background-color:#5159ff;color:white}
 #CookiesNotice h2{margin-top:0}
 #CookiesNotice p{margin-bottom:30px}
@@ -1811,7 +1791,7 @@ body:not(.page-home):not(.page-tech):not(.page-exec) #PageHero h1{font-size:4rem
 body.page-home #PageHero h1,body.page-tech #PageHero h1,body.page-exec #PageHero h1{margin-bottom:30px}
 #PageHero h1,#PageHero h2,#PageHero h3,#PageHero h4,#PageHero h5,#PageHero h6{font-family:Monosten-Light,sans-serif;color:#fff;word-break:none}
 #PageHero button{margin-top:30px;margin-bottom:15px;padding-top:.5rem}
-#PageHero #PageHeroWrap{background-repeat:no-repeat;background-size:auto 300px;padding-top:320px;background-position:top center}
+#PageHero #PageHeroWrap{background-repeat:no-repeat;background-size:auto 320px;padding-top:320px;background-position:top center}
 #PageHero #PageHeroWrap.photo{background-size:cover;min-height:400px;background-position:center center}
 #PageHero #PageHeroWrap #PageHeroTitle,#PageHero #PageHeroWrap #PageHeroBlurb{padding:0}
 #PageHero #PageHeroWrap #PageHeroBlurb{margin-bottom:30px}
@@ -1820,8 +1800,8 @@ body.page-home #PageHero h1,body.page-tech #PageHero h1,body.page-exec #PageHero
 .mobile{display:block}
 .tablet{display:none}
 .desktop{display:none}
-.buttons_bw button,.bg_teal button,.bg_red button,.bg_yellow button,.bg_blue button,.buttons_bw a.btn,.bg_teal a.btn,.bg_red a.btn,.bg_yellow a.btn,.bg_blue a.btn,.buttons_bw a.button,.bg_teal a.button,.bg_red a.button,.bg_yellow a.button,.bg_blue a.button,.buttons_bw a.page-numbers,.bg_teal a.page-numbers,.bg_red a.page-numbers,.bg_yellow a.page-numbers,.bg_blue a.page-numbers,.buttons_bw .pager a,.pager .buttons_bw a,.bg_teal .pager a,.pager .bg_teal a,.bg_red .pager a,.pager .bg_red a,.bg_yellow .pager a,.pager .bg_yellow a,.bg_blue .pager a,.pager .bg_blue a{background-color:black;color:white !important;text-decoration:none}
-.buttons_bw button:hover,.bg_teal button:hover,.bg_red button:hover,.bg_yellow button:hover,.bg_blue button:hover,.buttons_bw a.btn:hover,.bg_teal a.btn:hover,.bg_red a.btn:hover,.bg_yellow a.btn:hover,.bg_blue a.btn:hover,.buttons_bw a.button:hover,.bg_teal a.button:hover,.bg_red a.button:hover,.bg_yellow a.button:hover,.bg_blue a.button:hover,.buttons_bw a.page-numbers:hover,.bg_teal a.page-numbers:hover,.bg_red a.page-numbers:hover,.bg_yellow a.page-numbers:hover,.bg_blue a.page-numbers:hover,.buttons_bw .pager a:hover,.pager .buttons_bw a:hover,.bg_teal .pager a:hover,.pager .bg_teal a:hover,.bg_red .pager a:hover,.pager .bg_red a:hover,.bg_yellow .pager a:hover,.pager .bg_yellow a:hover,.bg_blue .pager a:hover,.pager .bg_blue a:hover{background-color:white;color:black}
+.buttons_bw button,.bg_teal button,.bg_red button,.bg_yellow button,.bg_blue button,.buttons_bw a.btn,.bg_teal a.btn,.bg_red a.btn,.bg_yellow a.btn,.bg_blue a.btn,.buttons_bw a.button,.bg_teal a.button,.bg_red a.button,.bg_yellow a.button,.bg_blue a.button,.buttons_bw a.page-numbers,.bg_teal a.page-numbers,.bg_red a.page-numbers,.bg_yellow a.page-numbers,.bg_blue a.page-numbers,.buttons_bw .nav-previous a,.nav-previous .buttons_bw a,.bg_teal .nav-previous a,.nav-previous .bg_teal a,.bg_red .nav-previous a,.nav-previous .bg_red a,.bg_yellow .nav-previous a,.nav-previous .bg_yellow a,.bg_blue .nav-previous a,.nav-previous .bg_blue a,.buttons_bw .nav-next a,.nav-next .buttons_bw a,.bg_teal .nav-next a,.nav-next .bg_teal a,.bg_red .nav-next a,.nav-next .bg_red a,.bg_yellow .nav-next a,.nav-next .bg_yellow a,.bg_blue .nav-next a,.nav-next .bg_blue a{background-color:black;color:white !important;text-decoration:none}
+.buttons_bw button:hover,.bg_teal button:hover,.bg_red button:hover,.bg_yellow button:hover,.bg_blue button:hover,.buttons_bw a.btn:hover,.bg_teal a.btn:hover,.bg_red a.btn:hover,.bg_yellow a.btn:hover,.bg_blue a.btn:hover,.buttons_bw a.button:hover,.bg_teal a.button:hover,.bg_red a.button:hover,.bg_yellow a.button:hover,.bg_blue a.button:hover,.buttons_bw a.page-numbers:hover,.bg_teal a.page-numbers:hover,.bg_red a.page-numbers:hover,.bg_yellow a.page-numbers:hover,.bg_blue a.page-numbers:hover,.buttons_bw .nav-previous a:hover,.nav-previous .buttons_bw a:hover,.bg_teal .nav-previous a:hover,.nav-previous .bg_teal a:hover,.bg_red .nav-previous a:hover,.nav-previous .bg_red a:hover,.bg_yellow .nav-previous a:hover,.nav-previous .bg_yellow a:hover,.bg_blue .nav-previous a:hover,.nav-previous .bg_blue a:hover,.buttons_bw .nav-next a:hover,.nav-next .buttons_bw a:hover,.bg_teal .nav-next a:hover,.nav-next .bg_teal a:hover,.bg_red .nav-next a:hover,.nav-next .bg_red a:hover,.bg_yellow .nav-next a:hover,.nav-next .bg_yellow a:hover,.bg_blue .nav-next a:hover,.nav-next .bg_blue a:hover{background-color:white;color:black}
 .links_bw a,.bg_teal a,.bg_red a,.bg_yellow a,.bg_blue a{color:inherit !important;text-decoration:underline}
 .links_bw a:hover,.bg_teal a:hover,.bg_red a:hover,.bg_yellow a:hover,.bg_blue a:hover{color:inherit !important}
 .bg_teal{background-color:#00ded0}
@@ -1865,7 +1845,7 @@ body.page-home #PageHero h1,body.page-tech #PageHero h1,body.page-exec #PageHero
 .bg_black .aside cite,.bg_darkgrey .aside cite{color:white}
 .img_flush_left{padding:0 30px 30px 0}
 .img_flush_right{padding-right:0}
-#ProductShowcase .info{padding:30px 15px 60px}
+#ProductShowcase .info{padding:30px 15px 60px 30px}
 #ProductShowcase .image{background-position:center;background-size:cover;background-repeat:no-repeat;padding:33.333%}
 #ProductShowcaseTitle{height:30px;text-transform:uppercase;font-size:1.6rem}
 .showcase.desktop{display:none}
@@ -1894,13 +1874,20 @@ body.page-careers #PageIntro h2{color:#ffc800 !important}
 body.page-about #PageIntro{margin-top:-30px}
 body.page-about #PageIntro h2{color:#00ded0 !important}
 .benefits{margin-left:0;margin-right:0}
+.sub-product-section .benefits{margin-right:0;margin-left:0}
 .benefits h4{font-family:Roboto,sans-serif;font-weight:900;margin-top:3rem;font-size:2rem}
 .benefits p{margin:0 auto 9rem;max-width:400px;font-weight:300}
 .benefits .block{text-align:center;padding-bottom:0}
 .benefits .benefits-icon-wrapper{height:100px;width:120px;max-height:100px;max-width:120px;margin:0 auto}
-.benefits .benefits-icon-wrapper svg{max-height:100px}
+.benefits .benefits-icon-wrapper svg{max-height:100px;max-width:120px}
 body.tech .benefits .benefits-icon-wrapper svg path{fill:#00ded0}
 body.exec .benefits .benefits-icon-wrapper svg path{fill:#ff4072}
+.benefits .benefits-icon-wrapper svg.fill_teal path{fill:#00ded0 !important}
+.benefits .benefits-icon-wrapper svg.fill_blue path{fill:#5159ff !important}
+.benefits .benefits-icon-wrapper svg.fill_red path{fill:#ff4072 !important}
+.benefits .benefits-icon-wrapper svg.fill_black path{fill:#000 !important}
+.benefits .benefits-icon-wrapper svg.fill_darkgrey path{fill:#333 !important}
+.benefits .benefits-icon-wrapper svg.fill_yellow path{fill:#ffc800 !important}
 #SolutionsRoles a[role=button]{bottom:30px;left:30px;position:absolute;background-color:#000}
 .clickable{cursor:pointer}
 .bios h2{font-size:3rem}
@@ -1916,8 +1903,8 @@ body.exec .bios.advisors h2,body.tech .bios.advisors h2{color:#00ded0 !important
 body.tech #CareersListing .job-title h3 a,body.exec #CareersListing .job-title h3 a{color:#000;text-decoration:underline}
 #CareersListing .section-headline{margin-top:30px}
 #CareersListing .job-description{padding-right:30px}
-#CareersListing .job-description a.btn,#CareersListing .job-description a.button,#CareersListing .job-description a.page-numbers,#CareersListing .job-description .pager a,.pager #CareersListing .job-description a{margin-top:20px;background-color:#000 !important;border:1px solid #fff}
-#CareersListing .job-description a.btn:hover,#CareersListing .job-description a.button:hover,#CareersListing .job-description a.page-numbers:hover,#CareersListing .job-description .pager a:hover,.pager #CareersListing .job-description a:hover{background-color:#fff !important;color:black !important;text-decoration:none}
+#CareersListing .job-description a.btn,#CareersListing .job-description a.button,#CareersListing .job-description a.page-numbers,#CareersListing .job-description .nav-previous a,.nav-previous #CareersListing .job-description a,#CareersListing .job-description .nav-next a,.nav-next #CareersListing .job-description a{margin-top:20px;background-color:#000 !important;border:1px solid #fff}
+#CareersListing .job-description a.btn:hover,#CareersListing .job-description a.button:hover,#CareersListing .job-description a.page-numbers:hover,#CareersListing .job-description .nav-previous a:hover,.nav-previous #CareersListing .job-description a:hover,#CareersListing .job-description .nav-next a:hover,.nav-next #CareersListing .job-description a:hover{background-color:#fff !important;color:black !important;text-decoration:none}
 body.tech #CareersVideo h2,body.exec #CareersVideo h2{color:#ffc800 !important}
 .styled-checkbox,.gform_wrapper ul.gfield_checkbox li input[type=checkbox],#modalDemoRequest .gform_wrapper ul.gfield_checkbox li input[type=checkbox]{position:absolute;opacity:0}
 .styled-checkbox+label,.gform_wrapper ul.gfield_checkbox li input[type=checkbox]+label,#modalDemoRequest .gform_wrapper ul.gfield_checkbox li input[type=checkbox]+label{position:relative;cursor:pointer;padding:0}
@@ -1931,6 +1918,8 @@ body.tech #CareersVideo h2,body.exec #CareersVideo h2{color:#ffc800 !important}
 input,select,textarea{font-family:Monosten-Light,sans-serif}
 input:focus,select:focus,textarea:focus{border:none !important;-webkit-box-shadow:inset 0 0 0 2px #5159ff !important;box-shadow:inset 0 0 0 2px #5159ff !important;outline:none !important}
 .gform_wrapper label,#modalDemoRequest .gform_wrapper label{font-family:Monosten-Light,sans-serif}
+.gform_wrapper ul li,#modalDemoRequest .gform_wrapper ul li{margin-top:0 !important;padding:0 !important}
+.gform_wrapper ul li:before,#modalDemoRequest .gform_wrapper ul li:before{content:"" !important}
 .gform_wrapper ul li.gfield,#modalDemoRequest .gform_wrapper ul li.gfield{margin-top:0}
 .gform_wrapper ul li.gfield.gfield_error,#modalDemoRequest .gform_wrapper ul li.gfield.gfield_error{background-color:transparent;border:0}
 .gform_wrapper ul li.gfield.gfield_error input,#modalDemoRequest .gform_wrapper ul li.gfield.gfield_error input{border:1px solid #ff4072}
@@ -1953,13 +1942,36 @@ input:focus,select:focus,textarea:focus{border:none !important;-webkit-box-shado
 #modalDemoRequest .modalHeader .modal-close{position:absolute;width:24px;height:24px;top:10px;right:10px}
 #modalDemoRequest .modalHeader .modal-close svg polygon{fill:#666}
 #modalDemoRequest .modalBody{padding:15px 10px}
+.form-section{margin-top:0;margin-bottom:30px;padding:30px 0 15px}
+.form-section img{margin-bottom:50px}
+.form-section .gform_wrapper,.form-section #modalDemoRequest .gform_wrapper,#modalDemoRequest .form-section .gform_wrapper{margin-top:0 !important}
+.form-section .gform_wrapper input[type=text],.form-section #modalDemoRequest .gform_wrapper input[type=text],#modalDemoRequest .form-section .gform_wrapper input[type=text],.form-section .gform_wrapper input[type=email],.form-section #modalDemoRequest .gform_wrapper input[type=email],#modalDemoRequest .form-section .gform_wrapper input[type=email],.form-section .gform_wrapper input[type=submit],.form-section #modalDemoRequest .gform_wrapper input[type=submit],#modalDemoRequest .form-section .gform_wrapper input[type=submit]{width:100%}
+.form-section .gform_wrapper input[type=submit],.form-section #modalDemoRequest .gform_wrapper input[type=submit],#modalDemoRequest .form-section .gform_wrapper input[type=submit]{background-color:#00ded0 !important;border-color:#00ded0;color:white}
+.form-section .gform_wrapper input[type=submit]:hover,.form-section #modalDemoRequest .gform_wrapper input[type=submit]:hover,#modalDemoRequest .form-section .gform_wrapper input[type=submit]:hover{border-color:#5159ff !important;background-color:#5159ff !important;color:white !important}
+.form-section input[type=text],.form-section input[type=email]{color:#000 !important;font-size:1.6rem !important;padding-left:15px !important}
+.form-section .validation_error{border:none !important;color:#ff4072 !important;text-align:left !important;font-weight:normal !important;padding-top:0 !important}
+.form-section .validation_message{padding-top:.5rem !important;padding-bottom:1rem !important}
+.gfield_visibility_hidden{display:none}
 .page-terms-and-policies table tr{border-bottom:1px solid #666}
 .page-terms-and-policies table tr td{padding:10px 15px 10px 0;vertical-align:top}
-ul.pager{list-style:none}
-ul.pager li a{background-color:#000}
+.post-image-wrap{display:inline-block;background-color:#eee;padding-top:56.25%;background-position:center;background-size:cover;display:block}
+.article-wrap{margin-bottom:30px}
+.article-summary-content-wrap{background-color:white}
+.article-summary-wrap{background-color:white;display:inline-block;padding:15px 15px 100px 15px;width:100%}
+.research-pub-summary-wrap.featured .article-summary-wrap{padding:60px 15px 30px 15px}
+.post-author-date{font-family:Monosten-Light,sans-serif;position:absolute;bottom:15px;display:block;font-size:1.4rem;text-transform:uppercase;color:#888}
+.post-author-date a{color:#888 !important;text-decoration:underline}
+.post-author-date a:hover{color:black !important;text-decoration:underline}
+nav.post-navigation ul.pager{list-style:none;display:inline-block;width:100%;margin:30px 0;padding:15px 0;border-top:1px solid #ccc}
+nav.post-navigation ul.pager li a{background-color:transparent;color:#333;padding:0}
+nav.post-navigation ul.pager li.nav-previous{float:left}
+nav.post-navigation ul.pager li.nav-next{float:right}
 .entry-meta{text-transform:uppercase}
-.blog h1.page-title,.search h1.page-title,.archive h1.page-title,.category h1.page-title{font-size:3rem}
-.blog h1.page-title a,.search h1.page-title a,.archive h1.page-title a,.category h1.page-title a{color:#000 !important;text-decoration:underline}
+.blog h1.page-title,.search h1.page-title,.archive h1.page-title,.category h1.page-title,.page-research h1.page-title{font-size:2.4rem}
+.blog h1.page-title a,.search h1.page-title a,.archive h1.page-title a,.category h1.page-title a,.page-research h1.page-title a{color:#000 !important;text-decoration:none}
+.blog h1.page-title a:hover,.search h1.page-title a:hover,.archive h1.page-title a:hover,.category h1.page-title a:hover,.page-research h1.page-title a:hover{text-decoration:underline}
+.blog h1.main-page-title,.search h1.main-page-title,.archive h1.main-page-title,.category h1.main-page-title,.page-research h1.main-page-title{font-size:3rem;margin-bottom:30px}
+.blog h1.featured-research-title,.search h1.featured-research-title,.archive h1.featured-research-title,.category h1.featured-research-title,.page-research h1.featured-research-title{font-size:3.6rem;margin-bottom:30px}
 .single .main-content{padding-top:50px;background-color:white}
 .single .main-content img{width:auto}
 .single .main-content .entry-content-thumbnail img{width:100%}
@@ -1975,19 +1987,110 @@ ul.pager li a{background-color:#000}
 .single h2{font-size:2.4rem}
 .single h3{font-size:2rem}
 .blog .entry-meta,.single .entry-meta,.search .entry-meta,.archive .entry-meta,.category .entry-meta{font-family:Monosten-Light,sans-serif;color:#999;font-size:1.4rem;margin:20px 0}
-.blog .entry-meta a,.single .entry-meta a,.search .entry-meta a,.archive .entry-meta a,.category .entry-meta a{color:#999}
+.blog .entry-meta a,.single .entry-meta a,.search .entry-meta a,.archive .entry-meta a,.category .entry-meta a{color:#888}
+.blog .entry-meta .category-list,.single .entry-meta .category-list,.search .entry-meta .category-list,.archive .entry-meta .category-list,.category .entry-meta .category-list{display:block;text-transform:none}
+.blog .entry-meta .category-list a,.single .entry-meta .category-list a,.search .entry-meta .category-list a,.archive .entry-meta .category-list a,.category .entry-meta .category-list a{text-decoration:none}
+.blog .entry-meta .category-list a:hover,.single .entry-meta .category-list a:hover,.search .entry-meta .category-list a:hover,.archive .entry-meta .category-list a:hover,.category .entry-meta .category-list a:hover{text-decoration:underline;color:black}
 .main-content-inner header{background-color:transparent;color:#000}
 .search .main-content-inner header .page-title{font-size:3rem}
 .top-search-widget{max-width:320px}
-.sidebar{font-family:Monosten-Light,sans-serif;padding:30px 15px;background-color:#f0f0f0}
+#FeaturedPublication{margin-bottom:50px}
+.pub-summary h3{font-size:2.4rem;line-height:1.67}
+.pub-summary .pub-categories{font-family:Monosten-Light,sans-serif;font-size:1.4rem;text-transform:uppercase;color:#888}
+.pub-summary .pub-categories a{color:#888;text-decoration:none}
+.pub-summary .pub-categories a:hover{color:black;text-decoration:underline}
+.pub-outer{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:stretch;-webkit-align-items:stretch;-ms-flex-align:stretch;align-items:stretch}
+.research-pub-summary-wrap{position:relative;padding-bottom:100px;width:100%}
+.research-pub-summary-wrap.featured .by-line{background-color:#e8e8e8;font-family:Monosten-Light,sans-serif}
+.research-pub-summary-wrap.featured .post-image-wrap{position:relative}
+.research-pub-summary-wrap.featured .post-image-wrap .featured-research-badge{font-family:Monosten-Light,sans-serif;position:absolute;bottom:-30px;height:60px;line-height:60px;text-transform:uppercase;font-size:1.8rem;background-color:#00ded0;color:white;padding:0 15px;font-weight:400;letter-spacing:.05rem}
+.research-pub-summary-wrap h3{line-height:1.5;margin-bottom:0}
+.research-pub-summary-wrap h3 a{color:black}
+.research-pub-summary-wrap h3 a:hover{text-decoration:underline}
+.research-pub-summary-wrap .by-line{font-family:Monosten-Light,sans-serif;background-color:white;position:absolute;bottom:0;padding:15px;width:100%}
+.research-pub-summary-wrap .by-line dl.pub-authors{font-family:Monosten-Light,sans-serif;margin-bottom:0}
+.research-pub-summary-wrap .by-line dl.pub-authors dt,.research-pub-summary-wrap .by-line dl.pub-authors dd{font-weight:normal;font-size:1.4rem;text-transform:uppercase;color:#888;line-height:1.67rem;margin-bottom:.67rem}
+.research-pub-summary-wrap .by-line dl.pub-authors dt{float:left;width:8.5rem}
+.research-pub-summary-wrap .by-line dl.pub-authors dd{margin-left:8.5rem}
+.research-pub-summary-wrap .by-line dl.pub-authors dd a{color:#888;text-decoration:underline}
+.research-pub-summary-wrap .by-line dl.pub-authors dd a:hover{color:black}
+#ResearchFilterSearch{background-color:#f0f0f0;margin-bottom:30px}
+.search-results #ResearchFilterSearch{margin-bottom:0}
+#ResearchFilterSearch .btn,#ResearchFilterSearch .button,#ResearchFilterSearch button,#ResearchFilterSearch .page-numbers,#ResearchFilterSearch .nav-previous a,.nav-previous #ResearchFilterSearch a,#ResearchFilterSearch .nav-next a,.nav-next #ResearchFilterSearch a{font-size:1.4rem;height:3.8rem;line-height:3.8rem;border-radius:1.9rem;min-height:3.8rem;padding:0 3rem;margin:.5rem .5rem .5rem 0;text-transform:uppercase;background-color:#b8b8b8}
+#ResearchFilterSearch .btn.active,#ResearchFilterSearch .active.button,#ResearchFilterSearch button.active,#ResearchFilterSearch .active.page-numbers,#ResearchFilterSearch .nav-previous a.active,.nav-previous #ResearchFilterSearch a.active,#ResearchFilterSearch .nav-next a.active,.nav-next #ResearchFilterSearch a.active{background-color:#00ded0}
+#ResearchFilterSearch .btn:hover:not(.active),#ResearchFilterSearch .button:hover:not(.active),#ResearchFilterSearch button:hover:not(.active),#ResearchFilterSearch .page-numbers:hover:not(.active),#ResearchFilterSearch .nav-previous a:hover:not(.active),.nav-previous #ResearchFilterSearch a:hover:not(.active),#ResearchFilterSearch .nav-next a:hover:not(.active),.nav-next #ResearchFilterSearch a:hover:not(.active),#ResearchFilterSearch .btn:focus:not(.active),#ResearchFilterSearch .button:focus:not(.active),#ResearchFilterSearch button:focus:not(.active),#ResearchFilterSearch .page-numbers:focus:not(.active),#ResearchFilterSearch .nav-previous a:focus:not(.active),.nav-previous #ResearchFilterSearch a:focus:not(.active),#ResearchFilterSearch .nav-next a:focus:not(.active),.nav-next #ResearchFilterSearch a:focus:not(.active),#ResearchFilterSearch .btn:active:not(.active),#ResearchFilterSearch .button:active:not(.active),#ResearchFilterSearch button:active:not(.active),#ResearchFilterSearch .page-numbers:active:not(.active),#ResearchFilterSearch .nav-previous a:active:not(.active),.nav-previous #ResearchFilterSearch a:active:not(.active),#ResearchFilterSearch .nav-next a:active:not(.active),.nav-next #ResearchFilterSearch a:active:not(.active){background-color:black}
+#ResearchFilterSearch .search-wrap{margin-top:15px}
+.single-research{background-color:white}
+.single-research .return-to-research-LP{font-family:Monosten-Light,sans-serif;font-size:12px;color:#888}
+.single-research .return-to-research-LP a{color:#888}
+.single-research .return-to-research-LP a:hover,.single-research .return-to-research-LP a:focus{color:black;text-decoration:underline}
+.single-research #ResearchContentWrap{background-color:white}
+.single-research #ResearchContent{margin-top:30px}
+.single-research .pub-sidebar{font-weight:normal;font-size:1.4rem;color:#666;line-height:2rem;padding-bottom:40px;font-family:Monosten-Light,sans-serif}
+.single-research .pub-sidebar .buttons a{font-weight:700;font-size:1.4rem;line-height:1.8rem;min-height:40px;padding:10px 30px 10px 10px;width:100%;margin-bottom:2rem;max-width:170px}
+.single-research .pub-author-list a{color:#666;text-decoration:underline}
+.single-research .pub-author-list a:hover{color:black}
+.single-research .social-share{font-size:0}
+.single-research .social-share a{font-size:2.4rem;color:#999}
+.single-research .social-share a:not(:last-of-type){margin-right:2rem}
+.single-research .social-share a:hover,.single-research .social-share a:focus{color:black}
+.single-research blockquote{background-color:#e6fcfa;color:#0cc;border-left:0;padding:20px;margin-bottom:40px;position:relative}
+.single-research blockquote p{font-family:Monosten-Light,sans-serif;font-size:2.4rem;line-height:1.67}
+.single-research blockquote footer{color:#666;font-family:Roboto,sans-serif;font-weight:normal;font-size:1.6rem;background-color:transparent;padding:15px 0 0 0}
+.single-research blockquote footer:before{content:""}
+.single-research figure{margin-bottom:40px}
+.single-research figure figcaption{background-color:#f0f0f0;font-size:1.4rem;color:black;padding:12px 15px}
+.single-research #PubSources{color:#666;font-size:1.4rem;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding:15px 0 30px}
+#PageHero_Basic{background-size:cover;background-position:center;padding:25% 0;position:relative}
+.research-title-wrap.over-image{position:absolute;bottom:-60px;left:0;right:0;z-index:1}
+.research-title-wrap.over-image .return-to-research-LP{font-family:Monosten-Light,sans-serif;position:absolute;bottom:0}
+.research-title-wrap.below-image{margin-top:-30px}
+.research-page-title{background-color:black;padding:25px 15px 25px 15px;position:relative;margin-left:15px}
+.research-page-title h1{color:white;font-size:2.4rem}
+.research-page-title .pub-type{display:block;color:#00ded0;font-family:Monosten-Light,sans-serif;font-size:1.2rem;text-transform:uppercase;font-weight:400}
+.sidebar-wrap{background-color:#f0f0f0}
+.sidebar{font-family:Monosten-Light,sans-serif;padding:30px 15px}
 .sidebar h4.widget-title{font-size:2rem;font-family:Monosten-Light,sans-serif}
 .sidebar ul{padding-left:0;list-style:none}
 .sidebar ul li{padding:0 !important}
 .sidebar ul li:before{content:'' !important}
-.sidebar ul li a{color:#999;font-size:1.4rem}
-form[role=search] input[type=search]{background-color:#f0f0f0;border:0;border-bottom:1px solid #999;padding:8px;width:100%}
+.sidebar ul li a{color:#888;font-size:1.4rem}
+.sidebar ul li a:hover{color:black;text-decoration:underline}
+.sidebar .widget_search{margin:0 15px}
+.sidebar .widget_categories{margin-bottom:0;float:right;display:none}
+.sidebar .widget_categories .widget-title{vertical-align:top;margin-right:15px;width:20%;font-size:1.4rem}
+.sidebar .widget_categories ul{width:80%}
+form[role=search] input[type=search]{background-color:white;border:0;padding:8px;width:100%;height:44px;border-radius:22px;padding-left:25px;font-size:1.4rem}
 form[role=search] .search-wrap{position:relative}
-form[role=search] .search-wrap:after{position:absolute;content:'\f002';font-family:Fontawesome;top:6px;right:10px;color:#999}
+form[role=search] .search-wrap:after{position:absolute;content:'\f002';font-family:Fontawesome;top:6px;right:15px;color:#999}
+.sub-product-wrap{background-color:white;text-align:center;margin:0 0 100px;padding:30px 15px}
+.sub-product-wrap .logo{max-height:100px}
+.sub-product-wrap a.btn,.sub-product-wrap a.button,.sub-product-wrap a.page-numbers,.sub-product-wrap .nav-previous a,.nav-previous .sub-product-wrap a,.sub-product-wrap .nav-next a,.nav-next .sub-product-wrap a{width:100%;max-width:300px}
+body.tech .pricing-block[class*="bg_"],body.exec .pricing-block[class*="bg_"]{color:black !important}
+body.tech .pricing-block[class*="bg_"] h3,body.tech .pricing-block[class*="bg_"] p,body.tech .pricing-block[class*="bg_"] a,body.exec .pricing-block[class*="bg_"] h3,body.exec .pricing-block[class*="bg_"] p,body.exec .pricing-block[class*="bg_"] a{color:black !important}
+body.tech .pricing-block.bg_black,body.tech .pricing-block.bg_darkgrey,body.tech .pricing-block.bg_blue,body.exec .pricing-block.bg_black,body.exec .pricing-block.bg_darkgrey,body.exec .pricing-block.bg_blue{color:white !important}
+body.tech .pricing-block.bg_black h3,body.tech .pricing-block.bg_black p,body.tech .pricing-block.bg_black a,body.tech .pricing-block.bg_darkgrey h3,body.tech .pricing-block.bg_darkgrey p,body.tech .pricing-block.bg_darkgrey a,body.tech .pricing-block.bg_blue h3,body.tech .pricing-block.bg_blue p,body.tech .pricing-block.bg_blue a,body.exec .pricing-block.bg_black h3,body.exec .pricing-block.bg_black p,body.exec .pricing-block.bg_black a,body.exec .pricing-block.bg_darkgrey h3,body.exec .pricing-block.bg_darkgrey p,body.exec .pricing-block.bg_darkgrey a,body.exec .pricing-block.bg_blue h3,body.exec .pricing-block.bg_blue p,body.exec .pricing-block.bg_blue a{color:white !important}
+body.tech .pricing-block[class*="bg_"] a.btn.btn_black,body.tech .pricing-block[class*="bg_"] a.btn_black.button,body.tech .pricing-block[class*="bg_"] a.btn_black.page-numbers,body.tech .pricing-block[class*="bg_"] .nav-previous a.btn_black,.nav-previous body.tech .pricing-block[class*="bg_"] a.btn_black,body.tech .pricing-block[class*="bg_"] .nav-next a.btn_black,.nav-next body.tech .pricing-block[class*="bg_"] a.btn_black,body.exec .pricing-block[class*="bg_"] a.btn.btn_black,body.exec .pricing-block[class*="bg_"] a.btn_black.button,body.exec .pricing-block[class*="bg_"] a.btn_black.page-numbers,body.exec .pricing-block[class*="bg_"] .nav-previous a.btn_black,.nav-previous body.exec .pricing-block[class*="bg_"] a.btn_black,body.exec .pricing-block[class*="bg_"] .nav-next a.btn_black,.nav-next body.exec .pricing-block[class*="bg_"] a.btn_black{color:white !important;border-color:black}
+body.tech .pricing-block[class*="bg_"] a.btn.btn_black:hover,body.tech .pricing-block[class*="bg_"] a.btn_black.button:hover,body.tech .pricing-block[class*="bg_"] a.btn_black.page-numbers:hover,body.tech .pricing-block[class*="bg_"] .nav-previous a.btn_black:hover,.nav-previous body.tech .pricing-block[class*="bg_"] a.btn_black:hover,body.tech .pricing-block[class*="bg_"] .nav-next a.btn_black:hover,.nav-next body.tech .pricing-block[class*="bg_"] a.btn_black:hover,body.tech .pricing-block[class*="bg_"] a.btn.btn_black:active,body.tech .pricing-block[class*="bg_"] a.btn_black.button:active,body.tech .pricing-block[class*="bg_"] a.btn_black.page-numbers:active,body.tech .pricing-block[class*="bg_"] .nav-previous a.btn_black:active,.nav-previous body.tech .pricing-block[class*="bg_"] a.btn_black:active,body.tech .pricing-block[class*="bg_"] .nav-next a.btn_black:active,.nav-next body.tech .pricing-block[class*="bg_"] a.btn_black:active,body.tech .pricing-block[class*="bg_"] a.btn.btn_black:focus,body.tech .pricing-block[class*="bg_"] a.btn_black.button:focus,body.tech .pricing-block[class*="bg_"] a.btn_black.page-numbers:focus,body.tech .pricing-block[class*="bg_"] .nav-previous a.btn_black:focus,.nav-previous body.tech .pricing-block[class*="bg_"] a.btn_black:focus,body.tech .pricing-block[class*="bg_"] .nav-next a.btn_black:focus,.nav-next body.tech .pricing-block[class*="bg_"] a.btn_black:focus,body.exec .pricing-block[class*="bg_"] a.btn.btn_black:hover,body.exec .pricing-block[class*="bg_"] a.btn_black.button:hover,body.exec .pricing-block[class*="bg_"] a.btn_black.page-numbers:hover,body.exec .pricing-block[class*="bg_"] .nav-previous a.btn_black:hover,.nav-previous body.exec .pricing-block[class*="bg_"] a.btn_black:hover,body.exec .pricing-block[class*="bg_"] .nav-next a.btn_black:hover,.nav-next body.exec .pricing-block[class*="bg_"] a.btn_black:hover,body.exec .pricing-block[class*="bg_"] a.btn.btn_black:active,body.exec .pricing-block[class*="bg_"] a.btn_black.button:active,body.exec .pricing-block[class*="bg_"] a.btn_black.page-numbers:active,body.exec .pricing-block[class*="bg_"] .nav-previous a.btn_black:active,.nav-previous body.exec .pricing-block[class*="bg_"] a.btn_black:active,body.exec .pricing-block[class*="bg_"] .nav-next a.btn_black:active,.nav-next body.exec .pricing-block[class*="bg_"] a.btn_black:active,body.exec .pricing-block[class*="bg_"] a.btn.btn_black:focus,body.exec .pricing-block[class*="bg_"] a.btn_black.button:focus,body.exec .pricing-block[class*="bg_"] a.btn_black.page-numbers:focus,body.exec .pricing-block[class*="bg_"] .nav-previous a.btn_black:focus,.nav-previous body.exec .pricing-block[class*="bg_"] a.btn_black:focus,body.exec .pricing-block[class*="bg_"] .nav-next a.btn_black:focus,.nav-next body.exec .pricing-block[class*="bg_"] a.btn_black:focus{color:black !important}
+.pricing-blocks-wrap{padding:30px 0}
+.pricing-block{padding:30px 30px 120px 30px;margin-bottom:30px;position:relative}
+.pricing-block a{text-decoration:underline}
+.pricing-block h3.pricing-header{font-size:3rem;font-family:Monosten-Regular,sans-serif;padding-bottom:15px;margin-bottom:15px;border-bottom:3px solid}
+.pricing-block h3.pricing-header.rule_teal{border-color:#00ded0}
+.pricing-block h3.pricing-header.rule_red{border-color:#ff4072}
+.pricing-block h3.pricing-header.rule_yellow{border-color:#ffc800}
+.pricing-block h3.pricing-header.rule_blue{border-color:#5159ff}
+.pricing-block h3.pricing-header.rule_black{border-color:#000}
+.pricing-block h3.pricing-header.rule_darkgrey{border-color:#333}
+.pricing-block .block-bottom-content{position:absolute;bottom:15px}
+.pricing-block .block-bottom-content span{display:block}
+.pricing-block .block-bottom-content .price{font-weight:700;font-size:2.5rem}
+.hide-sm-down{display:block}
+.hide-sm-up{display:block}
+.cc-banner.cc-window{padding:60px !important}
+.cc-banner.cc-window .cc-btn{border-radius:0 !important;font-family:Monosten-Light,sans-serif;text-transform:uppercase;font-weight:normal;white-space:nowrap;font-size:2rem}
+.cc-banner.cc-window .cc-message{font-size:2rem;line-height:3rem}
+.cc-banner.cc-window .cc-link{opacity:1}
 @media screen and (-webkit-min-device-pixel-ratio:0){input[type="date"],input[type="time"],input[type="datetime-local"],input[type="month"]{line-height:28px}
 input[type="date"].input-sm,.input-group-sm>input.form-control[type="date"],.input-group-sm>input.input-group-addon[type="date"],.input-group-sm>.input-group-btn>input.btn[type="date"],.input-group-sm>.input-group-btn>input.button[type="date"],.input-group-sm>.input-group-btn>input.page-numbers[type="date"],.input-group-sm input[type="date"],input[type="time"].input-sm,.input-group-sm>input.form-control[type="time"],.input-group-sm>input.input-group-addon[type="time"],.input-group-sm>.input-group-btn>input.btn[type="time"],.input-group-sm>.input-group-btn>input.button[type="time"],.input-group-sm>.input-group-btn>input.page-numbers[type="time"],.input-group-sm input[type="time"],input[type="datetime-local"].input-sm,.input-group-sm>input.form-control[type="datetime-local"],.input-group-sm>input.input-group-addon[type="datetime-local"],.input-group-sm>.input-group-btn>input.btn[type="datetime-local"],.input-group-sm>.input-group-btn>input.button[type="datetime-local"],.input-group-sm>.input-group-btn>input.page-numbers[type="datetime-local"],.input-group-sm input[type="datetime-local"],input[type="month"].input-sm,.input-group-sm>input.form-control[type="month"],.input-group-sm>input.input-group-addon[type="month"],.input-group-sm>.input-group-btn>input.btn[type="month"],.input-group-sm>.input-group-btn>input.button[type="month"],.input-group-sm>.input-group-btn>input.page-numbers[type="month"],.input-group-sm input[type="month"]{line-height:25px}
 input[type="date"].input-lg,.input-group-lg>input.form-control[type="date"],.input-group-lg>input.input-group-addon[type="date"],.input-group-lg>.input-group-btn>input.btn[type="date"],.input-group-lg>.input-group-btn>input.button[type="date"],.input-group-lg>.input-group-btn>input.page-numbers[type="date"],.input-group-lg input[type="date"],input[type="time"].input-lg,.input-group-lg>input.form-control[type="time"],.input-group-lg>input.input-group-addon[type="time"],.input-group-lg>.input-group-btn>input.btn[type="time"],.input-group-lg>.input-group-btn>input.button[type="time"],.input-group-lg>.input-group-btn>input.page-numbers[type="time"],.input-group-lg input[type="time"],input[type="datetime-local"].input-lg,.input-group-lg>input.form-control[type="datetime-local"],.input-group-lg>input.input-group-addon[type="datetime-local"],.input-group-lg>.input-group-btn>input.btn[type="datetime-local"],.input-group-lg>.input-group-btn>input.button[type="datetime-local"],.input-group-lg>.input-group-btn>input.page-numbers[type="datetime-local"],.input-group-lg input[type="datetime-local"],input[type="month"].input-lg,.input-group-lg>input.form-control[type="month"],.input-group-lg>input.input-group-addon[type="month"],.input-group-lg>.input-group-btn>input.btn[type="month"],.input-group-lg>.input-group-btn>input.button[type="month"],.input-group-lg>.input-group-btn>input.page-numbers[type="month"],.input-group-lg input[type="month"]{line-height:40px}
@@ -1995,6 +2098,8 @@ input[type="date"].input-lg,.input-group-lg>input.form-control[type="date"],.inp
 }@media(min-width:480px) and (max-width:768px){.show_tablet{display:block}
 .tablet{display:block}
 .mobile-tablet-padding,.content-block__content,#AudienceToggle,#PageIntro,#SolutionsRoles{padding-left:40px !important;padding-right:40px !important}
+}@media(min-width:480px) and (min-width:769px){.single-research blockquote:before{font-size:4rem;top:40px}
+.single-research blockquote .close-quote:after{font-size:4rem}
 }@media(min-width:480px){.pad-page-left{padding-left:8.3333%}
 footer form,footer .mc-field-group{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
 footer form input[type=text],footer form input[type=email],footer .mc-field-group input[type=text],footer .mc-field-group input[type=email]{width:calc(100% - 180px) !important}
@@ -2006,10 +2111,26 @@ footer form input[type=submit],footer form button,footer .mc-field-group input[t
 #modalDemoRequest .modalHeader{padding:25px}
 #modalDemoRequest .modalHeader h3{font-size:30px}
 #modalDemoRequest .modalHeader .modal-close{width:32px;height:32px;top:25px;right:25px}
-#modalDemoRequest .modalBody{padding:15px 9px 15px 25px}
-}@media(min-width:481px){#HomeCTABlock{padding-left:60px;padding-right:60px}
+#modalDemoRequest .modalBody{padding:15px 25px}
+.research-pub-summary-wrap.featured .article-summary-wrap{padding:80px 15px 50px 40px}
+.research-pub-summary-wrap.featured .post-image-wrap .featured-research-badge{padding:0 40px}
+.single-research blockquote{padding:40px}
+.single-research blockquote:before{content:"\201C";font-family:Monosten-Light,sans-serif;position:absolute;left:15px;font-size:3.5rem;top:38px}
+.single-research blockquote .close-quote{position:relative}
+.single-research blockquote .close-quote:after{content:"\201D";position:absolute;left:0;font-size:3.5rem;top:-1rem}
+.sidebar ul{-webkit-column-count:2;-moz-column-count:2;column-count:2}
+.pricing-blocks-wrap{padding:50px 80px}
 }@media screen and (min-width:657px) and (max-width:767px){span.select{margin:0 2px}
 }@media(min-width:768px) and (max-width:768px){.bios .match-height-bio-block.col-sm-6{width:50% !important;float:left !important}
+}@media(min-width:769px) and (max-width:991px){.visible-sm{display:block !important}
+table.visible-sm{display:table}
+tr.visible-sm{display:table-row !important}
+th.visible-sm,td.visible-sm{display:table-cell !important}
+.visible-sm-block{display:block !important}
+.visible-sm-inline{display:inline !important}
+.visible-sm-inline-block{display:inline-block !important}
+.hidden-sm{display:none !important}
+}@media only screen and (min-width:769px){.nav .dropdown:hover .dropdown-menu{display:block}
 }@media(min-width:769px){.lead{font-size:15px}
 .dl-horizontal dt{float:left;width:160px;clear:left;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dl-horizontal dd{margin-left:180px}
@@ -2124,7 +2245,7 @@ footer form input[type=submit],footer form button,footer .mc-field-group input[t
 .section-headline{font-size:2.8rem !important;line-height:4.2rem !important}
 footer h4{margin-top:.7rem}
 #CookiesNotice p{margin-bottom:0}
-#HomeAudienceToggleWrap{background-image:url("../images/home-audience-toggle-bg.svg");background-size:cover;background-position:top right;border-top:50px solid #00ded0}
+#HomeAudienceToggleWrap{border-top:50px solid #00ded0}
 body.exec #HomeAudienceToggleWrap{border-color:#ff4072}
 #HomeAudienceToggleWrap.border_teal{border-color:#00ded0 !important}
 #HomeAudienceToggleWrap.border_yellow{border-color:#ffc800 !important}
@@ -2135,9 +2256,9 @@ body.exec #HomeAudienceToggleWrap{border-color:#ff4072}
 #HomeAudienceToggleWrap.border_white{border-color:#fff !important}
 #HomeAudienceToggle{float:left}
 #AudienceToggle{background-color:inherit;text-align:right}
-#HomeCTABlock{width:50%;padding-top:200px;padding-bottom:200px}
+#HomeCTABlock{padding-left:60px;padding-right:60px;width:50%;padding-top:200px;padding-bottom:200px}
 #PageHero h1{font-size:5rem}
-#PageHero #PageHeroWrap{padding-top:220px;background-size:cover;background-position:top 0 right 0}
+#PageHero #PageHeroWrap{background-size:cover}
 #PageHero #PageHeroWrap #PageHeroTitle,#PageHero #PageHeroWrap #PageHeroBlurb{padding-left:15px;padding-right:60px}
 #PageHero #PageHeroWrap #PageHeroTextWrap{width:calc(50% + 15px)}
 .desktop{display:block}
@@ -2152,18 +2273,19 @@ body.exec #HomeAudienceToggleWrap{border-color:#ff4072}
 .bleed_full .img_flush_left,.bleed_left .img_flush_left{left:0;width:50%;padding-right:8.33333%}
 .bleed_right .img_flush_left,.bleed_none .img_flush_left{width:50%;padding-right:8.33333%}
 .img_flush_right{margin-right:15px;position:absolute;z-index:3;right:-15px}
-#ProductShowcase .info{padding-top:160px;padding-bottom:30px}
+#ProductShowcase .info{padding-top:160px;padding-bottom:30px;padding-left:15px}
 #ProductShowcase .image{padding:0}
 .showcase.desktop{display:block}
 .showcase.tablet{display:none}
 .showcase .first-product.product-image{min-height:400px;margin:0}
 .showcase .first-product .product-info{position:absolute;bottom:0;left:15px;padding-right:30px}
-.showcase .first-product .product-info a.btn,.showcase .first-product .product-info a.button,.showcase .first-product .product-info a.page-numbers,.showcase .first-product .product-info .pager a,.pager .showcase .first-product .product-info a{margin-top:30px}
+.showcase .first-product .product-info a.btn,.showcase .first-product .product-info a.button,.showcase .first-product .product-info a.page-numbers,.showcase .first-product .product-info .nav-previous a,.nav-previous .showcase .first-product .product-info a,.showcase .first-product .product-info .nav-next a,.nav-next .showcase .first-product .product-info a{margin-top:30px}
 .mobile-tablet-padding,.content-block__content,#AudienceToggle,#PageIntro,#SolutionsRoles{padding-left:15px !important;padding-right:15px !important}
 #PageIntro .text p:first-of-type{font-size:2.4rem;line-height:3.4rem;font-weight:400;font-family:Roboto,sans-serif;margin-bottom:2.6rem}
 body.page-careers #PageIntro{width:calc(100% - 50px)}
 body.page-about #PageIntro{width:calc(100% - 50px)}
 .benefits{margin-left:-15px;margin-right:-15px}
+.sub-product-section .benefits:nth-child(even){padding-right:0}
 .benefits h4{margin-top:5rem}
 .benefits p{margin-bottom:1rem;max-width:none}
 .benefits .block{padding-left:30px !important;padding-right:30px !important;padding-bottom:50px}
@@ -2173,20 +2295,34 @@ body.page-about #PageIntro{width:calc(100% - 50px)}
 #CareersListing .job-title{padding:60px 40px}
 #CareersListing .section-headline{padding-left:0}
 #CareersListing .job-description{padding-right:60px}
+.form-section img{margin-bottom:0}
+.form-section{margin-top:-50px;margin-bottom:0;padding:60px 0 110px}
+.research-pub-summary-wrap.featured .article-summary-wrap{padding:80px 30px 100px 40px}
+.no-rule ul.pager{border-top:none !important}
 .single .entry-content blockquote,.single p blockquote{padding:30px}
 .single .entry-content blockquote p,.single p blockquote p{font-size:3rem;line-height:4.5rem}
-}@media(min-width:769px) and (max-width:991px){.visible-sm{display:block !important}
-table.visible-sm{display:table}
-tr.visible-sm{display:table-row !important}
-th.visible-sm,td.visible-sm{display:table-cell !important}
-.visible-sm-block{display:block !important}
-.visible-sm-inline{display:inline !important}
-.visible-sm-inline-block{display:inline-block !important}
-.hidden-sm{display:none !important}
-}@media only screen and (min-width:769px){.nav .dropdown:hover .dropdown-menu{display:block}
-.checkout-submit{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}
-}@media(min-width:769px) and (min-width:1430px){.aside.pos_right{right:-30px}
+.blog .entry-meta .category-list,.single .entry-meta .category-list,.search .entry-meta .category-list,.archive .entry-meta .category-list,.category .entry-meta .category-list{display:inline-block}
+.research-pub-summary-wrap.featured .by-line{padding-left:40px}
+.single-research blockquote p{font-size:3rem}
+.single-research blockquote footer{font-size:2rem}
+.research-title-wrap.below-image{margin-top:-60px}
+.research-page-title{padding:50px 15px 50px 30px}
+.research-page-title{margin-left:8.3333333333%}
+.research-page-title h1{font-size:3rem}
+.sidebar ul{-webkit-column-count:3;-moz-column-count:3;column-count:3}
+.sidebar .widget_search{width:25%;margin-right:10%;margin-left:0;float:left}
+.sidebar .widget_categories{width:65%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.sub-product-wrap{padding:30px}
 }@media(min-width:769px) and (min-width:1400px){.aside.pos_left{left:-146.662px}
+}@media(min-width:769px) and (min-width:1430px){.aside.pos_right{right:-30px}
+}@media(min-width:992px) and (max-width:1199px){.visible-md{display:block !important}
+table.visible-md{display:table}
+tr.visible-md{display:table-row !important}
+th.visible-md,td.visible-md{display:table-cell !important}
+.visible-md-block{display:block !important}
+.visible-md-inline{display:inline !important}
+.visible-md-inline-block{display:inline-block !important}
+.hidden-md{display:none !important}
 }@media(min-width:992px){.container{width:970px}
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
 .col-md-1{width:8.3333333333%}
@@ -2253,6 +2389,7 @@ body.tech .navbar-default .navbar-nav>li.request-demo-button a{border:1px solid 
 body.tech .navbar-default .navbar-nav>li.request-demo-button a:hover{color:black !important;border-color:white}
 body.exec .navbar-default .navbar-nav>li.request-demo-button a{border:1px solid #ff4072}
 body.exec .navbar-default .navbar-nav>li.request-demo-button a:hover{color:black !important;border-color:white}
+#PageHero #PageHeroWrap{padding-top:220px;background-size:contain;background-position:top 0 right 0}
 .aside-text,.aside .content,.aside blockquote p{font-size:3rem;line-height:4.5rem}
 .aside blockquote:before{font-size:6rem;left:-38px}
 .aside blockquote .close-quote:after{font-size:6rem}
@@ -2260,14 +2397,18 @@ body.exec .navbar-default .navbar-nav>li.request-demo-button a:hover{color:black
 .col-md-offset-right-1{margin-right:8.33333333%}
 .single .entry-content blockquote,.single p blockquote{padding:30px 60px}
 .top-search-widget{display:none}
-}@media(min-width:992px) and (max-width:1199px){.visible-md{display:block !important}
-table.visible-md{display:table}
-tr.visible-md{display:table-row !important}
-th.visible-md,td.visible-md{display:table-cell !important}
-.visible-md-block{display:block !important}
-.visible-md-inline{display:inline !important}
-.visible-md-inline-block{display:inline-block !important}
-.hidden-md{display:none !important}
+#FeaturedPublication{margin-bottom:0}
+.research-pub-summary-wrap.featured{padding-bottom:0}
+#ResearchFilterSearch .search-wrap{margin-top:0}
+.single-research #ResearchContent{margin-top:120px}
+.research-title-wrap.below-image{margin-top:0}
+.research-page-title{padding-left:15px}
+.research-page-title:before{content:"";position:absolute;top:0;bottom:0;background-color:black;width:40px;left:-40px}
+.research-page-title h1{font-size:3.6rem}
+.sidebar ul{-webkit-column-count:4;-moz-column-count:4;column-count:4}
+.sub-product-wrap{padding:60px}
+.hide-sm-up{display:none}
+}@media screen and (min-width:992px) and (max-width:1150px){.single-research .social-share a{margin-right:1rem !important}
 }@media(min-width:1200px){.container{width:1170px}
 .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}
 .col-lg-1{width:8.3333333333%}
@@ -2355,6 +2496,7 @@ body.tech .navbar-default .navbar-collapse.collapse .navbar-nav>li>a{color:#00de
 body.exec .navbar-default .navbar-collapse.collapse .navbar-nav>li>a{color:#ff4072 !important}
 .navbar-default .navbar-collapse.collapse .navbar-nav .dropdown-menu{padding:.2rem 0 1.2rem}
 .navbar-default .navbar-collapse.collapse .navbar-nav .dropdown-menu a{font-size:2rem !important;color:white}
+.hide-sm-down{display:none}
 }@media(max-width:991px) and (max-width:991px){.navbar-default .navbar-collapse.collapse.in{background-color:#000;position:absolute;left:-1px;right:-1px;top:79px;z-index:100;padding:30px 30px 60px 30px}
 body.tech .navbar-default .navbar-collapse.collapse.in{border-bottom:1px solid #00ded0}
 body.tech .navbar-default .navbar-collapse.collapse.in .request-demo-button a{-webkit-transition:none;transition:none;text-transform:uppercase !important;font-size:2rem !important;color:white !important;border-color:#00ded0 !important;height:48px !important;line-height:48px !important}
@@ -2365,6 +2507,8 @@ body.exec .navbar-default .navbar-collapse.collapse.in .request-demo-button a{te
 .navbar-default .navbar-collapse.collapse.in .dropdown-menu li{padding-left:30px}
 }@media(max-width:769px){#ProductShowcase a{margin-bottom:60px}
 #CareersListing .job-description{padding-left:30px}
+.cc-banner.cc-window{padding:30px !important;display:block}
+.cc-banner.cc-window .cc-compliance{float:right;margin-top:20px}
 }@media screen and (max-width:768px){.table-responsive{width:100%;margin-bottom:10.5px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}
 .table-responsive>.table{margin-bottom:0}
 .table-responsive>.table>thead>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}
@@ -2397,10 +2541,9 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .visible-xs-inline-block{display:inline-block !important}
 .hidden-xs{display:none !important}
 .show_mobile.show_tablet{display:block}
+.navbar-brand{padding-left:15px}
 #PageHero #PageHeroWrap #PageHeroTextWrap{padding-bottom:50px;padding-left:30px;padding-right:30px}
-}@media only screen and (max-width:768px){.checkout-submit{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
-.checkout--section{height:70vh}
-.order-submit{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
+#ProductShowcaseTitle{padding-left:15px}
 }@media screen and (max-width:767px){.navbar-nav{position:relative;top:auto;right:auto;bottom:auto;left:auto;-webkit-transform:none;-ms-transform:none;transform:none}
 }@media(max-width:479px){.show_mobile{display:block}
 }@media screen and (max-width:453px){.navbar-toggle{top:46px}
@@ -2417,7 +2560,7 @@ p,h2,h3{orphans:3;widows:3}
 h2,h3{page-break-after:avoid}
 select{background:#fff !important}
 .navbar{display:none}
-.btn>.caret,.button>.caret,button>.caret,.page-numbers>.caret,.pager a>.caret,.dropup>.btn>.caret,.dropup>.button>.caret,.dropup>button>.caret,.dropup>.page-numbers>.caret,.pager .dropup>a>.caret{border-top-color:#000 !important}
+.btn>.caret,.button>.caret,button>.caret,.page-numbers>.caret,.nav-previous a>.caret,.nav-next a>.caret,.dropup>.btn>.caret,.dropup>.button>.caret,.dropup>button>.caret,.dropup>.page-numbers>.caret,.nav-previous .dropup>a>.caret,.nav-next .dropup>a>.caret{border-top-color:#000 !important}
 .label{border:1px solid #000}
 .table{border-collapse:collapse !important}
 .table td,.table th{background-color:#fff !important}
@@ -2434,14 +2577,6 @@ th.visible-print,td.visible-print{display:table-cell !important}
 100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
 }@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
-}@-webkit-keyframes fadeInUp{from{-webkit-transform:translate3d(0,40px,0);transform:translate3d(0,40px,0)}
-to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1}
-}@keyframes fadeInUp{from{-webkit-transform:translate3d(0,40px,0);transform:translate3d(0,40px,0)}
-to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1}
-}@-webkit-keyframes fadeInDown{from{-webkit-transform:translate3d(0,-40px,0);transform:translate3d(0,-40px,0)}
-to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1}
-}@keyframes fadeInDown{from{-webkit-transform:translate3d(0,-40px,0);transform:translate3d(0,-40px,0)}
-to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1}
 }@-webkit-keyframes spinner{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
 }@keyframes spinner{0%{-webkit-transform:rotate(0);transform:rotate(0)}

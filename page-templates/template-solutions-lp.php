@@ -6,16 +6,6 @@
  * @package tgs_wp
  */
 
-/** 
- * Start a session here. This will be used to track the user
- * through the checkout process, and help the user return
- * to the previous page should they cancel at the checkout.
-*/ 
-
-session_start();
-
-$_SESSION['HTTP_REFERER'] = $_SERVER['REQUEST_URI'];
-
 get_header(); ?>
 
 <main>
@@ -81,6 +71,8 @@ get_header(); ?>
 			<?php endif; ?>
 
 			<?php get_template_part('sections/content-blocks'); ?>
+
+			<?php get_template_part('sections/pricing-blocks'); ?>
 
 		<?php endwhile; // end of the loop. ?>
 	</div>
