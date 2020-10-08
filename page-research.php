@@ -73,11 +73,10 @@ if (!$filteredPostType) { // ONLY SHOW THE FEATURED BLOCK ON THE LP WITHOUT FILT
 
 	if ($featuredPubType == "research_cpt") {
 		$featuredPub = get_field( 'featured_publication' );
-		$fPubDate = get_field('date_of_publication');
 	} else {
 		$featuredPub = get_field( 'featured_research_blog_post' );
-		$fPubDate = $featuredPub->post_date; 
 	}
+	$fPubDate = $featuredPub->post_date; 
 
 	$featuredPostId = $featuredPub->ID;
 	$fExcerpt = get_field('custom_excerpt' );
