@@ -72,6 +72,8 @@ get_header(); ?>
 
 			<?php get_template_part('sections/content-blocks'); ?>
 
+			<?php get_template_part('sections/pricing-blocks'); ?>
+
 		<?php endwhile; // end of the loop. ?>
 	</div>
 </main>

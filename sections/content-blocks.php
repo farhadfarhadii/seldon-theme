@@ -168,6 +168,14 @@
 						<?php endif ?>
 
 						<?php echo $content; ?>
+						<?php if (have_rows('cta_button')): ?>
+							<form method="post" action="<?php echo get_site_url(); ?>/checkout">
+								<?php while (have_rows('cta_button')) : the_row(); ?>
+								<input hidden readonly name="<?php echo get_sub_field('property') ?>" value="<?php echo get_sub_field('value') ?>">
+								<?php endwhile; ?>
+								<button><?php echo get_sub_field('cta_button_text'); ?></button>
+							</form> 
+						<?php endif; ?>
 					</div>			
 
 					<?php if ($layout == "image" && $image_position == "right_contained") { ?>
@@ -183,7 +191,6 @@
 					<img src="<?php echo $image_url; ?>" />
 				</div>
 			<?php } ?>
-
 		</div>
 	</div>					
 </div>

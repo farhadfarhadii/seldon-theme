@@ -52,3 +52,14 @@ require get_template_directory() . '/system/cpts/pages.php'; // Page Modificatio
  * Theme Seo
  */
 // require get_template_directory() . '/system/classes/seo/theme-seo.php';
+
+function loadStripe(){
+
+    wp_register_script('Stripe', 'https://js.stripe.com/v3/');
+
+    if (is_page_template('page-templates/template-checkout.php')){
+        wp_enqueue_script('Stripe');
+    };
+}
+
+add_action('wp_enqueue_scripts', 'loadStripe');

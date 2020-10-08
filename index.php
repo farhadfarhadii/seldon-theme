@@ -5,21 +5,28 @@
 
 get_header(); ?>
 
-	<div class="main-content">
+<div class="main-content">
 
-		<div class="container-fluid">
+	<div class="container-fluid">
 
-			<?php get_template_part( 'sections/page-hero' ); ?>
+		<?php get_template_part( 'sections/page-hero' ); ?>
+		
+		<div class="row sidebar-wrap">
+			<div class="col-xs-12 maxout">
+				<div class="row">
+					<?php get_sidebar(); ?>						
+				</div>
+			</div>
+		</div>	
 
-			<div class="row maxout pt-40">
-				<div id="content" class="main-content-inner col-md-7 col-md-offset-1 match-height">
+		<div class="row maxout pt-40">
+			<div id="content" class="main-content-inner col-xs-12">
 
-		            <div id="search" class="top-search-widget widget widget_search">
-		                <?php get_search_form(); ?>
-		            </div>
+				 <div class="row maxout">
+				 	<div class="col-sm-11 col-sm-offset-1">
 
-
-					<?php if ( have_posts() ) { ?>		
+						<?php if ( have_posts() ) { ?>		
+							<div class="row post-listing">
 
 							<?php while ( have_posts() ) : the_post(); ?>
 	
@@ -27,20 +34,29 @@ get_header(); ?>
 								<?php get_template_part( 'content/content', 'search' ); ?>
 
 							<?php endwhile; ?>
+							</div>
 
-				        <?php tgs_wp_pagination(); ?>
+							<?php get_template_part( 'elements/loadmore-button' ); ?>
 
-					<?php } else { ?>
+						<?php } else { ?>
+							<div class="mb-30 col-xs-12">
+								<?php get_template_part( 'content/no-results', '' ); ?>
+							</div>
 
-						<?php get_template_part( 'content/no-results', '' ); ?>
+						<?php } ?>
 
-					<?php } ?>
+						</div>					 		
+				 	</div>
+
+
 				</div>
-				<div class="col-md-1"></div>
-				<?php get_sidebar(); ?>
-			</div>
-		</div>
 
+			</div> <?php // end #content ?>
+
+
+		</div>
 	</div>
+
+</div>
 
 <?php get_footer();
