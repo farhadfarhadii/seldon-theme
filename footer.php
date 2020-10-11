@@ -77,10 +77,12 @@ $copyright_text = $footerFields['copyright'];
 						<span class="copyright_text color_darkgrey999 font-size-12">
 							&copy; <?php echo current_time("Y") ?> <?php echo $copyright_text; ?>
 						</span>
-						
 					</div>
 
 				</div>
+			</div>
+			<div class="col-sm-offset-1">
+				<?php echo $footerFields['disclaimer']; ?>
 			</div>
 		</div>
 	</footer>
