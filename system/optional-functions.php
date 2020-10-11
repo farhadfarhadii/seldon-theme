@@ -139,7 +139,7 @@ function load_posts_by_ajax_callback($data) {
     for ($i = 0; $i < count($excludePosts); $i++) {
         $excludeIds[] = intval($excludePosts[$i]);
     }
-    $isResearchLP = count($excludeIds) > 0; // only Research LP has values to exclude from results
+    $isResearchLP = count($excludeIds) > 1; // only Research LP has values to exclude from results
 
     $postTypesStr = $_POST['postTypes'];
     $postTypes = explode(',', $postTypesStr);
@@ -171,7 +171,7 @@ function load_posts_by_ajax_callback($data) {
         }
     }
 
-    $loop = new WP_Query( $args );
+        $loop = new WP_Query( $args );
     
     if ( $loop->have_posts() ) : ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); 
