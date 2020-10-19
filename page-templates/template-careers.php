@@ -15,11 +15,9 @@ get_header(); ?>
 
 		$parsed = html_entity_decode($data, ENT_QUOTES, 'utf-8');
 
-		preg_match('/<div>(?!&nbsp;|<\/div>).*<\/div>/', $parsed, $matches);
+		$parsed = str_replace(array("\n","\r\n","\r"),'', $parsed);
 
-		// preg_match('/<div>(.+(About the role|responsibilities).+)*(Your role at Seldon would be:)*<\/div>\n(<div>&nbsp;<\/div>\n<div>Your role at Seldon will primarily involve:<\/div>\n)*<ul>\n*(<li>.+<\/li>\n)+<\/ul>/i', $parsed, $jobSummary );
-
-		// return $matches[0] . '<br />' . $jobSummary[0];
+		preg_match('/<div>(?!&nbsp;|<\/div>).*<\/div><p>&nbsp;<\/p>/', $parsed, $matches);
 
 		return $matches[0];
 		
