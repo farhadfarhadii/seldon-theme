@@ -27,6 +27,15 @@
 							</div>
 						<?php endif ?>
 
+						<?php while (have_rows('call_to_action')): the_row();
+								if (get_sub_field('button_label')): ?>
+							<form method="post" action="<?php echo get_site_url(); ?>/checkout">
+								<input name="product_code" hidden value="<?php the_sub_field('product_code'); ?>">
+								<input name="price_code" hidden value="<?php the_sub_field('price_code'); ?>">
+								<button><?php the_sub_field('button_label'); ?></button>
+							</form>
+						<?php endif; endwhile; ?>
+
 						<?php if (get_sub_field( 'include_request_demo_button' )): ?>
 							<div class="block-bottom-content">
 								<a role="button" class="btn btn_black" data-toggle="modal" data-target="#modalDemoRequest">Request Demo</a>					

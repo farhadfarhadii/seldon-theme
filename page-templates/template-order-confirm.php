@@ -13,6 +13,32 @@
      *
      */
 
+      /**
+     * If Stripe has not been configured, cancel the checkout process.
+     */
+
+    include get_template_directory() . '/utils/live-check.php'; 
+
+    $isError = false;
+
+    if (!$_ENV["STRIPE"]){
+
+        $path = realpath(dirname(__DIR__, 1) . '/' . 'stripe-settings.json');
+
+    $file = fopen( $path , 'r');
+    $_ENV['STRIPE'] = json_decode(fread($file, filesize( $path )), 'utf8');
+    fclose($file);
+
+    }
+
+    if (!$_ENV['STRIPE']) $isError = true;
+
+    /**
+     * If running not on live, always use test keys.
+     */
+
+    $_ENV['LIVE'] = liveCheck();
+
     get_header();
 
     session_start();
@@ -25,7 +51,7 @@
 
     }
 
-    $url = 'http://localhost:8080/payment';
+    $url = $_ENV['STRIPE']['url'] . '/' . 'payment';
 
     $body = array(
         'first_name'            => $_SESSION['first_name'],
@@ -45,8 +71,14 @@
     $context = stream_context_create([
         "http" => [
             'method' => 'POST',
-            'content' => http_build_query($body) 
-        ]
+            'content' => http_build_query($body),
+            'header' => "Authorization: token " . $_ENV['STRIPE']['ACCESS_TOKEN'] 
+        ],
+        "ssl" => array(
+            "verify_peer"=>false,
+            "verify_peer_name"=>false,
+        )
+        
     ]);
 
     try {
