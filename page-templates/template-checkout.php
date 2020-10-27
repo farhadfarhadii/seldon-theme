@@ -72,13 +72,13 @@
 
         // TODO: Log this issue.
 
-        header('Location:' . get_home_url() . '/' . '500');
+        header('Location:' . get_home_url());
         return die();
     }
 
     // Keep product and price as a session cookie to retrieve later.
-    if (!isset($_SESSION['product_code'])) $_SESSION['product_code'] = $_POST['product_code'];
-    if (!isset($_SESSION['price_code'])) $_SESSION['price_code'] = $_POST['price_code'];
+    $_SESSION['product_code'] = $_POST['product_code'];
+    $_SESSION['price_code'] = $_POST['price_code'];
 
     // Get a list of countries
     $url = 'https://api.printful.com/countries';
