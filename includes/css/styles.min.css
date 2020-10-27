@@ -1695,6 +1695,9 @@ div.order--disclaimer p{font-size:small;line-height:1.5em}
 div.order--checkbox input[type=checkbox]{-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);margin-right:1em}
 .order-review--tally li::before{content:none !important}
 .order-review--subtext{font-size:14px;margin:0;color:rgba(26,25,25,0.6);font-weight:600}
+.post-checkout--section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100%;padding:64px 0 64px 0}
+.post-checkout--image{width:256px}
+.post-checkout--item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
 body{font-family:Roboto,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#000;font-size:2rem;background-size:cover;background-color:#f8f8f8}
 body.tech button,body.tech .btn,body.tech .button,body.tech button,body.tech .page-numbers,body.tech .nav-previous a,.nav-previous body.tech a,body.tech .nav-next a,.nav-next body.tech a,body.tech .button,body.tech .nav-pills>li.active>a{background-color:#00ded0;-webkit-transition:all .15s linear;transition:all .15s linear}
 body.tech button:hover,body.tech .btn:hover,body.tech .button:hover,body.tech button:hover,body.tech .page-numbers:hover,body.tech .nav-previous a:hover,.nav-previous body.tech a:hover,body.tech .nav-next a:hover,.nav-next body.tech a:hover,body.tech .button:hover{background-color:#000}
