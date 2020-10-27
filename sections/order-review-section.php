@@ -64,13 +64,16 @@
                         Card: <?php echo $paymentMethod->card->brand; ?> ending in <?php echo $paymentMethod->card->last4; ?>
                     </p>            
                     <div style="padding-top:24px">
-                        <legend><h6></h6></legend>
+                        <legend></legend>
                         <form class="review-form" id="form" action="<?php echo get_home_url() . '/' . 'process-payment' ?>" method="post">
                             <div class="order--checkbox">
                                 <input required type="checkbox" /><span>I have read the <a href="">terms and conditions.</a></span>
                             </div>
                             <div class="order--checkbox">
                                 <input checked type="checkbox" /><span>I would like to sign to sign up for the newsletter.</span>
+                            </div>
+                            <div class="order--disclaimer">
+                                <p>By clicking on the confirm order button, you hereby accept that you are authorized to perform this transaction with the selected payment method.</p>
                             </div>
                             <div class="order-submit">
                                 <input class="button" type="submit" value="Confirm Order">
