@@ -70,7 +70,7 @@
                                 <input required type="checkbox" /><span>I have read the <a href="">terms and conditions.</a></span>
                             </div>
                             <div class="order--checkbox">
-                                <input checked type="checkbox" /><span>I would like to sign to sign up for the newsletter.</span>
+                                <input checked type="checkbox" /><span>I would like to sign up for the newsletter.</span>
                             </div>
                             <div class="order--disclaimer">
                                 <p>By clicking on the confirm order button, you hereby accept that you are authorized to perform this transaction with the selected payment method.</p>
