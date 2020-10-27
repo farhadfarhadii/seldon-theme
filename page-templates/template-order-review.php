@@ -52,10 +52,14 @@
 
     if(!$_POST['payment_id']){
 
-        header('Location:' . get_home_url());
-        return die();
-
+        $isError = true;
     }
+
+    foreach($_POST as $param => $value){
+
+        $_SESSION[$param] = $value;
+    }
+
 
     /** 
      * If the product code and price code are not present in the session,
@@ -65,16 +69,8 @@
 
     if (!isset($_SESSION['product_code']) || !isset($_SESSION['price_code'])){
 
-        header('Location:' . get_home_url());
-        return die();
+        $isError = true;
     }
-
-    foreach($_POST as $param => $value){
-
-        $_SESSION[$param] = $value;
-    }
-
-    $_SESSION;
 
     /** 
      * Use the paymentMethod details to calculate the grand total. This will
