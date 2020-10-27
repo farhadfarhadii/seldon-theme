@@ -48,8 +48,6 @@
         header('Location: ' . get_home_url() . '/' . '500');
         return die();
     }
-    
-    $confirmationMessage = get_field('order_confirmation_message');
 
 ?>
 
@@ -58,7 +56,12 @@
 <main>
 	<div class="container-fluid">
         <div class="post-checkout--section">
-            <h2 class="post-checkout--item">Thank You!</h2>
+            <h2 class="post-checkout--item">
+                <?php
+                    if (get_field('title')) : the_field('title');
+                    else: echo 'Thank You!'; endif;
+                ?>
+            </h2>
             <div class="post-checkout--item">
                 <svg class="post-checkout--image" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
@@ -180,26 +183,17 @@
                 </svg>
             </div>
 
-
-            <h3 class="post-checkout--item">
-                <?php echo (
-                    $confirmationMessage['title'] ? 
-                    $confirmationMessage['title'] : 
-                    'Your Order Has Been Received' ) 
-                ?>
-            </h3>
-
             <h4 class="post-checkout--item">
                 Order No: <?php echo $_GET['session']; ?>
             </h4>
 
-            <p class="post-checkout--item">
-                <?php echo (
-                    $confirmationMessage['message'] ?
-                    $confirmationMessage['message'] :
-                    'Thank you for placing an order!'
-                )?>
-            </p>
+            <div class="post-checkout--item post-checkout--item--message">
+                <div>
+                    <?php if (get_field('order_confirmation_message')) : the_field('order_confirmation_message');
+                        
+                    else: echo 'Thank you for placing an order'; endif; ?>
+                </div>
+            </div>
 
         </div>
         <div>
