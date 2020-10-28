@@ -83,13 +83,22 @@
 
     try {
 
-        $response = json_decode(file_get_contents($url, false, $context));
+        $response = file_get_contents($url, false, $context);
 
     } catch (Exception $err) {
 
         header('Location:' . get_home_url() . '/' . '500');
         return die();
 
+    }
+
+    if ( $response === false ) {
+
+        $error = error_get_last();
+
+        $_SESSION['Error'] = $error['message'];
+        header('Location:' . get_home_url() . '/' . 'checkout');
+        return die();
     }
 
     if (!$response) {

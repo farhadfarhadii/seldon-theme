@@ -65,6 +65,8 @@
     /**
      * Has the product code and price code been sent to the page?
      * If not, something went wrong and we should let the user know.
+     * The user may also be redirected to this page following an
+     * issue with their payment method.
      * 
     */ 
 
@@ -77,8 +79,8 @@
     }
 
     // Keep product and price as a session cookie to retrieve later.
-    $_SESSION['product_code'] = $_POST['product_code'];
-    $_SESSION['price_code'] = $_POST['price_code'];
+    if (isset($_POST['product_code'])) : $_SESSION['product_code'] = $_POST['product_code']; endif;
+    if (isset($_POST['price_code'])) : $_SESSION['price_code'] = $_POST['price_code']; endif;
 
     // Get a list of countries
     $url = 'https://api.printful.com/countries';
@@ -167,6 +169,7 @@
         </div>
         <div class="col-md-11 col-md-offset-1 pb-80">
             <?php 
+                if (isset($_SESSION['Error']) && $_SESSION['Error'] !== false) include_once(get_template_directory() . '/' . 'sections/card-error.php');
                 if (!$isError) include_once(get_template_directory() . '/' . 'sections/checkout-form.php');
                 else include_once(get_template_directory() . '/' . 'sections/checkout-down.php');
             ?>

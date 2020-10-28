@@ -11,6 +11,8 @@
     include get_template_directory() . '/utils/currency-code-converter.php';
     include get_template_directory() . '/utils/live-check.php';
 
+    get_header();
+
     /**
      * If Stripe has not been configured, cancel the checkout process.
      */
@@ -96,8 +98,7 @@
 
         // TODO: Log this issue.
 
-        header('Location:' . get_home_url() . '/' . '500');
-        return die();
+        $isError = true;
     }
 
     if (!$paymentMethod) $isError = true; 
@@ -170,8 +171,6 @@
     }
 
     $currency = currencySymbol($response->currency);
-
-    get_header();
 
 ?>
 
