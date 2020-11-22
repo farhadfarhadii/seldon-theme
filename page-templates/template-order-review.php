@@ -82,7 +82,7 @@
     */
 
     $paymentMethodURL = 'https://api.stripe.com/v1/payment_methods/' . $_POST['payment_id'];
-    $token = $_ENV['LIVE'] ? $_ENV['STRIPE']['API_SECRET_KEY_LIVE'] : $_ENV['STRIPE']['API_SECRET_KEY_TEST'];
+    $token = $_ENV['LIVE'] ? $_ENV['STRIPE']['API_SECRET_KEY_LIVE'] : $_ENV['STRIPE']['API_PRIVATE_KEY_TEST'];
 
     $context = stream_context_create([
         "http" => [
@@ -105,11 +105,11 @@
 
     // Get product information from the back-end
 
-    $serverEndpoint =  $_ENV['STRIPE']['url'] . '/'. 'products' . '/' . $_SESSION['product_code'] . '?' . 'price_code' . '=' . $_SESSION['price_code'];
+   $serverEndpoint = $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_URL' : 'DEV_URL')] . '/' . 'products' . '/' . $_SESSION['product_code'] . '?' . 'price_code' . '=' . $_SESSION['price_code'];
 
     $serverContext = stream_context_create([
         "http" => [
-            "header" => "Authorization: token " . $_ENV['STRIPE']['ACCESS_TOKEN']
+            "header" => "Authorization: token " . $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_ACCESS_TOKEN' : 'DEV_ACCESS_TOKEN')]
         ],
         "ssl" => array(
             "verify_peer"=>false,

@@ -51,7 +51,7 @@
 
     }
 
-    $url = $_ENV['STRIPE']['url'] . '/' . 'payment';
+    $url = $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_URL' : 'DEV_URL')] . '/' . 'payment';
 
     $body = array(
         'first_name'            => $_SESSION['first_name'],
@@ -69,14 +69,14 @@
     );
 
     $context = stream_context_create([
-        "http" => [
+        'http' => [
             'method' => 'POST',
             'content' => http_build_query($body),
-            'header' => "Authorization: token " . $_ENV['STRIPE']['ACCESS_TOKEN'] 
+            'header' => 'Authorization: token ' . $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_ACCESS_TOKEN' : 'DEV_ACCESS_TOKEN')]
         ],
-        "ssl" => array(
-            "verify_peer"=>false,
-            "verify_peer_name"=>false,
+        'ssl' => array(
+            'verify_peer'=>false,
+            'verify_peer_name'=>false,
         )
         
     ]);
@@ -108,9 +108,13 @@
 
     }
 
-    preg_match_all('/[A-Za-z0-9]+/', $response->latest_invoice->id, $matches);
+    $response = json_decode($response);
 
-    header('Location:' . get_home_url() . '/' . 'order-confirmation' . '?' . 'session' . '=' . $matches[0][1]);
+    // preg_match_all('/[A-Za-z0-9]+/', $response->latest_invoice->id, $matches);
+
+    $id = str_replace('sub_','',$response->id);
+
+    header('Location:' . get_home_url() . '/' . 'order-confirmation' . '?' . 'subscription' . '=' . $id);
 
 
 ?>
