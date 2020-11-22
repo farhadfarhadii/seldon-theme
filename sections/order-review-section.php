@@ -57,8 +57,9 @@
                     <p><?php echo $_POST['email']; ?></p>
                     <p><?php echo $_POST['address_line1']; ?></p>
                     <p><?php echo $_POST['address_line2']; ?></p>
-                    <p><?php echo $_POST['address_postal_code']; ?></p>
+                    <p><?php echo $_POST['address_city']; ?></p>
                     <p><?php echo $_POST['address_state']; ?></p>
+                    <p><?php echo $_POST['address_postal_code']; ?></p>
                     <p><?php echo $_POST['address_country'] ;?></p>
                     <p>
                         Card: <?php echo $paymentMethod->card->brand; ?> ending in <?php echo $paymentMethod->card->last4; ?>
