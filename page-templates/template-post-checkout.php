@@ -23,6 +23,10 @@
         return die();
     }
 
+    include get_template_directory() . '/utils/live-check.php'; 
+
+    $_ENV['live'] = liveCheck();
+
     if (!$_ENV["STRIPE"]){
 
         $path = realpath(dirname(__DIR__, 1) . '/' . 'stripe-settings.json');
@@ -39,7 +43,7 @@
 
     $context = stream_context_create([
         'http' => [
-            'header' => 'Authorization: Bearer ' . $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_ACCESS_TOKEN' : 'DEV_ACCESS_TOKEN')]
+            'header' => 'Authorization: Bearer ' . $_ENV['STRIPE'][($_ENV['live'] ? 'API_PRIVATE_KEY_LIVE' : 'API_PRIVATE_KEY_TEST')]
         ]
     ]);
 
@@ -193,7 +197,7 @@
             </div>
 
             <h4 class="post-checkout--item">
-                Subcription ID: <?php echo $_GET['session']; ?>
+                Subcription ID: <?php echo $_GET['subscription']; ?>
             </h4>
 
             <div class="post-checkout--item post-checkout--item--message">
