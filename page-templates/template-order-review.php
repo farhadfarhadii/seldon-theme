@@ -52,6 +52,8 @@
     get_header();
     session_start();
 
+    $_SESSION['Error'] = false;
+
     if(!$_POST['payment_id']){
 
         $isError = true;
@@ -105,11 +107,11 @@
 
     // Get product information from the back-end
 
-   $serverEndpoint = $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_URL' : 'DEV_URL')] . '/' . 'products' . '/' . $_SESSION['product_code'] . '?' . 'price_code' . '=' . $_SESSION['price_code'];
+   $serverEndpoint = $_ENV['STRIPE'][($_ENV['LIVE'] ? 'LIVE_URL' : 'DEV_URL')] . '/' . 'products' . '/' . $_SESSION['product_code'] . '?' . 'price_code' . '=' . $_SESSION['price_code'];
 
     $serverContext = stream_context_create([
         "http" => [
-            "header" => "Authorization: token " . $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_ACCESS_TOKEN' : 'DEV_ACCESS_TOKEN')]
+            "header" => "Authorization: token " . $_ENV['STRIPE'][($_ENV['LIVE'] ? 'LIVE_ACCESS_TOKEN' : 'DEV_ACCESS_TOKEN')]
         ],
         "ssl" => array(
             "verify_peer"=>false,

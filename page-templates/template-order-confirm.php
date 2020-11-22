@@ -51,7 +51,7 @@
 
     }
 
-    $url = $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_URL' : 'DEV_URL')] . '/' . 'payment';
+    $url = $_ENV['STRIPE'][($_ENV['LIVE'] ? 'LIVE_URL' : 'DEV_URL')] . '/' . 'payment';
 
     $body = array(
         'first_name'            => $_SESSION['first_name'],

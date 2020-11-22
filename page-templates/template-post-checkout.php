@@ -25,7 +25,7 @@
 
     include get_template_directory() . '/utils/live-check.php'; 
 
-    $_ENV['live'] = liveCheck();
+    $_ENV['LIVE'] = liveCheck();
 
     if (!$_ENV["STRIPE"]){
 
@@ -43,7 +43,7 @@
 
     $context = stream_context_create([
         'http' => [
-            'header' => 'Authorization: Bearer ' . $_ENV['STRIPE'][($_ENV['live'] ? 'API_PRIVATE_KEY_LIVE' : 'API_PRIVATE_KEY_TEST')]
+            'header' => 'Authorization: Bearer ' . $_ENV['STRIPE'][($_ENV['LIVE'] ? 'API_PRIVATE_KEY_LIVE' : 'API_PRIVATE_KEY_TEST')]
         ]
     ]);
 
