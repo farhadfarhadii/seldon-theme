@@ -17,20 +17,29 @@
      * page be spoofed into loading.    
      */
 
-    if (!$_GET['session']){
+    if (!$_GET['subscription']){
 
         header('Location:' . get_home_url());
         return die();
     }
 
+    if (!$_ENV["STRIPE"]){
+
+        $path = realpath(dirname(__DIR__, 1) . '/' . 'stripe-settings.json');
+
+    $file = fopen( $path , 'r');
+    $_ENV['STRIPE'] = json_decode(fread($file, filesize( $path )), 'utf8');
+    fclose($file);
+    }
+
     // Stripe API endpoint
-    $url = 'https://api.stripe.com/v1/invoices/' . 'in_' . $_GET['session'];
+    $url = 'https://api.stripe.com/v1/subscriptions/' . 'sub_' . $_GET['subscription'];
 
     // Set up auth
 
     $context = stream_context_create([
-        "http" => [
-            "header" => "Authorization: Bearer " . 'sk_test_kAGeVwDjBHAhEMYN8pfc0a8T'
+        'http' => [
+            'header' => 'Authorization: Bearer ' . $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_ACCESS_TOKEN' : 'DEV_ACCESS_TOKEN')]
         ]
     ]);
 
@@ -184,7 +193,7 @@
             </div>
 
             <h4 class="post-checkout--item">
-                Order No: <?php echo $_GET['session']; ?>
+                Subcription ID: <?php echo $_GET['session']; ?>
             </h4>
 
             <div class="post-checkout--item post-checkout--item--message">
