@@ -5,7 +5,7 @@
  * @return {Boolean}
  */
 function liveCheck(){
-    return !preg_match("/localhost|wpengine/i",get_home_url());
+    return !preg_match("/localhost|seldondev/i",get_home_url());
 }
 
 ?>
