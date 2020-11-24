@@ -140,13 +140,17 @@
     if (!$response) {
         // The request failed. Abandon Checkout.
         $isError = true;
+        
+    } else {
+
+        /** Pre-fetch the product image. This will be converted
+         * to base64 and preloaded in the website request.
+         * 
+         * 
+        */ 
+
+        $productImg = base64_encode(file_get_contents($response->image));
     }
-
-    /** Pre-fetch the product image. This will be converted
-     * to base64 and preloaded in the website request.
-    */ 
-
-    $productImg = base64_encode(file_get_contents($response->image));
 
 ?>
 
@@ -168,9 +172,10 @@
             <h3><?php echo get_the_title(); ?></h3>
         </div>
         <div class="col-md-11 col-md-offset-1 pb-80">
-            <?php 
-                if (isset($_SESSION['Error']) && $_SESSION['Error'] !== false) include_once(get_template_directory() . '/' . 'sections/card-error.php');
-                if (!$isError) include_once(get_template_directory() . '/' . 'sections/checkout-form.php');
+            <div id="errors"> 
+                <?php if (isset($_SESSION['Error']) && $_SESSION['Error'] !== false) include_once(get_template_directory() . '/' . 'sections/card-error.php'); ?>
+            </div>
+            <?php if (!$isError) include_once(get_template_directory() . '/' . 'sections/checkout-form.php');
                 else include_once(get_template_directory() . '/' . 'sections/checkout-down.php');
             ?>
         </div>  
@@ -256,11 +261,11 @@
         card = elements.create('card', { style, hidePostalCode: true })
         card.mount('#card')
 
-        document.getElementById('form').addEventListener('submit', _submit )
-
         document.getElementById('country-checkout').addEventListener('change', onCountryChange )
 
         async function _submit(event){
+
+            event.preventDefault()
             
             // Get the data
 
@@ -284,17 +289,19 @@
                 return console.error(err)
             }
 
-            if (paymentInfo.error) {
-                event.preventDefault()
-                const errorElement = document.createEelement('div'),
+            if (!paymentInfo || paymentInfo.error) {
+                const errorElement = document.createElement('div'),
                 errorElementAria = document.createElement('span'),
                 errorElementSection = document.createElement('span')
-
+                errorElement.classList.add('alert', 'alert-danger')
+                errorElement.setAttribute('role','alert')
                 errorElementSection.classList.add('sr-only')
+                errorElementSection.innerText = 'Error: '
                 errorElementAria.setAttribute('aria-hidden', 'true')
                 errorElement.appendChild(errorElementAria)
                 errorElement.appendChild(errorElementSection)
-                errorElement.append(paymentInfo.error.message)
+                errorElement.append(paymentInfo ? paymentInfo.error.message : 'The server could not process your payment method at this time. Please try again later.')
+                document.getElementById('errors').append(errorElement)
                 return
             }
 
@@ -304,8 +311,10 @@
             po.setAttribute('name', 'payment_id')
             po.setAttribute('value', paymentInfo.paymentMethod.id)
             form.appendChild(po)
-
             form.submit()
+
         }
+
+        document.getElementById('form').addEventListener('submit', _submit )
     </script>
 <?php endif; get_footer(); ?>
