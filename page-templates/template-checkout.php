@@ -35,8 +35,7 @@
 
     $_ENV['LIVE'] = liveCheck();
 
-    session_start();
-    if (!isset($_SESSION['HTTP_REFERER'])){
+    if (!preg_match('/(localhost\/.*|wpengine.com|seldon\.io)\/(tech|exec)\/solutions/i', $_SERVER['HTTP_REFERER'])){
 
         header('Location:' . get_home_url() );
         return die();
@@ -70,7 +69,9 @@
      * 
     */ 
 
-    if ( ($_POST['product_code'] == null || $_POST['price_code']  == null) && ($_SESSION['product_code'] == null || $_SESSION['price_code']  == null) ){
+    session_start();
+
+    if ( (!isset($_POST['product_code']) || !isset($_POST['price_code'])) && (!isset($_SESSION['product_code']) || !isset($_SESSION['price_code'])) ){
 
         // TODO: Log this issue.
 

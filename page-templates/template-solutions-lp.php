@@ -12,9 +12,7 @@
  * to the previous page should they cancel at the checkout.
 */ 
 
-session_start();
-
-$_SESSION['HTTP_REFERER'] = $_SERVER['REQUEST_URI'];
+session_destroy();
 
 get_header(); ?>
 
