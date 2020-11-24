@@ -84,7 +84,7 @@
     */
 
     $paymentMethodURL = 'https://api.stripe.com/v1/payment_methods/' . $_POST['payment_id'];
-    $token = $_ENV['LIVE'] ? $_ENV['STRIPE']['API_SECRET_KEY_LIVE'] : $_ENV['STRIPE']['API_PRIVATE_KEY_TEST'];
+    $token = $_ENV['LIVE'] ? $_ENV['STRIPE']['API_PRIVATE_KEY_LIVE'] : $_ENV['STRIPE']['API_PRIVATE_KEY_TEST'];
 
     $context = stream_context_create([
         "http" => [
