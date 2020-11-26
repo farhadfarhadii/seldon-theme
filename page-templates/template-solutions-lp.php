@@ -6,6 +6,14 @@
  * @package tgs_wp
  */
 
+/** 
+ * Start a session here. This will be used to track the user
+ * through the checkout process, and help the user return
+ * to the previous page should they cancel at the checkout.
+*/ 
+
+session_destroy();
+
 get_header(); ?>
 
 <main>

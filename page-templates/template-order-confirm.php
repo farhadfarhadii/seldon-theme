@@ -13,6 +13,32 @@
      *
      */
 
+      /**
+     * If Stripe has not been configured, cancel the checkout process.
+     */
+
+    include get_template_directory() . '/utils/live-check.php'; 
+
+    $isError = false;
+
+    if (!$_ENV["STRIPE"]){
+
+        $path = realpath(dirname(__DIR__, 1) . '/' . 'stripe-settings.json');
+
+    $file = fopen( $path , 'r');
+    $_ENV['STRIPE'] = json_decode(fread($file, filesize( $path )), 'utf8');
+    fclose($file);
+
+    }
+
+    if (!$_ENV['STRIPE']) $isError = true;
+
+    /**
+     * If running not on live, always use test keys.
+     */
+
+    $_ENV['LIVE'] = liveCheck();
+
     get_header();
 
     session_start();
@@ -25,7 +51,7 @@
 
     }
 
-    $url = 'http://localhost:8080/payment';
+    $url = $_ENV['STRIPE'][($_ENV['LIVE'] ? 'LIVE_URL' : 'DEV_URL')] . '/' . 'payment';
 
     $body = array(
         'first_name'            => $_SESSION['first_name'],
@@ -43,21 +69,36 @@
     );
 
     $context = stream_context_create([
-        "http" => [
+        'http' => [
             'method' => 'POST',
-            'content' => http_build_query($body) 
-        ]
+            'content' => http_build_query($body),
+            'header' => 'Authorization: token ' . $_ENV['STRIPE'][($_ENV['live'] ? 'LIVE_ACCESS_TOKEN' : 'DEV_ACCESS_TOKEN')]
+        ],
+        'ssl' => array(
+            'verify_peer'=>false,
+            'verify_peer_name'=>false,
+        )
+        
     ]);
 
     try {
 
-        $response = json_decode(file_get_contents($url, false, $context));
+        $response = file_get_contents($url, false, $context);
 
     } catch (Exception $err) {
 
         header('Location:' . get_home_url() . '/' . '500');
         return die();
 
+    }
+
+    if ( $response === false ) {
+
+        $error = error_get_last();
+
+        $_SESSION['Error'] = $error['message'];
+        header('Location:' . get_home_url() . '/' . 'checkout');
+        return die();
     }
 
     if (!$response) {
@@ -67,9 +108,13 @@
 
     }
 
-    preg_match_all('/[A-Za-z0-9]+/', $response->latest_invoice->id, $matches);
+    $response = json_decode($response);
 
-    header('Location:' . get_home_url() . '/' . 'order-confirmation' . '?' . 'session' . '=' . $matches[0][1]);
+    // preg_match_all('/[A-Za-z0-9]+/', $response->latest_invoice->id, $matches);
+
+    $id = str_replace('sub_','',$response->id);
+
+    header('Location:' . get_home_url() . '/' . 'order-confirmation' . '?' . 'subscription' . '=' . $id);
 
 
 ?>
