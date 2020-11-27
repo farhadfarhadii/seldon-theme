@@ -127,5 +127,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 </div>
 
+<noscript>
+	<img src="https://ws.zoominfo.com/pixel/OVSuZMgZbh8jUkpXEBVl" width="1" height="1" style="display: none;" />
+</noscript>
+
 
 

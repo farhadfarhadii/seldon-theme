@@ -62,4 +62,12 @@ function loadStripe(){
     };
 }
 
+function loadZoomInfo(){
+
+    wp_register_script('ZoomInfo', 'https://ws.zoominfo.com/pixel/OVSuZMgZbh8jUkpXEBVl');
+    wp_enqueue_script('ZoomInfo');
+
+}
+
 add_action('wp_enqueue_scripts', 'loadStripe');
+add_action('wp_enqueue_scripts', 'loadZoomInfo');
