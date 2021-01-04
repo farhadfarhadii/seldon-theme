@@ -35,6 +35,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<meta name="theme-color" content="#121212">
 <?php } ?>
 
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.seldon.io/">
+	<meta property="og:title" content="Machine Learning Deployment For Enterprise">
+	<meta property="og:description" content="Take your machine learning projects from proof to production.">
+	<meta property="og:image" content="<?php echo get_site_url(); ?>/wp-content/uploads/2021/01/seldon-sm-art-100.jpg">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://www.seldon.io/">
+	<meta property="twitter:title" content="Machine Learning Deployment For Enterprise">
+	<meta property="twitter:description" content="Take your machine learning projects from proof to production.">
+	<meta property="twitter:image" content="<?php echo get_site_url(); ?>/wp-content/uploads/2021/01/seldon-sm-art-100.jpg">
+
+
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
