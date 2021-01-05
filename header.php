@@ -40,14 +40,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<meta property="og:url" content="https://www.seldon.io/">
 	<meta property="og:title" content="Machine Learning Deployment For Enterprise">
 	<meta property="og:description" content="Take your machine learning projects from proof to production.">
-	<meta property="og:image" content="<?php echo get_site_url(); ?>/wp-content/uploads/2021/01/seldon-sm-art-100.jpg">
+	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/includes/images/seldon-social-media-card.jpg">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://www.seldon.io/">
 	<meta property="twitter:title" content="Machine Learning Deployment For Enterprise">
 	<meta property="twitter:description" content="Take your machine learning projects from proof to production.">
-	<meta property="twitter:image" content="<?php echo get_site_url(); ?>/wp-content/uploads/2021/01/seldon-sm-art-100.jpg">
+	<meta property="twitter:image" content="<?php echo get_template_directory_uri(); ?>/includes/images/seldon-social-media-card.jpg">
 
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
