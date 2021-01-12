@@ -1,6 +1,6 @@
 jQuery( document ).ready( function( $ ) {
   
-  $('.svg-convert').svgConvert();
+  //$('.svg-convert').svgConvert();
 
   $('.navbar-default .row > div').matchHeight();
   
